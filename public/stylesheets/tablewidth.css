@@ -1,0 +1,7530 @@
+/* Css for header start */
+
+.getAllWorkList td:first-child,
+.getAllWorkList th:first-child {
+    width: 180px;
+}
+
+.getAllWorkList td:nth-child(2),
+.getAllWorkList th:nth-child(2) {
+    width: 40px;
+}
+
+.getAllWorkList td:nth-child(3),
+.getAllWorkList th:nth-child(3) {
+    width: 60px;
+}
+
+.getAllWorkList td:nth-child(4),
+.getAllWorkList th:nth-child(4) {
+    width: 90px;
+}
+
+.getAllWorkList td:nth-child(5),
+.getAllWorkList th:nth-child(5) {
+    width: 80px;
+}
+
+.getAllWorkList td:last-child,
+.getAllWorkList th:last-child {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+
+/* Css for header end */
+
+
+/*css for content starts here*/
+
+.daily-report td:first-child,
+.daily-report th:first-child {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.daily-report td:nth-child(2),
+.daily-report th:nth-child(2) {
+    min-width: 250px !important;
+    max-width: 250px !important;
+}
+
+.daily-report td:last-child,
+.daily-report th:last-child {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+
+/*css for content ends here*/
+
+
+/*css for worklist master starts here*/
+
+.worktodo td:first-child,
+.worktodo th:first-child {
+    min-width: 110px !important;
+    max-width: 110px !important;
+}
+
+.worktodo td:nth-child(2),
+.worktodo th:nth-child(2) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.worktodo td:nth-child(3),
+.worktodo th:nth-child(3) {
+    min-width: 140px !important;
+    max-width: 140px !important;
+}
+
+.worktodo td:last-child,
+.worktodo th:last-child {
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+
+
+/*css for worklist master end here*/
+
+
+/*css for worklist inbox starts here*/
+
+.inboxtable td:first-child,
+.inboxtable th:first-child {
+    min-width: 250px !important;
+    max-width: 250px !important;
+}
+
+.inboxtable td:nth-child(2),
+.inboxtable th:nth-child(2) {
+    min-width: 78px !important;
+    max-width: 78px !important;
+}
+
+.inboxtable td:nth-child(3),
+.inboxtable th:nth-child(3) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.inboxtable td:nth-child(4),
+.inboxtable th:nth-child(4) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.inboxtable td:last-child,
+.inboxtable th:last-child {
+    min-width: 140px !important;
+    max-width: 140px !important;
+}
+
+
+/*css for worklist inbox end here*/
+
+
+/*css for seminar rsvp css starts here*/
+
+.seminar-table td:first-child,
+.seminar-table th:first-child {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.seminar-table td:nth-child(2),
+.seminar-table th:nth-child(2) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.seminar-table td:nth-child(3),
+.seminar-table th:nth-child(3) {
+    min-width: 140px !important;
+    max-width: 140px !important;
+}
+
+.seminar-table td:last-child,
+.seminar-table th:last-child {
+    min-width: 160px !important;
+    max-width: 160px !important;
+}
+
+.seminar-detail-table td:first-child,
+.seminar-detail-table th:first-child {
+    min-width: 160px !important;
+    max-width: 160px !important;
+}
+
+.seminar-detail-table td:nth-child(2),
+.seminar-detail-table th:nth-child(2) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.seminar-detail-table td:nth-child(3),
+.seminar-detail-table th:nth-child(3) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.seminar-detail-table td:nth-child(4),
+.seminar-detail-table th:nth-child(4) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.seminar-detail-table td:last-child,
+.seminar-detail-table th:last-child {
+    min-width: 30px !important;
+    max-width: 30px !important;
+}
+
+
+/*css for seminar rsvp css ends here*/
+
+
+/*css for callist starts here*/
+
+.calllist-table td:first-child,
+.calllist-table th:first-child {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.calllist-table td:nth-child(2),
+.calllist-table th:nth-child(2) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.calllist-table td:nth-child(3),
+.calllist-table th:nth-child(3) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.calllist-table td:nth-child(4),
+.calllist-table th:nth-child(4) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.calllist-table td:nth-child(5),
+.calllist-table th:nth-child(5) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.calllist-table td:last-child,
+.calllist-table th:last-child {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+
+/*css for callist ends here*/
+
+
+/*css for helpdesk starts here*/
+
+.helpdesk-table td:first-child,
+.helpdesk-table th:first-child {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.helpdesk-table td:nth-child(2),
+.helpdesk-table th:nth-child(2) {
+    min-width: 180px !important;
+    max-width: 180px !important;
+}
+
+.helpdesk-table td:last-child,
+.helpdesk-table th:last-child {
+    min-width: 110px !important;
+    max-width: 110px !important;
+}
+
+
+/*css for helpdesk ends here*/
+
+
+/*css for access request starts here*/
+
+.access-req-table td:first-child,
+.access-req-table th:first-child {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.access-req-table td:nth-child(2),
+.access-req-table th:nth-child(2) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.access-req-table td:nth-child(3),
+.access-req-table th:nth-child(3) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.access-req-table td:nth-child(4),
+.access-req-table th:nth-child(4) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.access-req-table td:nth-child(5),
+.access-req-table th:nth-child(5) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.access-req-table td:nth-child(6),
+.access-req-table th:nth-child(6) {
+    min-width: 180px !important;
+    max-width: 180px !important;
+}
+
+.access-req-table td:nth-child(7),
+.access-req-table th:nth-child(7) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.access-req-table td:nth-child(8),
+.access-req-table th:nth-child(8) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.access-req-table td:last-child,
+.access-req-table th:last-child {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+
+/*css for access request ends here*/
+
+
+/*css for iso process management starts here*/
+
+.iso-table thead tr th:first-child,
+.iso-table tbody tr td:first-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.iso-table thead tr th:nth-child(2),
+.iso-table tbody tr td:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.iso-table thead tr th:nth-child(3),
+.iso-table tbody tr td:nth-child(3) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.iso-table thead tr th:nth-child(4),
+.iso-table tbody tr td:nth-child(4) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.iso-table thead tr th:nth-child(5),
+.iso-table tbody tr td:nth-child(5) {
+    min-width: 85px;
+    max-width: 85px;
+}
+
+.iso-table thead tr th:nth-child(6),
+.iso-table tbody tr td:nth-child(6) {
+    min-width: 140px;
+    max-width: 140px
+}
+
+.iso-table thead tr th:last-child,
+.iso-table tbody tr td:last-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.flight-data-table thead tr th:first-child,
+.flight-data-table tbody tr td:first-child {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.flight-data-table thead tr th:nth-child(2),
+.flight-data-table tbody tr td:nth-child(2) {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.flight-data-table thead tr th:nth-child(3),
+.flight-data-table tbody tr td:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px
+}
+
+.flight-data-table thead tr th:last-child,
+.flight-data-table tbody tr td:last-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/*css for iso process management ends here*/
+
+
+/*css for airseatanalysis starts here*/
+
+.seatandfare-table thead tr th:first-child,
+.seatandfare-table tbody tr td:first-child {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.seatandfare-table thead tr th:nth-child(2),
+.seatandfare-table tbody tr td:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.seatandfare-table thead tr th:nth-child(3),
+.seatandfare-table tbody tr td:nth-child(3) {
+    min-width: 70px;
+    max-width: 70px
+}
+
+.seatandfare-table thead tr th:nth-child(4),
+.seatandfare-table tbody tr td:nth-child(4) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.seatandfare-table thead tr th:last-child,
+.seatandfare-table tbody tr td:last-child {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+
+/*css for airseatanalysis ends here*/
+
+.aircraft-table thead tr th:first-child,
+.aircraft-table tbody tr td:first-child {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.aircraft-table thead tr th:last-child,
+.aircraft-table tbody tr td:last-child {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+
+/*css for kesari special fare starts here*/
+
+.airfare-table thead tr th:first-child,
+.airfare-table tbody tr td:first-child {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.airfare-table thead tr th:nth-child(2),
+.airfare-table tbody tr td:nth-child(2) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.airfare-table thead tr th:nth-child(3),
+.airfare-table tbody tr td:nth-child(3) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.airfare-table thead tr th:nth-child(4),
+.airfare-table tbody tr td:nth-child(4) {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.airfare-table thead tr th:last-child,
+.airfare-table tbody tr td:last-child {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+
+/*css for kesari special fare end here*/
+
+
+/*css for flight master starts here */
+
+.flightmaster-table th:first-child,
+.flightmaster-table td:first-child {
+    max-width: 90px;
+    min-width: 90px
+}
+
+.flightmaster-table th:nth-child(2),
+.flightmaster-table td:nth-child(2) {
+    max-width: 90px;
+    min-width: 90px
+}
+
+.flightmaster-table th:nth-child(3),
+.flightmaster-table td:nth-child(3) {
+    max-width: 50px;
+    min-width: 50px
+}
+
+.flightmaster-table th:nth-child(4),
+.flightmaster-table td:nth-child(4) {
+    width: 80px;
+    max-width: 80px;
+    min-width: 80px
+}
+
+.flightmaster-table th:nth-child(5),
+.flightmaster-table td:nth-child(5) {
+    max-width: 75px;
+    min-width: 75px
+}
+
+.flightmaster-table th:nth-child(6),
+.flightmaster-table td:nth-child(6) {
+    max-width: 75px;
+    min-width: 75px
+}
+
+.flightmaster-table th:nth-child(7),
+.flightmaster-table td:nth-child(7) {
+    max-width: 80px;
+    min-width: 80px
+}
+
+.flightmaster-table th:nth-child(8),
+.flightmaster-table td:nth-child(8) {
+    max-width: 60px;
+    min-width: 60px
+}
+
+.flightmaster-table th:nth-child(9),
+.flightmaster-table td:nth-child(9) {
+    max-width: 80px;
+    min-width: 80px
+}
+
+.flightmaster-table th:last-child,
+.flightmaster-table td:last-child {
+    max-width: 100px;
+    min-width: 100px
+}
+
+
+/*css for flight master ends here */
+
+
+/*css for advanced paid to airline starts here*/
+
+.airlinepaid-table thead tr th:first-child,
+.airlinepaid-table tbody tr td:first-child {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.airlinepaid-table thead tr th:nth-child(2),
+.airlinepaid-table tbody tr td:nth-child(2),
+.airlinepaid-table thead tr th:nth-child(16),
+.airlinepaid-table tbody tr td:nth-child(16) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+.airlinepaid-table thead tr th:nth-child(3),
+.airlinepaid-table tbody tr td:nth-child(3) {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+.airlinepaid-table thead tr th:nth-child(4),
+.airlinepaid-table tbody tr td:nth-child(4),
+.airlinepaid-table thead tr th:nth-child(13),
+.airlinepaid-table tbody tr td:nth-child(13),
+.airlinepaid-table thead tr th:nth-child(15),
+.airlinepaid-table tbody tr td:nth-child(15) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.airlinepaid-table thead tr th:nth-child(5),
+.airlinepaid-table tbody tr td:nth-child(5),
+.airlinepaid-table thead tr th:nth-child(10),
+.airlinepaid-table tbody tr td:nth-child(10),
+.airlinepaid-table thead tr th:nth-child(17),
+.airlinepaid-table tbody tr td:nth-child(17) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.airlinepaid-table thead tr th:nth-child(6),
+.airlinepaid-table tbody tr td:nth-child(6) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.airlinepaid-table thead tr th:nth-child(7),
+.airlinepaid-table tbody tr td:nth-child(7),
+.airlinepaid-table thead tr th:nth-child(14),
+.airlinepaid-table tbody tr td:nth-child(14) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.airlinepaid-table thead tr th:nth-child(8),
+.airlinepaid-table tbody tr td:nth-child(8) {
+    min-width: 120px;
+    max-width: : 120px;
+}
+
+.airlinepaid-table thead tr th:nth-child(9),
+.airlinepaid-table tbody tr td:nth-child(9) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.airlinepaid-table thead tr th:nth-child(11),
+.airlinepaid-table tbody tr td:nth-child(11),
+.airlinepaid-table thead tr th:nth-child(12),
+.airlinepaid-table tbody tr td:nth-child(12) {
+    min-width: 85px;
+    max-width: 85px;
+}
+
+.airlinepaid-table thead tr th:last-child,
+.airlinepaid-table tbody tr td:last-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+
+/*css for advanced paid to airline ends here*/
+
+
+/*CSS FOR AE_DEPO STARTS HERE*/
+
+.ardeporeport-table tbody td:first-child,
+.ardeporeport-table thead th:first-child,
+.ardeporeport-table tbody td:nth-child(11),
+.ardeporeport-table thead th:nth-child(11) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.ardeporeport-table tbody td:nth-child(2),
+.ardeporeport-table thead th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.ardeporeport-table tbody td:nth-child(3),
+.ardeporeport-table thead th:nth-child(3),
+.ardeporeport-table tbody td:nth-child(6),
+.ardeporeport-table thead th:nth-child(6) {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.ardeporeport-table tbody td:nth-child(4),
+.ardeporeport-table thead th:nth-child(4) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.ardeporeport-table tbody td:nth-child(5),
+.ardeporeport-table thead th:nth-child(5) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.ardeporeport-table tbody td:nth-child(7),
+.ardeporeport-table thead th:nth-child(7),
+.ardeporeport-table tbody td:nth-child(17),
+.ardeporeport-table thead th:nth-child(17) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.ardeporeport-table tbody td:nth-child(8),
+.ardeporeport-table thead th:nth-child(8) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.ardeporeport-table tbody td:nth-child(9),
+.ardeporeport-table thead th:nth-child(9) {
+    min-width: 92px;
+    max-width: 92px;
+}
+
+.ardeporeport-table tbody td:nth-child(10),
+.ardeporeport-table thead th:nth-child(10) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.ardeporeport-table tbody td:nth-child(12),
+.ardeporeport-table thead th:nth-child(12),
+.ardeporeport-table tbody td:nth-child(13),
+.ardeporeport-table thead th:nth-child(13) {
+    min-width: 72px;
+    max-width: 72px;
+}
+
+.ardeporeport-table tbody td:nth-child(14),
+.ardeporeport-table thead th:nth-child(14),
+.ardeporeport-table tbody td:nth-child(18),
+.ardeporeport-table thead th:nth-child(18),
+.ardeporeport-table tbody td:nth-child(20),
+.ardeporeport-table thead th:nth-child(20),
+.ardeporeport-table tbody td:nth-child(24),
+.ardeporeport-table thead th:nth-child(24),
+.ardeporeport-table tbody td:nth-child(25),
+.ardeporeport-table thead th:nth-child(25) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.ardeporeport-table tbody td:nth-child(15),
+.ardeporeport-table thead th:nth-child(15),
+.ardeporeport-table tbody td:nth-child(26),
+.ardeporeport-table thead th:nth-child(26),
+.ardeporeport-table tbody td:last-child,
+.ardeporeport-table thead th:last-child {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.ardeporeport-table tbody td:nth-child(16),
+.ardeporeport-table thead th:nth-child(16),
+.ardeporeport-table tbody td:nth-child(19),
+.ardeporeport-table thead th:nth-child(19),
+.ardeporeport-table tbody td:nth-child(23),
+.ardeporeport-table thead th:nth-child(23) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+.ardeporeport-table tbody td:nth-child(21),
+.ardeporeport-table thead th:nth-child(21) {
+    min-width: 85px;
+    max-width: 85px;
+}
+
+.ardeporeport-table tbody td:nth-child(22),
+.ardeporeport-table thead th:nth-child(22) {
+    min-width: 115px;
+    max-width: 115px;
+}
+
+
+/*CSS FOR AE_DEPO report ENDS HERE*/
+
+
+/*CSS FOR AE_DEPO letter starts HERE*/
+
+table.ar_depo_table td:first-child,
+table.ar_depo_table th:first-child {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+table.ar_depo_table td:nth-child(2),
+table.ar_depo_table th:nth-child(2),
+table.ar_depo_table td:nth-child(5),
+table.ar_depo_table th:nth-child(5),
+table.ar_depo_table td:nth-child(7),
+table.ar_depo_table th:nth-child(7) {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+table.ar_depo_table td:nth-child(3),
+table.ar_depo_table th:nth-child(3) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+table.ar_depo_table td:nth-child(4),
+table.ar_depo_table th:nth-child(4) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+table.ar_depo_table td:nth-child(6),
+table.ar_depo_table th:nth-child(6) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+table.ar_depo_table td:last-child,
+table.ar_depo_table th:last-child {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+
+/*CSS FOR AE_DEPO letter ends HERE*/
+
+
+/*css for advn summary css starts here	*/
+
+.advnsummary-table thead tr th:first-child,
+.advnsummary-table tbody tr td:first-child,
+.advnsummary-table thead tr th:nth-child(17),
+.advnsummary-table tbody tr td:nth-child(17) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.advnsummary-table thead tr th:nth-child(2),
+.advnsummary-table tbody tr td:nth-child(2),
+.advnsummary-table thead tr th:nth-child(16),
+.advnsummary-table tbody tr td:nth-child(16) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+.advnsummary-table thead tr th:nth-child(3),
+.advnsummary-table tbody tr td:nth-child(3) {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+.advnsummary-table thead tr th:nth-child(4),
+.advnsummary-table tbody tr td:nth-child(4),
+.advnsummary-table thead tr th:nth-child(13),
+.advnsummary-table tbody tr td:nth-child(13),
+.advnsummary-table thead tr th:nth-child(15),
+.advnsummary-table tbody tr td:nth-child(15) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.advnsummary-table thead tr th:nth-child(5),
+.advnsummary-table tbody tr td:nth-child(5),
+.advnsummary-table thead tr th:nth-child(10),
+.advnsummary-table tbody tr td:nth-child(10) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.advnsummary-table thead tr th:nth-child(6),
+.advnsummary-table tbody tr td:nth-child(6) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.advnsummary-table thead tr th:nth-child(7),
+.advnsummary-table tbody tr td:nth-child(7),
+.advnsummary-table thead tr th:nth-child(8),
+.advnsummary-table tbody tr td:nth-child(8) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.advnsummary-table thead tr th:nth-child(9),
+.advnsummary-table tbody tr td:nth-child(9) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.advnsummary-table thead tr th:nth-child(11),
+.advnsummary-table tbody tr td:nth-child(11),
+.advnsummary-table thead tr th:nth-child(12),
+.advnsummary-table tbody tr td:nth-child(12) {
+    min-width: 85px;
+    max-width: 85px;
+}
+
+.advnsummary-table thead tr th:nth-child(14),
+.advnsummary-table tbody tr td:nth-child(14) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.advnsummary-table thead tr th:nth-child(17),
+.advnsummary-table tbody tr td:nth-child(17) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.advnsummary-table thead tr th:last-child,
+.advnsummary-table tbody tr td:last-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+
+/*css for advn summary css ends here	*/
+
+
+/*css for airline master starts here*/
+
+.airlinemaster-table thead tr th:first-child,
+.airlinemaster-table tbody tr td:first-child {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.airlinemaster-table thead tr th:nth-child(2),
+.airlinemaster-table tbody tr td:nth-child(2) {
+    min-width: 85px !important;
+    max-width: 85px !important;
+}
+
+.airlinemaster-table thead tr th:nth-child(3),
+.airlinemaster-table tbody tr td:nth-child(3) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.airlinemaster-table thead tr th:nth-child(4),
+.airlinemaster-table tbody tr td:nth-child(4) {
+    min-width: 125px !important;
+    max-width: 125px !important;
+}
+
+.airlinecontact-table thead tr th:first-child,
+.airlinecontact-table tbody tr td:first-child {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.airlinecontact-table thead tr th:nth-child(2),
+.airlinecontact-table tbody tr td:nth-child(2) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.airlinecontact-table thead tr th:nth-child(3),
+.airlinecontact-table tbody tr td:nth-child(3) {
+    min-width: 110px !important;
+    max-width: 110px !important;
+}
+
+.airlinecontact-table thead tr th:last-child,
+.airlinecontact-table tbody tr td:last-child {
+    min-width: 125px !important;
+    max-width: 125px !important;
+}
+
+.airdepa-table thead tr th:first-child,
+.airdepa-table tbody tr td:first-child {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.airdepa-table thead tr th:nth-child(2),
+.airdepa-table tbody tr td:nth-child(2) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.airdepa-table thead tr th:nth-child(3),
+.airdepa-table tbody tr td:nth-child(3) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.airdepa-table thead tr th:nth-child(4),
+.airdepa-table tbody tr td:nth-child(4) {
+    min-width: 150px !important;
+    max-width: 150px !important;
+}
+
+.airdepa-table thead tr th:nth-child(5),
+.airdepa-table tbody tr td:nth-child(5) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.airdepa-table thead tr th:last-child,
+.airdepa-table tbody tr td:last-child {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.depositletter_table thead tr th:first-child,
+.depositletter_table tbody tr td:first-child {
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+
+.depositletter_table thead tr th:nth-child(2),
+.depositletter_table tbody tr td:nth-child(2) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.depositletter_table thead tr th:nth-child(3),
+.depositletter_table tbody tr td:nth-child(3) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.depositletter_table thead tr th:nth-child(4),
+.depositletter_table tbody tr td:nth-child(4) {
+    min-width: 130px !important;
+    max-width: 130px !important;
+}
+
+.depositletter_table thead tr th:last-child,
+.depositletter_table tbody tr td:last-child {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+
+/*css for airline master ends here*/
+
+
+/*css for sector updation master starts here*/
+
+.airmaster_pop_table th:first-child,
+.airmaster_pop_table td:first-child {
+    max-width: 150px;
+    min-width: 100px;
+}
+
+.airmaster_pop_table th:nth-child(2),
+.airmaster_pop_table td:nth-child(2) {
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.airmaster_pop_table th:nth-child(3),
+.airmaster_pop_table td:nth-child(3) {
+    max-width: 50px;
+    min-width: 50px;
+}
+
+.airmaster_pop_table th:nth-child(4),
+.airmaster_pop_table td:nth-child(4) {
+    max-width: 50px;
+    min-width: 50px;
+}
+
+.airmaster_pop_table th:nth-child(5),
+.airmaster_pop_table td:nth-child(5) {
+    max-width: 100px;
+    min-width: 100px;
+}
+
+.airmaster_pop_table th:nth-child(6),
+.airmaster_pop_table td:nth-child(6) {
+    max-width: 90px;
+    min-width: 90px;
+}
+
+.airmaster_pop_table th:nth-child(7),
+.airmaster_pop_table td:nth-child(7) {
+    max-width: 70px;
+    min-width: 70px;
+}
+
+.airmaster_pop_table th:nth-child(8),
+.airmaster_pop_table td:nth-child(8) {
+    max-width: 70px;
+    min-width: 70px;
+}
+
+.airmaster_pop_table th:nth-child(9),
+.airmaster_pop_table td:nth-child(9) {
+    max-width: 70px;
+    min-width: 70px;
+}
+
+.airmaster_pop_table th:nth-child(10),
+.airmaster_pop_table td:nth-child(10) {
+    max-width: 60px;
+    min-width: 60px;
+}
+
+.airupadation th:first-child,
+.airupadation td:first-child {
+    max-width: 80px;
+    min-width: 80px;
+}
+
+.airupadation th:nth-child(2),
+.airupadation td:nth-child(2) {
+    max-width: 100px;
+    min-width: 100px;
+}
+
+.airupadation th:nth-child(3),
+.airupadation td:nth-child(3) {
+    max-width: 100px;
+    min-width: 100px;
+}
+
+.airupadation th:nth-child(4),
+.airupadation td:nth-child(4) {
+    max-width: 100px;
+    min-width: 100px;
+}
+
+.airupadation th:nth-child(5),
+.airupadation td:nth-child(5) {
+    max-width: 100px;
+    min-width: 100px;
+}
+
+
+/*css for sector updation master ends here*/
+
+
+/*css for bill2000 starts here */
+
+.ipc_table td:first-child,
+.ipc_table th:first-child {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.ipc_table td:nth-child(2),
+.ipc_table th:nth-child(2) {
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.ipc_table td:nth-child(3),
+.ipc_table th:nth-child(3) {
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.ipc_table td:nth-child(4),
+.ipc_table th:nth-child(4) {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+    cursor: pointer;
+}
+
+.ipc_table td:nth-child(5),
+.ipc_table th:nth-child(5) {
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.ipc_table td:nth-child(6),
+.ipc_table th:nth-child(6) {
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.ipc_table td:nth-child(7),
+.ipc_table th:nth-child(7) {
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.ipc_table td:nth-child(8),
+.ipc_table th:nth-child(8) {
+    width: 70px;
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.ipc_table td:nth-child(9),
+.ipc_table th:nth-child(9) {
+    width: 70px;
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.ipc_table td:nth-child(10),
+.ipc_table th:nth-child(10) {
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.ipc_table td:nth-child(11),
+.ipc_table th:nth-child(11) {
+    width: 140px;
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.ipc_table td:nth-child(12),
+.ipc_table th:nth-child(12) {
+    width: 105px;
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.ipc_table td:nth-child(13),
+.ipc_table th:nth-child(13) {
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+}
+
+
+/*css for bill2000 enss here */
+
+
+/*css for rs_cancel report starts here*/
+
+.cancellation-table thead tr th:first-child,
+.cancellation-table tbody tr td:first-child {
+    min-width: 75px;
+    width: 75px;
+    max-width: 75px;
+}
+
+.cancellation-table thead tr th:nth-child(2),
+.cancellation-table tbody tr td:nth-child(2) {
+    min-width: 85px;
+    width: 85px;
+    max-width: 85px;
+}
+
+.cancellation-table thead tr th:nth-child(3),
+.cancellation-table tbody tr td:nth-child(3) {
+    min-width: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+
+.cancellation-table thead tr th:nth-child(4),
+.cancellation-table tbody tr td:nth-child(4) {
+    min-width: 75px;
+    width: 75px;
+    max-width: 75px;
+}
+
+.cancellation-table thead tr th:nth-child(5),
+.cancellation-table tbody tr td:nth-child(5) {
+    min-width: 53px;
+    width: 53px;
+    max-width: 53px;
+}
+
+.cancellation-table thead tr th:nth-child(6),
+.cancellation-table tbody tr td:nth-child(6) {
+    min-width: 68px;
+    width: 68px;
+    max-width: 68px;
+}
+
+.cancellation-table thead tr th:nth-child(7),
+.cancellation-table tbody tr td:nth-child(7) {
+    min-width: 110px;
+    width: 110px;
+    max-width: 110px;
+}
+
+.cancellation-table thead tr th:nth-child(8),
+.cancellation-table tbody tr td:nth-child(8) {
+    min-width: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+
+.cancellation-table thead tr th:nth-child(9),
+.cancellation-table tbody tr td:nth-child(9) {
+    min-width: 85px;
+    width: 85px;
+    max-width: 85px;
+}
+
+.cancellation-table thead tr th:nth-child(10),
+.cancellation-table tbody tr td:nth-child(10) {
+    min-width: 90px;
+    width: 90px;
+    max-width: 90px;
+}
+
+.cancellation-table thead tr th:nth-child(11),
+.cancellation-table tbody tr td:nth-child(11) {
+    min-width: 120px;
+    width: 120px;
+    max-width: 120px;
+}
+
+.cancellation-table thead tr th:nth-child(12),
+.cancellation-table tbody tr td:nth-child(12) {
+    min-width: 81px;
+    width: 81px;
+    max-width: 81px;
+}
+
+.cancellation-table thead tr th:nth-child(13),
+.cancellation-table tbody tr td:nth-child(13) {
+    min-width: 140px;
+    width: 140px;
+    max-width: 140px;
+}
+
+.cancellation-table thead tr th:nth-child(14),
+.cancellation-table tbody tr td:nth-child(14) {
+    min-width: 80px;
+    width: 80px;
+    max-width: 80px;
+}
+
+.cancellation-table thead tr th:nth-child(15),
+.cancellation-table tbody tr td:nth-child(15) {
+    min-width: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+
+.cancellation-table thead tr th:nth-child(16),
+.cancellation-table tbody tr td:nth-child(16) {
+    min-width: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+
+
+/*css for rs_cancel report ends here*/
+
+
+/*css for call center mos follow up starts here */
+
+.mis_report td:first-child,
+.mis_report th:first-child {
+    min-width: 30px !important;
+    max-width: 30px !important;
+}
+
+.mis_report td:nth-child(4),
+.mis_report th:nth-child(4) {
+    min-width: 110px !important;
+    max-width: 110px !important;
+}
+
+.mis_report td:nth-child(5),
+.mis_report th:nth-child(5) {
+    min-width: 110px !important;
+    max-width: 110px !important;
+}
+
+.mis_report td:nth-child(6),
+.mis_report th:nth-child(6) {
+    min-width: 140px !important;
+    max-width: 140px !important;
+}
+
+.mis_report td:nth-child(7),
+.mis_report th:nth-child(7) {
+    min-width: 115px !important;
+    max-width: 115px !important;
+}
+
+.mis_report td:nth-child(8),
+.mis_report th:nth-child(8) {
+    min-width: 140px !important;
+    max-width: 140px !important;
+}
+
+.mis_report td:nth-child(9),
+.mis_report th:nth-child(9) {
+    min-width: 115px !important;
+    max-width: 115px !important;
+}
+
+.mis_report td:nth-child(10),
+.mis_report th:nth-child(10) {
+    min-width: 125px !important;
+    max-width: 125px !important;
+}
+
+.mis_report td:nth-child(11),
+.mis_report th:nth-child(11) {
+    min-width: 110px !important;
+    max-width: 110px !important;
+}
+
+.mis_report td:nth-child(12),
+.mis_report th:nth-child(12) {
+    min-width: 125px !important;
+    max-width: 125px !important;
+}
+
+
+/*css for call center mos follow up ends here */
+
+
+/*css for miss call master starts here*/
+
+.booking-by-agent td:first-child,
+.booking-by-agent th:first-child {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.booking-by-agent td:nth-child(2),
+.booking-by-agent th:nth-child(2) {
+    min-width: 250px !important;
+    max-width: 250px !important;
+}
+
+.booking-by-agent td:nth-child(3),
+.booking-by-agent th:nth-child(3) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.booking-by-agent td:nth-child(4),
+.booking-by-agent th:nth-child(4) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.booking-by-agent td:nth-child(6),
+.booking-by-agent th:nth-child(6) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.count-table tbody td:first-child,
+.count-table thead th:first-child {
+    min-width: 200px !important;
+    max-width: 200px !important;
+}
+
+.count-table tbody td:nth-child(2),
+.count-table thead th:nth-child(2) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.suggestion-table td:first-child,
+.suggestion-table th:first-child {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.suggestion-table td:nth-child(2),
+.suggestion-table th:nth-child(2) {
+    min-width: 65px !important;
+    max-width: 65px !important;
+}
+
+.suggestion-table td:nth-child(3),
+.suggestion-table th:nth-child(3) {
+    min-width: 140px !important;
+    max-width: 140px !important;
+}
+
+.suggestion-table td:nth-child(4),
+.suggestion-table th:nth-child(4) {
+    min-width: 140px !important;
+    max-width: 140px !important;
+}
+
+.suggestion-table td:nth-child(5),
+.suggestion-table th:nth-child(5) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.tour-start-table td:first-child,
+.tour-start-table th:first-child {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.tour-start-table td:nth-child(2),
+.tour-start-table th:nth-child(2) {
+    min-width: 105px !important;
+    max-width: 105px !important;
+}
+
+.tour-start-table td:nth-child(3),
+.tour-start-table th:nth-child(3) {
+    min-width: 140px !important;
+    max-width: 140px !important;
+}
+
+.tour-start-table td:nth-child(4),
+.tour-start-table th:nth-child(4) {
+    min-width: 140px !important;
+    max-width: 140px !important;
+}
+
+.count-table tbody td:first-child,
+.count-table thead th:first-child {
+    min-width: 200px !important;
+    max-width: 200px !important;
+}
+
+.count-table tbody td:nth-child(2),
+.count-table thead th:nth-child(2) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+
+/*css for miss call master ends here*/
+
+
+/*css for callcenter guest pp starts here*/
+
+.guestpp-table td:first-child,
+.guestpp-table th:first-child {
+    min-width: 40px !important;
+    max-width: 40px !important;
+}
+
+.guestpp-table td:nth-child(2),
+.guestpp-table th:nth-child(2) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.guestpp-table td:nth-child(3),
+.guestpp-table th:nth-child(3) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.guestpp-table td:nth-child(4),
+.guestpp-table th:nth-child(4) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.guestpp-table td:nth-child(5),
+.guestpp-table th:nth-child(5) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.guestpp-table td:nth-child(6),
+.guestpp-table th:nth-child(6) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.guestpp-table td:nth-child(7),
+.guestpp-table th:nth-child(7) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.guestpp-table td:nth-child(8),
+.guestpp-table th:nth-child(8) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.guestpp-table td:nth-child(9),
+.guestpp-table th:nth-child(9) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.guestpp-table td:nth-child(10),
+.guestpp-table th:nth-child(10) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.guestpp-table td:nth-child(11),
+.guestpp-table th:nth-child(11) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+
+/*css for callcenter guest pp ends here*/
+
+
+/*css for git itenaries starts here*/
+
+.git-iti-table thead tr th:first-child,
+.git-iti-table tbody tr td:first-child {
+    min-width: 105px !important;
+    max-width: 105px !important;
+}
+
+.git-iti-table thead tr th:nth-child(2),
+.git-iti-table tbody tr td:nth-child(2) {
+    min-width: 160px !important;
+    max-width: 160px !important;
+}
+
+.git-iti-table thead tr th:nth-child(3),
+.git-iti-table tbody tr td:nth-child(3) {
+    min-width: 120px !important;
+    max-width: 120px !important;
+    width: 120px !important;
+}
+
+.git-iti-table thead tr th:nth-child(4),
+.git-iti-table tbody tr td:nth-child(4) {
+    min-width: 120px !important;
+    max-width: 120px !important;
+    width: 120px !important;
+}
+
+.git-iti-table thead tr th:nth-child(5),
+.git-iti-table tbody tr td:nth-child(5) {
+    min-width: 110px !important;
+    max-width: 110px !important;
+    width: 110px !important;
+}
+
+.git-iti-table thead tr th:nth-child(6),
+.git-iti-table tbody tr td:nth-child(6) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+    width: 90px !important;
+}
+
+.git-iti-table thead tr th:nth-child(7),
+.git-iti-table tbody tr td:nth-child(7) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+    width: 70px !important;
+}
+
+
+/*css for git itenaries ends here*/
+
+
+/*css for seminar registration starts here*/
+
+.seminarregistration-table td:first-child,
+.seminarregistration-table th:first-child {
+    min-width: 130px !important;
+    max-width: 130px !important;
+}
+
+.seminarregistration-table td:nth-child(2),
+.seminarregistration-table th:nth-child(2) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.seminarregistration-table td:nth-child(3),
+.seminarregistration-table th:nth-child(3) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.seminarregistration-table td:nth-child(4),
+.seminarregistration-table th:nth-child(4) {
+    min-width: 125px !important;
+    max-width: 125px !important;
+}
+
+.seminarregistration-table td:nth-child(5),
+.seminarregistration-table th:nth-child(5) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+
+/*css for seminar registration ends here*/
+
+
+/*css for booking conversion starts here*/
+
+.inquiry_table td:first-child,
+.inquiry_table th:first-child {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.inquiry_table td:nth-child(2),
+.inquiry_table th:nth-child(2) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.inquiry_table td:nth-child(3),
+.inquiry_table th:nth-child(3) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.inquiry_table td:nth-child(4),
+.inquiry_table th:nth-child(4) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.inquiry_table td:nth-child(5),
+.inquiry_table th:nth-child(5) {
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+
+.inquiry_table td:nth-child(6),
+.inquiry_table th:nth-child(6) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.inquiry_table td:nth-child(7),
+.inquiry_table th:nth-child(7) {
+    min-width: 40px !important;
+    max-width: 40px !important;
+}
+
+.inquiry_table td:nth-child(8),
+.inquiry_table th:nth-child(8) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.inquiry_table td:nth-child(9),
+.inquiry_table th:nth-child(9) {
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+
+.inquiry_table td:nth-child(10),
+.inquiry_table th:nth-child(10) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.inquiry_table td:nth-child(11),
+.inquiry_table th:nth-child(11) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.inquiry_table td:nth-child(12),
+.inquiry_table th:nth-child(12) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.inquiry_table td:nth-child(13),
+.inquiry_table th:nth-child(13) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.inquiry_table td:nth-child(14),
+.inquiry_table th:nth-child(14) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+
+/*css for booking conversion ends here*/
+
+
+/*css for follow up details starts here*/
+
+.follow-up-detail-table td:first-child,
+.follow-up-detail-table th:first-child {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.follow-up-detail-table td:nth-child(2),
+.follow-up-detail-table th:nth-child(2) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.follow-up-detail-table td:nth-child(3),
+.follow-up-detail-table th:nth-child(3) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.follow-up-detail-table td:nth-child(4),
+.follow-up-detail-table th:nth-child(4) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.follow-up-detail-table td:nth-child(5),
+.follow-up-detail-table th:nth-child(5) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.follow-up-detail-table td:nth-child(6),
+.follow-up-detail-table th:nth-child(6) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.follow-up-detail-table td:nth-child(7),
+.follow-up-detail-table th:nth-child(7) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.follow-up-detail-table td:nth-child(8),
+.follow-up-detail-table th:nth-child(8) {
+    min-width: 40px !important;
+    max-width: 40px !important;
+}
+
+.follow-up-detail-table td:nth-child(9),
+.follow-up-detail-table th:nth-child(9) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.follow-up-detail-table td:nth-child(10),
+.follow-up-detail-table th:nth-child(10) {
+    min-width: 300px !important;
+    max-width: 300px !important;
+}
+
+.follow-up-detail-table td:nth-child(11),
+.follow-up-detail-table th:nth-child(11) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.master-follow-table td:first-child,
+.master-follow-table th:first-child {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.master-follow-table td:nth-child(2),
+.master-follow-table th:nth-child(2) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.master-follow-table td:nth-child(3),
+.master-follow-table th:nth-child(3) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.master-follow-table td:nth-child(4),
+.master-follow-table th:nth-child(4) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.master-follow-table td:nth-child(5),
+.master-follow-table th:nth-child(5) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.master-follow-table td:nth-child(6),
+.master-follow-table th:nth-child(6) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.master-follow-table td:nth-child(7),
+.master-follow-table th:nth-child(7) {
+    min-width: 170px !important;
+    max-width: 170px !important;
+}
+
+.master-follow-table td:nth-child(8),
+.master-follow-table th:nth-child(8) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+
+/*css for follow up details ends here*/
+
+
+/*css for fitenquiry starts here*/
+
+.fitenquiry-table td:first-child,
+.fitenquiry-table th:first-child {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.fitenquiry-table td:nth-child(2),
+.fitenquiry-table th:nth-child(2) {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.fitenquiry-table td:nth-child(3),
+.fitenquiry-table th:nth-child(3) {
+    display: none;
+}
+
+.fitenquiry-table td:nth-child(4),
+.fitenquiry-table th:nth-child(4) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.fitenquiry-table td:nth-child(5),
+.fitenquiry-table th:nth-child(5) {
+    min-width: 210px;
+    max-width: 210px;
+}
+
+.fitenquiry-table td:nth-child(6),
+.fitenquiry-table th:nth-child(6) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.fitenquiry-table td:nth-child(7),
+.fitenquiry-table th:nth-child(7) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.fitenquiry-table td:nth-child(8),
+.fitenquiry-table th:nth-child(8) {
+    min-width: 120px;
+    z max-width: 120px;
+}
+
+.fitenquiry-table td:nth-child(9),
+.fitenquiry-table th:nth-child(9) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.fitenquiry-table td:nth-child(10),
+.fitenquiry-table th:nth-child(10) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.fitenquiry-table td:nth-child(11),
+.fitenquiry-table th:nth-child(11) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.fitenquiry-table td:nth-child(12),
+.fitenquiry-table th:nth-child(12) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.fitenquiry-table td:nth-child(13),
+.fitenquiry-table th:nth-child(13) {
+    display: none;
+}
+
+
+/*css for fitenquiry ends here*/
+.gitenquiry-table td:first-child,
+.gitenquiry-table th:first-child {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.gitenquiry-table td:nth-child(2),
+.gitenquiry-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.gitenquiry-table td:nth-child(3),
+.gitenquiry-table th:nth-child(3) {
+    min-width: 2px;
+    max-width: 2px;
+}
+
+.gitenquiry-table td:nth-child(4),
+.gitenquiry-table th:nth-child(4) {
+    min-width: 100px;
+    max-width: 100px;
+}
+.gitenquiry-table td:nth-child(5),
+.gitenquiry-table th:nth-child(5) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.gitenquiry-table td:nth-child(6),
+.gitenquiry-table th:nth-child(6) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.gitenquiry-table td:nth-child(7),
+.gitenquiry-table th:nth-child(7) {
+    min-width: 140px;
+    max-width: 140px;
+}
+.gitenquiry-table td:nth-child(8),
+.gitenquiry-table th:nth-child(8) {
+    min-width: 2px;
+    max-width: 2px;
+}
+.gitenquiry-table td:nth-child(9),
+.gitenquiry-table th:nth-child(9) {
+    min-width: 110px;
+    max-width: 110px;
+}
+.gitenquiry-table td:nth-child(10),
+.gitenquiry-table th:nth-child(10) {
+    min-width: 60px;
+    max-width: 60px;
+}
+.gitenquiry-table td:nth-child(11),
+.gitenquiry-table th:nth-child(11) {
+    min-width: 110px;
+    max-width: 110px;
+}
+.gitenquiry-table td:nth-child(12),
+.gitenquiry-table th:nth-child(12) {
+    min-width: 110px;
+    max-width: 110px;
+}
+.gitenquiry-table td:nth-child(13),
+.gitenquiry-table th:nth-child(13) {
+    min-width: 60px;
+    max-width: 60px;
+}
+.gitenquiry-table td:nth-child(14),
+.gitenquiry-table th:nth-child(14) {
+    min-width: 90px;
+    max-width: 90px;
+}
+/*
+
+
+.gitenquiry-table td:nth-child(2),
+.gitenquiry-table th:nth-child(2) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+.gitenquiry-table td:nth-child(3),
+.gitenquiry-table th:nth-child(3) {
+    display: none;
+}
+
+.gitenquiry-table td:nth-child(4),
+.gitenquiry-table th:nth-child(4) {
+    min-width: 170px;
+    max-width: 170px;
+}
+
+.gitenquiry-table td:nth-child(5),
+.gitenquiry-table th:nth-child(5) {
+    min-width: 210px;
+    max-width: 210px;
+}
+
+.gitenquiry-table td:nth-child(6),
+.gitenquiry-table th:nth-child(6) {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.gitenquiry-table td:nth-child(7),
+.gitenquiry-table th:nth-child(7) {
+    display: none;
+}
+
+.gitenquiry-table td:nth-child(8),
+.gitenquiry-table th:nth-child(8) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.gitenquiry-table td:nth-child(9),
+.gitenquiry-table th:nth-child(9) {
+    min-width: 62px;
+    max-width: 62px;
+}
+
+.gitenquiry-table td:nth-child(10),
+.gitenquiry-table th:nth-child(10) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.gitenquiry-table td:nth-child(11),
+.gitenquiry-table th:nth-child(11) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.gitenquiry-table td:nth-child(12),
+.gitenquiry-table th:nth-child(12) {
+    min-width: 110px;
+    max-width: 110px;
+}*/
+
+
+/*css for gitenquiry ends here*/
+
+
+/*css for mice enquiry starts here*/
+
+.miceenquiry-table td:first-child,
+.miceenquiry-table th:first-child {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.miceenquiry-table td:nth-child(2),
+.miceenquiry-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.miceenquiry-table td:nth-child(3),
+.miceenquiry-table th:nth-child(3) {
+    display: none;
+}
+
+.miceenquiry-table td:nth-child(4),
+.miceenquiry-table th:nth-child(4) {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.miceenquiry-table td:nth-child(5),
+.miceenquiry-table th:nth-child(5) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.miceenquiry-table td:nth-child(6),
+.miceenquiry-table th:nth-child(6) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.miceenquiry-table td:nth-child(7),
+.miceenquiry-table th:nth-child(7) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.miceenquiry-table td:nth-child(8),
+.miceenquiry-table th:nth-child(8) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.miceenquiry-table td:nth-child(9),
+.miceenquiry-table th:nth-child(9) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.miceenquiry-table td:nth-child(10),
+.miceenquiry-table th:nth-child(10) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.miceenquiry-table td:nth-child(11),
+.miceenquiry-table th:nth-child(11) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.miceenquiry-table td:nth-child(12),
+.miceenquiry-table th:nth-child(12) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.miceenquiry-table td:nth-child(13),
+.miceenquiry-table th:nth-child(13) {
+    display: none;
+}
+
+
+/*css for mice enquiry ends here*/
+
+
+/*css for currency list starts here*/
+
+.currencylist-table tbody td:first-child,
+.currencylist-table thead th:first-child {
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+
+.currencylist-table tbody td:nth-child(2),
+.currencylist-table thead th:nth-child(2) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.currencylist-table tbody td:nth-child(3),
+.currencylist-table thead th:nth-child(3) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.currencylist-table tbody td:nth-child(4),
+.currencylist-table thead th:nth-child(4) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.currencylist-table tbody td:nth-child(5),
+.currencylist-table thead th:nth-child(5) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.currencylist-table tbody td:nth-child(6),
+.currencylist-table thead th:nth-child(6) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.currencylist-table tbody td:nth-child(7),
+.currencylist-table thead th:nth-child(7) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.currencylist-table tbody td:nth-child(8),
+.currencylist-table thead th:nth-child(8) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.currencylist-table tbody td:nth-child(9),
+.currencylist-table thead th:nth-child(9) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+
+/*css for currency list ends here*/
+
+
+/*css for web enquiry starts here*/
+
+.webenquiry-table tbody td:first-child,
+.webenquiry-table thead th:first-child {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.webenquiry-table tbody td:nth-child(2),
+.webenquiry-table thead th:nth-child(2) {
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+
+.webenquiry-table tbody td:nth-child(3),
+.webenquiry-table thead th:nth-child(3) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+    word-wrap: break-word;
+}
+
+.webenquiry-table tbody td:nth-child(4),
+.webenquiry-table thead th:nth-child(4) {
+    min-width: 175px !important;
+    max-width: 175px !important;
+    word-wrap: break-word;
+}
+
+.webenquiry-table tbody td:nth-child(5),
+.webenquiry-table thead th:nth-child(5) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.webenquiry-table tbody td:nth-child(6),
+.webenquiry-table thead th:nth-child(6) {
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+
+.webenquiry-table tbody td:nth-child(7),
+.webenquiry-table thead th:nth-child(7) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.webenquiry-table tbody td:nth-child(8),
+.webenquiry-table thead th:nth-child(8) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.webenquiry-table tbody td:nth-child(9),
+.webenquiry-table thead th:nth-child(9) {
+    min-width: 105px !important;
+    max-width: 105px !important;
+}
+
+.webenquiry-table tbody td:nth-child(10),
+.webenquiry-table thead th:nth-child(10) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.webenquiry-table tbody td:nth-child(11),
+.webenquiry-table thead th:nth-child(11) {
+    min-width: 125px !important;
+    max-width: 125px !important;
+}
+
+.webenquiry-table tbody td:nth-child(12),
+.webenquiry-table thead th:nth-child(12) {
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+
+.webenquiry-table tbody td:nth-child(13),
+.webenquiry-table thead th:nth-child(13) {
+    max-width: 250px !important;
+    min-width: 250px !important;
+}
+
+.webenquiry-table tbody td:nth-child(14),
+.webenquiry-table thead th:nth-child(14) {
+    max-width: 80px !important;
+    min-width: 80px !important;
+}
+
+.webenquiry-table tbody td:nth-child(15),
+.webenquiry-table thead th:nth-child(15) {
+    max-width: 100px !important;
+    min-width: 100px !important;
+}
+
+.webenquiry-table tbody td:nth-child(16),
+.webenquiry-table thead th:nth-child(16) {
+    max-width: 100px !important;
+    min-width: 100px !important;
+}
+
+.webenquiry-table tbody td:nth-child(17),
+.webenquiry-table thead th:nth-child(17) {
+    max-width: 100px !important;
+    min-width: 100px !important;
+}
+
+
+/*css for web enquiry ends here*/
+
+
+/*css for assifn lead to expert starts here*/
+
+#inquiry_table tbody td:first-child,
+#inquiry_table thead th:first-child {
+    min-width: 35px;
+    max-width: 35px;
+    width: 35px
+}
+
+#inquiry_table tbody td:nth-child(2),
+#inquiry_table thead th:nth-child(2) {
+    min-width: 110px;
+    max-width: 110px;
+    width: 110px
+}
+
+#inquiry_table tbody td:nth-child(3),
+#inquiry_table thead th:nth-child(3) {
+    min-width: 70px;
+    max-width: 70px;
+    width: 70px
+}
+
+#inquiry_table tbody td:nth-child(4),
+#inquiry_table thead th:nth-child(4) {
+    min-width: 50px;
+    max-width: 50px;
+    width: 50px
+}
+
+#inquiry_table tbody td:nth-child(5),
+#inquiry_table thead th:nth-child(5) {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px
+}
+
+#inquiry_table tbody td:nth-child(6),
+#inquiry_table thead th:nth-child(6) {
+    min-width: 110px;
+    max-width: 110px;
+    width: 110px
+}
+
+#inquiry_table tbody td:nth-child(7),
+#inquiry_table thead th:nth-child(7) {
+    min-width: 75px;
+    max-width: 75px;
+    width: 75px
+}
+
+#inquiry_table tbody td:nth-child(8),
+#inquiry_table thead th:nth-child(8) {
+    min-width: 110px;
+    max-width: 110px;
+    width: 110px
+}
+
+#inquiry_table tbody td:nth-child(9),
+#inquiry_table thead th:nth-child(9) {
+    min-width: 50px;
+    max-width: 50px;
+    width: 50px
+}
+
+#inquiry_table tbody td:nth-child(10),
+#inquiry_table thead th:nth-child(10) {
+    min-width: 110px;
+    max-width: 110px;
+    width: 110px
+}
+
+#inquiry_table tbody td:nth-child(11),
+#inquiry_table thead th:nth-child(11) {
+    min-width: 70px;
+    max-width: 70px;
+    width: 70px
+}
+
+#inquiry_table tbody td:nth-child(12),
+#inquiry_table thead th:nth-child(12) {
+    min-width: 90px;
+    max-width: 90px;
+    width: 90px
+}
+
+#inquiry_table tbody td:nth-child(13),
+#inquiry_table thead th:nth-child(13) {
+    min-width: 80px;
+    max-width: 80px;
+    width: 80px
+}
+
+#inquiry_table tbody td:nth-child(14),
+#inquiry_table thead th:nth-child(14) {
+    min-width: 110px;
+    max-width: 110px;
+    width: 110px
+}
+
+#inquiry_table tbody td:nth-child(15),
+#inquiry_table thead th:nth-child(15) {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px
+}
+
+#inquiry_table tbody td:nth-child(16),
+#inquiry_table thead th:nth-child(16) {
+    min-width: 110px;
+    max-width: 110px;
+    width: 110px
+}
+
+
+/*css for assifn lead to expert ends here*/
+
+
+/*csss for reception starts here*/
+
+.reception-table td:first-child,
+.reception-table th:first-child {
+    min-width: 77px !important;
+    max-width: 77px !important;
+}
+
+.reception-table td:nth-child(2),
+.reception-table th:nth-child(2) {
+    min-width: 110px !important;
+    max-width: 110px !important;
+}
+
+.reception-table td:nth-child(3),
+.reception-table th:nth-child(3) {
+    min-width: 105px !important;
+    max-width: 105px !important;
+}
+
+.reception-table td:nth-child(4),
+.reception-table th:nth-child(4) {
+    min-width: 105px !important;
+    max-width: 105px !important;
+}
+
+.reception-table td:nth-child(5),
+.reception-table th:nth-child(5) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+
+/*csss for reception ends here*/
+
+
+/*css for prevent table starts here*/
+
+.prevent-table thead tr th:first-child,
+.prevent-table tbody tr td:first-child {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+.prevent-table thead tr th:nth-child(2),
+.prevent-table tbody tr td:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.prevent-table thead tr th:nth-child(3),
+.prevent-table tbody tr td:nth-child(3) {
+    min-width: 85px;
+    max-width: 85px;
+}
+
+.prevent-table thead tr th:nth-child(4),
+.prevent-table tbody tr td:nth-child(4) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+
+
+
+/*css for prevent table ends here*/
+
+
+/* Added CSS by Pradip */
+
+
+/* Receipt Pool Table Start */
+
+.receiptpool-table-1 td:first-child,
+.receiptpool-table-1 th:first-child {
+    min-width: 85px;
+    max-width: 85px;
+}
+
+.receiptpool-table-1 td:nth-child(2),
+.receiptpool-table-1 th:nth-child(2) {
+    min-width: 85px;
+    max-width: 85px;
+}
+
+.receiptpool-table-1 td:nth-child(3),
+.receiptpool-table-1 th:nth-child(3) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+.receiptpool-table-1 td:nth-child(4),
+.receiptpool-table-1 th:nth-child(4) {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.receiptpool-table-1 td:nth-child(5),
+.receiptpool-table-1 th:nth-child(5) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.receiptpool-table-1 td:nth-child(6),
+.receiptpool-table-1 th:nth-child(6) {
+    min-width: 90px;
+    max-width: 90px;
+    text-align: right;
+}
+
+.receiptpool-table-1 td:nth-child(7),
+.receiptpool-table-1 th:nth-child(7) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.receiptpool-table-1 td:nth-child(8),
+.receiptpool-table-1 th:nth-child(8) {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.receiptpool-table-1 td:nth-child(9),
+.receiptpool-table-1 th:nth-child(9) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/* Receipt Pool Table End */
+
+
+/* Debit Note Table Start */
+
+.debit-note-table td:first-child,
+.debit-note-table th:first-child,
+.debit-note-table td:nth-child(2),
+.debit-note-table th:nth-child(2),
+.debit-note-table td:nth-child(3),
+.debit-note-table th:nth-child(3),
+.debit-note-table td:nth-child(4),
+.debit-note-table th:nth-child(4),
+.debit-note-table td:nth-child(6),
+.debit-note-table th:nth-child(6),
+.debit-note-table td:nth-child(7),
+.debit-note-table th:nth-child(7),
+.debit-note-table td:nth-child(8),
+.debit-note-table th:nth-child(8),
+.debit-note-table td:nth-child(9),
+.debit-note-table th:nth-child(9),
+.debit-note-table td:nth-child(10),
+.debit-note-table th:nth-child(10) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.debit-note-table td:nth-child(5),
+.debit-note-table th:nth-child(5) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.debit-note-table td:nth-child(11),
+.debit-note-table th:nth-child(11) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/* Debit Note Table End */
+
+
+/*css for hr form starts here*/
+
+.hr-table tbody td:first-child,
+.hr-table thead th:first-child {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.hr-table tbody td:nth-child(3),
+.hr-table thead th:nth-child(3) {
+    min-width: 130px;
+    max-width: 130px;
+    width: 130px;
+}
+
+.hr-table tbody td:nth-child(2),
+.hr-table thead th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.objection-table tbody td:first-child,
+.objection-table thead th:first-child {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.objection-table tbody td:nth-child(2),
+.objection-table thead th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.purpose-table tbody td:first-child,
+.purpose-table thead th:first-child {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.purpose-table tbody td:nth-child(2),
+.purpose-table thead th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+
+/*css for hr form ends here*/
+
+
+/*css for rs pol vis starts here*/
+
+.rs_pol-table tbody td:first-child,
+.rs_pol-table thead th:first-child {
+    min-width: 40px !important;
+    max-width: 40px !important;
+}
+
+.rs_pol-table tbody td:nth-child(2),
+.rs_pol-table thead th:nth-child(2) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.rs_pol-table tbody td:nth-child(3),
+.rs_pol-table thead th:nth-child(3) {
+    min-width: 150px !important;
+    max-width: 150px !important;
+}
+
+.rs_pol-table tbody td:nth-child(4),
+.rs_pol-table thead th:nth-child(4) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.rs_pol-table tbody td:nth-child(5),
+.rs_pol-table thead th:nth-child(5) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.rs_pol-table tbody td:nth-child(6),
+.rs_pol-table thead th:nth-child(6) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.rs_pol-table tbody td:nth-child(7),
+.rs_pol-table thead th:nth-child(7) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.rs_pol-table tbody td:nth-child(8),
+.rs_pol-table thead th:nth-child(8) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.rs_pol-table tbody td:nth-child(9),
+.rs_pol-table thead th:nth-child(9) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.rs_pol-table tbody td:nth-child(10),
+.rs_pol-table thead th:nth-child(10) {
+    min-width: 60px !important;
+    max-width: 60px !important;
+}
+
+.rs_pol-table tbody td:nth-child(11),
+.rs_pol-table thead th:nth-child(11) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.rs_pol-table tbody td:nth-child(12),
+.rs_pol-table thead th:nth-child(12) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.rs_pol-table tbody td:nth-child(13),
+.rs_pol-table thead th:nth-child(13) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.rs_pol-table tbody td:nth-child(14),
+.rs_pol-table thead th:nth-child(14) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.rs_pol-table tbody td:nth-child(15),
+.rs_pol-table thead th:nth-child(15) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.rs_pol-table tbody td:nth-child(16),
+.rs_pol-table thead th:nth-child(16) {
+    min-width: 200px !important;
+    max-width: 200px !important;
+}
+
+
+/*css for rs pol vis ends here*/
+
+
+/*css for urgent visa req starts here*/
+
+.urgentvisa-table tbody td:nth-child(15),
+.urgentvisa-table thead th:nth-child(15) {
+    min-width: 50px !important;
+    max-width: 50px !important;
+}
+
+.urgentvisa-table tbody td:nth-child(16),
+.urgentvisa-table thead th:nth-child(16) {
+    min-width: 200px !important;
+    max-width: 200px !important;
+}
+
+.visadata-table tbody td:first-child,
+.visadata-table thead th:first-child {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.visadata-table tbody td:nth-child(2),
+.visadata-table thead th:nth-child(2) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.visaletter-table tbody td:first-child,
+.visaletter-table thead th:first-child {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.visaletter-table tbody td:nth-child(2),
+.visaletter-table thead th:nth-child(2) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.visafee-table tbody td:first-child,
+.visafee-table thead th:first-child {
+    min-width: 50px !important;
+    max-width: 50px !important;
+    width: 50px;
+}
+
+.visafee-table tbody td:nth-child(2),
+.visafee-table thead th:nth-child(2) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+    width: 100px;
+}
+
+.visafee-table tbody td:nth-child(3),
+.visafee-table thead th:nth-child(3) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+    width: 100px;
+}
+
+.visafee-table tbody td:nth-child(4),
+.visafee-table thead th:nth-child(4) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+    width: 90px;
+}
+
+.visafee-table tbody td:nth-child(5),
+.visafee-table thead th:nth-child(5) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+    width: 100px;
+}
+
+.visafee-table tbody td:nth-child(6),
+.visafee-table thead th:nth-child(6) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+    width: 100px;
+}
+
+
+/*css for urgent visa req ends here*/
+
+
+/*css for visa charges start here*/
+
+.visa-charge-table tbody td:first-child,
+.visa-charge-table thead th:first-child {
+    min-width: 100px;
+}
+
+.visa-charge-table tbody td:nth-child(2),
+.visa-charge-table thead th:nth-child(2) {
+    min-width: 100px;
+}
+
+.visa-charge-table tbody td:nth-child(3),
+.visa-charge-table thead th:nth-child(3) {
+    min-width: 100px;
+}
+
+.visa-charge-table tbody td:nth-child(4),
+.visa-charge-table thead th:nth-child(4) {
+    min-width: 95px;
+}
+
+.visa-charge-table tbody td:nth-child(5),
+.visa-charge-table thead th:nth-child(5) {
+    min-width: 100px;
+}
+
+.visa-charge-table tbody td:nth-child(6),
+.visa-charge-table thead th:nth-child(6) {
+    min-width: 87px;
+}
+
+.visa-charge-table tbody td:nth-child(7),
+.visa-charge-table thead th:nth-child(7) {
+    min-width: 87px;
+}
+
+.visa-charge-table tbody td:nth-child(8),
+.visa-charge-table thead th:nth-child(8) {
+    min-width: 87px;
+}
+
+.visa-charge-table tbody td:nth-child(9),
+.visa-charge-table thead th:nth-child(9) {
+    min-width: 87px;
+}
+
+.visa-charge-table tbody td:nth-child(10),
+.visa-charge-table thead th:nth-child(10) {
+    min-width: 100px;
+}
+
+.visa-charge-table tbody td:nth-child(11),
+.visa-charge-table thead th:nth-child(11) {
+    min-width: 100px;
+}
+
+.visa-charge-table tbody td:nth-child(12),
+.visa-charge-table thead th:nth-child(12) {
+    min-width: 100px;
+}
+
+.visa-charge-table tbody td:nth-child(13),
+.visa-charge-table thead th:nth-child(13) {
+    min-width: 100px;
+}
+
+
+/*css for visa charges end here*/
+
+
+/* Receipt Payment Table Start */
+
+.receipt-payment-table>tbody>tr>td {
+    width: 120px;
+}
+
+.receipt-payment-table>tbody>tr>td>.form-control {
+    max-width: 120px;
+}
+
+
+/* Receipt Payment Table End */
+
+.visadoc-table tbody td:first-child,
+.visadoc-table thead th:first-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.visadoc-table tbody td:nth-child(2),
+.visadoc-table thead th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.visadoc-table tbody td:nth-child(3),
+.visadoc-table thead th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.visadoc-table tbody td:nth-child(4),
+.visadoc-table thead th:nth-child(4) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.visadoc-table tbody td:nth-child(5),
+.visadoc-table thead th:nth-child(5) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.visadoc-table tbody td:nth-child(6),
+.visadoc-table thead th:nth-child(6) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.visadoc-table tbody td:nth-child(7),
+.visadoc-table thead th:nth-child(7) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.visadoc-table tbody td:nth-child(8),
+.visadoc-table thead th:nth-child(8) {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+
+/*css for visa charges end here*/
+
+
+/*css for location master starts here*/
+
+.locationmaster-table tbody td:first-child,
+.locationmaster-table thead th:first-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.locationmaster-table tbody td:nth-child(2),
+.locationmaster-table thead th:nth-child(2) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.locationmaster-table tbody td:nth-child(3),
+.locationmaster-table thead th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.upload-visa-table tbody td:first-child,
+.upload-visa-table thead th:first-child {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.upload-visa-table tbody td:nth-child(2),
+.upload-visa-table thead th:nth-child(2) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.upload-visa-table tbody td:nth-child(3),
+.upload-visa-table thead th:nth-child(3) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.promote-airfare-table tbody td:first-child,
+.promote-airfare-table thead th:first-child {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.promote-airfare-table tbody td:nth-child(2),
+.promote-airfare-table thead th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.promote-airfare-table tbody td:nth-child(3),
+.promote-airfare-table thead th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.promote-airfare-table tbody td:nth-child(4),
+.promote-airfare-table thead th:nth-child(4) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.promote-airfare-table tbody td:nth-child(5),
+.promote-airfare-table thead th:nth-child(5) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.promote-airfare-table tbody td:nth-child(6),
+.promote-airfare-table thead th:nth-child(6) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.department-worklist-table tbody td:first-child,
+.department-worklist-table thead th:first-child {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.department-worklist-table tbody td:nth-child(2),
+.department-worklist-table thead th:nth-child(2) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.supply-master-table tbody td:first-child,
+.supply-master-table thead th:first-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.supply-master-table tbody td:nth-child(2),
+.supply-master-table thead th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.supply-master-table tbody td:nth-child(3),
+.supply-master-table thead th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.supply-master-table tbody td:nth-child(4),
+.supply-master-table thead th:nth-child(4) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.supply-master-table tbody td:nth-child(5),
+.supply-master-table thead th:nth-child(5) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.supply-master-table tbody td:nth-child(6),
+.supply-master-table thead th:nth-child(6) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.linksummary-table tbody td:first-child,
+.linksummary-table thead th:first-child {
+    min-width: 100px;
+}
+
+.linksummary-table tbody td:nth-child(2),
+.linksummary-table thead th:nth-child(2) {
+    min-width: 140px;
+}
+
+.metatag-table tbody td:first-child,
+.metatag-table thead th:first-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.metatag-table tbody td:nth-child(2),
+.metatag-table thead th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.design-studio-master tbody td:first-child,
+.design-studio-master thead th:first-child {
+    min-width: 100px;
+}
+
+.design-studio-master tbody td:nth-child(2),
+.design-studio-master thead th:nth-child(2) {
+    min-width: 110px;
+}
+
+.design-studio-master tbody td:nth-child(3),
+.design-studio-master thead th:nth-child(3) {
+    min-width: 100px;
+}
+
+.design-studio-master tbody td:nth-child(4),
+.design-studio-master thead th:nth-child(4) {
+    min-width: 120px;
+}
+
+.design-studio-master tbody td:nth-child(5),
+.design-studio-master thead th:nth-child(5) {
+    min-width: 115px;
+}
+
+.design-studio-master tbody td:nth-child(6),
+.design-studio-master thead th:nth-child(6) {
+    min-width: 65px;
+}
+
+.design-studio-master tbody td:nth-child(7),
+.design-studio-master thead th:nth-child(7) {
+    min-width: 145px;
+}
+
+.design-studio-master tbody td:nth-child(8),
+.design-studio-master thead th:nth-child(8) {
+    min-width: 80px;
+}
+
+.design-studio-master tbody td:nth-child(9),
+.design-studio-master thead th:nth-child(9) {
+    min-width: 80px;
+}
+
+
+/*css for location master ends here*/
+
+
+/*css for testimonial starts here*/
+
+.testimonial-table tbody td:first-child,
+.testimonial-table thead th:first-child {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.testimonial-table tbody td:nth-child(2),
+.testimonial-table thead th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px
+}
+
+.testimonial-table tbody td:nth-child(3),
+.testimonial-table thead th:nth-child(3) {
+    min-width: 90px;
+    max-width: 90px
+}
+
+.web-meta-tag-table tbody td:first-child,
+.web-meta-tag-table thead th:first-child {
+    min-width: 135px;
+    max-width: 135px
+}
+
+.web-meta-tag-table tbody td:nth-child(2),
+.web-meta-tag-table thead th:nth-child(2) {
+    min-width: 135px;
+    max-width: 135px
+}
+
+.web-meta-tag-table tbody td:nth-child(3),
+.web-meta-tag-table thead th:nth-child(3) {
+    min-width: 122px;
+    max-width: 122px
+}
+
+.web_banner-table tbody td:first-child,
+.web_banner-table thead th:first-child {
+    min-width: 140px;
+    max-width: 140px
+}
+
+.web_banner-table tbody td:nth-child(2),
+.web_banner-table thead th:nth-child(2) {
+    min-width: 150px;
+    max-width: 150px
+}
+
+.web_banner-table tbody td:nth-child(3),
+.web_banner-table thead th:nth-child(3) {
+    min-width: 150px;
+    max-width: 150px
+}
+
+.meta-tag-master-table tbody td:first-child,
+.meta-tag-master-table thead th:first-child {
+    min-width: 122px;
+    max-width: 122px
+}
+
+.meta-tag-master-table tbody td:nth-child(2),
+.meta-tag-master-table thead th:nth-child(2) {
+    min-width: 122px;
+    max-width: 122px
+}
+
+.meta-tag-master-table tbody td:nth-child(3),
+.meta-tag-master-table thead th:nth-child(3) {
+    min-width: 122px;
+    max-width: 122px
+}
+
+.vessel-meta-tag-table tbody td:first-child,
+.vessel-meta-tag-table thead th:first-child {
+    min-width: 180px;
+    max-width: 180px
+}
+
+.vessel-meta-tag-table tbody td:nth-child(2),
+.vessel-meta-tag-table thead th:nth-child(2) {
+    min-width: 180px;
+    max-width: 180px
+}
+
+.cruse-meta-tag-table tbody td:first-child,
+.cruse-meta-tag-table thead th:first-child {
+    min-width: 180px;
+    max-width: 180px
+}
+
+.cruse-meta-tag-table tbody td:nth-child(2),
+.cruse-meta-tag-table thead th:nth-child(2) {
+    min-width: 180px;
+    max-width: 180px
+}
+
+.tldna-table tbody td:first-child,
+.tldna-table thead th:first-child {
+    min-width: 180px;
+    max-width: 180px
+}
+
+.tldna-table tbody td:nth-child(2),
+.tldna-table thead th:nth-child(2) {
+    min-width: 180px;
+    max-width: 180px
+}
+
+.tldna-table tbody td:nth-child(3),
+.tldna-table thead th:nth-child(3) {
+    min-width: 140px;
+    max-width: 140px
+}
+
+.currency-list-table tbody td:first-child,
+.currency-list-table thead th:first-child {
+    min-width: 100px;
+    max-width: 100px
+}
+
+.currency-list-table tbody td:nth-child(2),
+.currency-list-table thead th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px
+}
+
+.currency-list-table tbody td:nth-child(3),
+.currency-list-table thead th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px
+}
+
+.tbl-header td:first-child,
+.tbl-header th:first-child {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.tbl-header td:nth-child(2),
+.tbl-header th:nth-child(2) {
+    min-width: 200px;
+    max-width: 200px
+}
+
+.bank-table td:first-child,
+.bank-table th:first-child {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.bank-table td:nth-child(2),
+.bank-table th:nth-child(2) {
+    min-width: 200px;
+    max-width: 200px
+}
+
+.tourleader-exp-table td:first-child,
+.tourleader-exp-table th:first-child {
+    display: none;
+}
+
+.tourleader-exp-table td:nth-child(2),
+.tourleader-exp-table th:nth-child(2) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.tourleader-exp-table td:nth-child(3),
+.tourleader-exp-table th:nth-child(3) {
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+
+.tourleader-exp-table td:nth-child(4),
+.tourleader-exp-table th:nth-child(4) {
+    min-width: 75px !important;
+    max-width: 75px !important;
+}
+
+.tourleader-exp-table td:nth-child(5),
+.tourleader-exp-table th:nth-child(5) {
+    min-width: 75px !important;
+    max-width: 75px !important;
+}
+
+.tourleader-exp-table td:nth-child(6),
+.tourleader-exp-table th:nth-child(6) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.tourleader-exp-table td:nth-child(7),
+.tourleader-exp-table th:nth-child(7) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.bankstatement-table td:first-child,
+.bankstatement-table th:first-child {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.bankstatement-table td:nth-child(2),
+.bankstatement-table th:nth-child(2) {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.bankstatement-table td:nth-child(3),
+.bankstatement-table th:nth-child(3) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.bankstatement-table td:nth-child(4),
+.bankstatement-table th:nth-child(4) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.bankstatement-table td:nth-child(5),
+.bankstatement-table th:nth-child(5) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.bankstatement-table td:nth-child(6),
+.bankstatement-table th:nth-child(6) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.bankstatement-table td:nth-child(7),
+.bankstatement-table th:nth-child(7) {
+    min-width: 170px;
+    max-width: 170px;
+}
+
+.bankstatement-table td:nth-child(8),
+.bankstatement-table th:nth-child(8) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.bankstatement-table td:nth-child(9),
+.bankstatement-table th:nth-child(9) {
+    min-width: 115px;
+    max-width: 115px;
+}
+
+
+.bank-account-master-table td:first-child,
+.bank-account-master-table th:first-child {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.bank-account-master-table td:nth-child(2),
+.bank-account-master-table th:nth-child(2) {
+    min-width: 112px;
+    max-width: 112px;
+}
+
+.currency-symbol-table td:first-child,
+.currency-symbol-table th:first-child {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.currency-symbol-table td:nth-child(2),
+.currency-symbol-table th:nth-child(2) {
+    min-width: 112px;
+    max-width: 112px;
+}
+
+.currency-symbol-table td:nth-child(3),
+.currency-symbol-table th:nth-child(3) {
+    min-width: 112px;
+    max-width: 112px;
+}
+
+
+/*css for testimonial ends here*/
+
+.enet-table td:first-child,
+.enet-table th:first-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.enet-table td:nth-child(2),
+.enet-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.enet-table td:nth-child(3),
+.enet-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.enet-table td:nth-child(4),
+.enet-table th:nth-child(4) {
+    min-width: 112px;
+    max-width: 112px;
+}
+
+.enet-table td:nth-child(5),
+.enet-table th:nth-child(5) {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.enet-table td:nth-child(6),
+.enet-table th:nth-child(6) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.enet-table td:nth-child(7),
+.enet-table th:nth-child(7) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.enet-table td:nth-child(8),
+.enet-table th:nth-child(8) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.enet-table td:nth-child(9),
+.enet-table th:nth-child(9) {
+    min-width: 220px;
+    max-width: 220px;
+}
+
+.active_tour_table tbody td:first-child,
+.active_tour_table thead th:first-child {
+    min-width: 90px;
+}
+
+.active_tour_table tbody td:nth-child(3),
+.active_tour_table thead th:nth-child(3) {
+    min-width: 90px;
+}
+
+.active_tour_table tbody td:nth-child(4),
+.active_tour_table thead th:nth-child(4) {
+    min-width: 90px;
+}
+
+.active_tour_table tbody td:nth-child(5),
+.active_tour_table thead th:nth-child(5) {
+    min-width: 90px;
+}
+
+.active_tour_table tbody td:nth-child(7),
+.active_tour_table thead th:nth-child(7) {
+    min-width: 130px;
+}
+
+.active_tour_table tbody td:nth-child(9),
+.active_tour_table thead th:nth-child(9) {
+    min-width: 110px;
+}
+
+.active_tour_table tbody td:nth-child(10),
+.active_tour_table thead th:nth-child(10) {
+    min-width: 70px;
+}
+
+.active_tour_table tbody td:nth-child(11),
+.active_tour_table thead th:nth-child(11) {
+    min-width: 60px;
+}
+
+.active_tour_table tbody td:nth-child(12),
+.active_tour_table thead th:nth-child(12) {
+    max-width: 80px !important;
+}
+
+.active_tour_table tbody td:nth-child(13),
+.active_tour_table thead th:nth-child(13) {
+    min-width: 70px;
+}
+
+.active_tour_table tbody td:nth-child(14),
+.active_tour_table thead th:nth-child(14) {
+    min-width: 95px;
+}
+
+.airline-table td:first-child,
+.airline-table th:first-child {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.airline-table td:nth-child(2),
+.airline-table th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.airline-table td:nth-child(3),
+.airline-table th:nth-child(3) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.airline-table td:nth-child(4),
+.airline-table th:nth-child(4) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.airline-table td:nth-child(5),
+.airline-table th:nth-child(5) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.airline-table td:nth-child(6),
+.airline-table th:nth-child(6) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.airline-table td:nth-child(7),
+.airline-table th:nth-child(7) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.airline-table td:nth-child(8),
+.airline-table th:nth-child(8) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.airline-table td:nth-child(9),
+.airline-table th:nth-child(9) {
+    min-width: 220px;
+    max-width: 220px;
+}
+
+.airline-table td:nth-child(10),
+.airline-table th:nth-child(10) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.history-form-table td:first-child,
+.history-form-table th:first-child {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.history-form-table td:nth-child(2),
+.history-form-table th:nth-child(2) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.history-form-table td:nth-child(3),
+.history-form-table th:nth-child(3) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.history-form-table td:nth-child(4),
+.history-form-table th:nth-child(4) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.history-form-table td:nth-child(5),
+.history-form-table th:nth-child(5) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.history-form-table td:nth-child(6),
+.history-form-table th:nth-child(6) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.productmaster-table tbody td:first-child,
+.productmaster-table thead th:first-child {
+    min-width: 275px !important;
+    max-width: 275px !important;
+}
+
+.productmaster-table tbody td:nth-child(2),
+.productmaster-table thead th:nth-child(2) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.menu-master-table tbody td:first-child,
+.menu-master-table thead th:first-child {
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.menu-master-table tbody td:nth-child(2),
+.menu-master-table thead th:nth-child(2) {
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.menu-master-table tbody td:nth-child(3),
+.menu-master-table thead th:nth-child(3) {
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.sightseeing-table tbody td:first-child,
+.sightseeing-table thead th:first-child {
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.sightseeing-table tbody td:nth-child(2),
+.sightseeing-table thead th:nth-child(2) {
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.sightseeing-table tbody td:nth-child(3),
+.sightseeing-table thead th:nth-child(3) {
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.city-master-table tbody td:first-child,
+.city-master-table thead th:first-child {
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.city-master-table tbody td:nth-child(2),
+.city-master-table thead th:nth-child(2) {
+    width: 60px;
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.city-master-table tbody td:nth-child(3),
+.city-master-table thead th:nth-child(3) {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.city-master-table tbody td:nth-child(4),
+.city-master-table thead th:nth-child(4) {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.city-master-table tbody td:nth-child(5),
+.city-master-table thead th:nth-child(5) {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.train-table tbody td:first-child,
+.train-table thead th:first-child {
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.train-table tbody td:nth-child(2),
+.train-table thead th:nth-child(2) {
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.train-table tbody td:nth-child(3),
+.train-table thead th:nth-child(3) {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.train-table tbody td:nth-child(4),
+.train-table thead th:nth-child(4) {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.train-table tbody td:nth-child(5),
+.train-table thead th:nth-child(5) {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.trainfare-table tbody td:first-child,
+.trainfare-table thead th:first-child {
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.trainfare-table tbody td:nth-child(2),
+.trainfare-table thead th:nth-child(2) {
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.trainfare-table tbody td:nth-child(3),
+.trainfare-table thead th:nth-child(3) {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.trainfare-table tbody td:nth-child(4),
+.trainfare-table thead th:nth-child(4) {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.trainfare-table tbody td:nth-child(5),
+.trainfare-table thead th:nth-child(5) {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.flight-time-table tbody td:first-child,
+.flight-time-table thead th:first-child {
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.flight-time-table tbody td:nth-child(2),
+.flight-time-table thead th:nth-child(2) {
+    width: 90px;
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.flight-time-table tbody td:nth-child(3),
+.flight-time-table thead th:nth-child(3) {
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.flight-time-table tbody td:nth-child(4),
+.flight-time-table thead th:nth-child(4) {
+    width: 80px;
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.cc-table tbody td:first-child,
+.cc-table thead th:first-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.cc-table tbody td:nth-child(2),
+.cc-table thead th:nth-child(2) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.cc-table tbody td:nth-child(3),
+.cc-table thead th:nth-child(3) {
+    min-width: 90px;
+    max-width: 90px;
+    width: 90px;
+}
+
+.cc-table tbody td:nth-child(4),
+.cc-table thead th:nth-child(4) {
+    min-width: 80px;
+    max-width: 80px;
+    width: 80px;
+}
+
+.cc-table tbody td:nth-child(5),
+.cc-table thead th:nth-child(5) {
+    min-width: 50px;
+    max-width: 50px;
+    width: 50px;
+}
+
+.cc-table tbody td:nth-child(6),
+.cc-table thead th:nth-child(6) {
+    min-width: 90px;
+    max-width: 90px;
+    width: 90px;
+}
+
+.cc-table tbody td:nth-child(7),
+.cc-table thead th:nth-child(7) {
+    min-width: 80px;
+    max-width: 80px;
+    width: 80px;
+}
+
+.cc-table tbody td:nth-child(8),
+.cc-table thead th:nth-child(8) {
+    min-width: 90px;
+    max-width: 90px;
+    width: 90px;
+}
+
+.cc-table tbody td:nth-child(9),
+.cc-table thead th:nth-child(9) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+
+.cc-table tbody td:nth-child(10),
+.cc-table thead th:nth-child(10) {
+    min-width: 70px;
+    max-width: 70px;
+    width: 70px;
+}
+
+.cc-table tbody td:nth-child(11),
+.cc-table thead th:nth-child(11) {
+    min-width: 50px;
+    max-width: 50px;
+    width: 50px;
+}
+
+.cc-table tbody td:nth-child(12),
+.cc-table thead th:nth-child(12) {
+    min-width: 90px;
+    max-width: 90px;
+    width: 90px;
+}
+
+.booking-modal-table td:first-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.booking-modal-table td:nth-child(2) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.booking-modal-table td:nth-child(3) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.booking-modal-table td:nth-child(4) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.booking-modal-table td:nth-child(5) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.booking-modal-table td:nth-child(6) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.booking-modal-table td:nth-child(7) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.itinery-table td:first-child,
+.itinery-table th:first-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.itinery-table td:nth-child(2),
+.itinery-table th:nth-child(2) {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+.itinery-table td:nth-child(3),
+.itinery-table th:nth-child(3) {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+.itinery-table td:nth-child(3),
+.itinery-table th:nth-child(3) {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+.itinery-table td:nth-child(4),
+.itinery-table th:nth-child(4) {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+.tag-table tbody td:first-child,
+.tag-table thead th:first-child {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.tag-table tbody td:nth-child(2),
+.tag-table thead th:nth-child(2) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.activity-table tbody td:first-child,
+.activity-table thead th:first-child {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.sector-master-table tbody td:first-child,
+.sector-master-table thead th:first-child {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.sector-master-table tbody td:nth-child(2),
+.sector-master-table thead th:nth-child(2) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.sector-master-table tbody td:nth-child(3),
+.sector-master-table thead th:nth-child(3) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.tag-table tbody td:first-child,
+.tag-table thead th:first-child {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.tag-table tbody td:nth-child(2),
+.tag-table thead th:nth-child(2) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.bonanza-table td:first-child,
+.bonanza-table th:first-child {
+    min-width: 60px;
+    width: 60px;
+    max-width: 60px;
+}
+
+.bonanza-table td:nth-child(2),
+.bonanza-table th:nth-child(2) {
+    min-width: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+
+.bonanza-table td:nth-child(3),
+.bonanza-table th:nth-child(3) {
+    max-width: 140px;
+    min-width: 140px;
+}
+
+.bonanza-table td:nth-child(4),
+.bonanza-table th:nth-child(4) {
+    max-width: 70px;
+    min-width: 70px;
+}
+
+.bonanza-table td:nth-child(5),
+.bonanza-table th:nth-child(5) {
+    max-width: 70px;
+    min-width: 70px;
+}
+
+.invt-table td:first-child,
+.invt-table th:first-child {
+    min-width: 60px;
+    width: 60px;
+    max-width: 60px;
+}
+
+.invt-table td:nth-child(2),
+.invt-table th:nth-child(2) {
+    min-width: 120px;
+    width: 120px;
+    max-width: 120px;
+}
+
+.invt-table td:nth-child(3),
+.invt-table th:nth-child(3) {
+    min-width: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+
+.invt-table td:nth-child(4),
+.invt-table th:nth-child(4) {
+    min-width: 60px;
+    width: 60px;
+    max-width: 60px;
+}
+
+.invt-table td:nth-child(5),
+.invt-table th:nth-child(5) {
+    min-width: 60px;
+    width: 60px;
+    max-width: 60px;
+}
+
+.invt-table td:nth-child(6),
+.invt-table th:nth-child(6) {
+    min-width: 60px;
+    width: 60px;
+    max-width: 60px;
+}
+
+.invt-table td:nth-child(7),
+.invt-table th:nth-child(7) {
+    min-width: 120px;
+    width: 120px;
+    max-width: 120px;
+}
+
+.invt-table td:nth-child(8),
+.invt-table th:nth-child(8) {
+    min-width: 60px;
+    width: 60px;
+    max-width: 60px;
+}
+
+.invt-table td:nth-child(9),
+.invt-table th:nth-child(9) {
+    min-width: 60px;
+    width: 60px;
+    max-width: 60px;
+}
+
+.invt-table td:nth-child(10),
+.invt-table th:nth-child(10) {
+    min-width: 60px;
+    width: 60px;
+    max-width: 60px;
+}
+
+.invt-table td:nth-child(11),
+.invt-table th:nth-child(11) {
+    min-width: 60px;
+    width: 60px;
+    max-width: 60px;
+}
+
+.invt-table td:nth-child(12),
+.invt-table th:nth-child(12) {
+    min-width: 120px;
+    width: 120px;
+    max-width: 120px;
+}
+
+.invt-table td:nth-child(13),
+.invt-table th:nth-child(13) {
+    min-width: 60px;
+    width: 60px;
+    max-width: 60px;
+}
+
+.invt-table td:nth-child(14),
+.invt-table th:nth-child(14) {
+    min-width: 180px;
+    width: 180px;
+    max-width: 180px;
+}
+
+.invt-table td:nth-child(15),
+.invt-table th:nth-child(15) {
+    min-width: 80px;
+    width: 80px;
+    max-width: 80px;
+}
+
+.iti-table-browse td:first-child,
+.iti-table-browse th:first-child {
+    min-width: 40px;
+    width: 40px;
+    max-width: 40px;
+}
+
+.iti-table-browse td:nth-child(2),
+.iti-table-browse th:nth-child(2) {
+    min-width: 120px;
+    width: 120px;
+    max-width: 120px;
+}
+
+.iti-table-browse td:nth-child(3),
+.iti-table-browse th:nth-child(3) {
+    min-width: 80px;
+    width: 80px;
+    max-width: 80px;
+}
+
+.iti-table-browse td:nth-child(4),
+.iti-table-browse th:nth-child(4) {
+    min-width: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+
+.iti-table-browse td:nth-child(5),
+.iti-table-browse th:nth-child(5) {
+    min-width: 120px;
+    width: 120px;
+    max-width: 120px;
+}
+
+.iti-table-browse td:nth-child(6),
+.iti-table-browse th:nth-child(6) {
+    min-width: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+
+.iti-table-browse td:nth-child(7),
+.iti-table-browse th:nth-child(7) {
+    min-width: 80px;
+    width: 80px;
+    max-width: 80px;
+}
+
+.iti-table-browse td:nth-child(8),
+.iti-table-browse th:nth-child(8) {
+    min-width: 80px;
+    width: 80px;
+    max-width: 80px;
+}
+
+.iti-table-browse td:nth-child(9),
+.iti-table-browse th:nth-child(9) {
+    min-width: 120px;
+    width: 120px;
+    max-width: 120px;
+}
+
+.iti-table-browse td:nth-child(10),
+.iti-table-browse th:nth-child(10) {
+    min-width: 60px;
+    width: 60px;
+    max-width: 60px;
+}
+
+.iti-table-browse td:nth-child(11),
+.iti-table-browse th:nth-child(11) {
+    min-width: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+
+.iti-table-browse td:nth-child(12),
+.iti-table-browse th:nth-child(12) {
+    min-width: 80px;
+    width: 80px;
+    max-width: 80px;
+}
+
+.weblink-table tbody td:first-child,
+.weblink-table thead th:first-child {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.weblink-table tbody td:nth-child(2),
+.weblink-table thead th:nth-child(2) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.emailer-master-table tbody td:first-child,
+.emailer-master-table thead th:first-child {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.emailer-master-table tbody td:nth-child(2),
+.emailer-master-table thead th:nth-child(2) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.emailer-master-table tbody td:nth-child(3),
+.emailer-master-table thead th:nth-child(3) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.mobilink-table tbody td:first-child,
+.mobilink-table thead th:first-child {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.mobilink-table tbody td:nth-child(2),
+.mobilink-table thead th:nth-child(2) {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.zoneinage-table td:first-child,
+.zoneinage-table th:first-child {
+    min-width: 108px;
+    max-width: 108px;
+}
+
+.zoneinage-table td:nth-child(2),
+.zoneinage-table th:nth-child(2) {
+    min-width: 108px;
+    max-width: 108px;
+}
+
+.zoneinage-table td:nth-child(3),
+.zoneinage-table th:nth-child(3) {
+    min-width: 108px;
+    max-width: 108px;
+}
+
+.zoneinage-table td:nth-child(4),
+.zoneinage-table th:nth-child(4) {
+    min-width: 158px;
+    max-width: 158px;
+}
+
+.zoneinage-table td:nth-child(5),
+.zoneinage-table th:nth-child(5) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+
+/* Schema Wrapper Table */
+
+.schema-wrapper-table td:first-child,
+.schema-wrapper-table th:first-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.schema-wrapper-table td:nth-child(2),
+.schema-wrapper-table th:nth-child(2) {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+.schema-wrapper-table td:last-child,
+.schema-wrapper-table th:last-child {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+
+/* Schema Wrapper Table */
+
+.scheme-wrapper-edit-table td:first-child,
+.scheme-wrapper-edit-table th:first-child,
+.scheme-wrapper-edit-table td:nth-child(2),
+.scheme-wrapper-edit-table th:nth-child(2),
+.scheme-wrapper-edit-table td:nth-child(3),
+.scheme-wrapper-edit-table th:nth-child(3) {
+    min-width: 38px;
+    max-width: 38px;
+}
+
+.scheme-wrapper-edit-table td:nth-child(4),
+.scheme-wrapper-edit-table th:nth-child(4) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.scheme-wrapper-edit-table td:nth-child(5),
+.scheme-wrapper-edit-table th:nth-child(5) {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.scheme-wrapper-edit-table td:nth-child(6),
+.scheme-wrapper-edit-table th:nth-child(6) {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.scheme-wrapper-edit-table td:nth-child(7),
+.scheme-wrapper-edit-table th:nth-child(7) {
+    min-width: 65px;
+    max-width: 65px;
+}
+
+.scheme-wrapper-edit-table td:nth-child(8),
+.scheme-wrapper-edit-table th:nth-child(8) {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+.scheme-wrapper-edit-table td:nth-child(9),
+.scheme-wrapper-edit-table th:nth-child(9) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.scheme-wrapper-edit-table td:nth-child(10),
+.scheme-wrapper-edit-table th:nth-child(10) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.scheme-wrapper-edit-table td:nth-child(11),
+.scheme-wrapper-edit-table th:nth-child(11) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.scheme-wrapper-edit-table td:nth-child(12),
+.scheme-wrapper-edit-table th:nth-child(12) {
+    min-width: 45px;
+    max-width: 45px;
+}
+
+.scheme-wrapper-edit-table td:last-child,
+.scheme-wrapper-edit-table th:last-child {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+
+/* KRA Master Table */
+
+.kra-master-table td:first-child,
+.kra-master-table th:first-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.kra-master-table td:last-child,
+.kra-master-table th:last-child {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+
+/* Attendance Table */
+
+.attendance-master-table td,
+.attendance-master-table th {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/* Visa Doc Master Table */
+
+.visa-doc-master-table td:first-child,
+.visa-doc-master-table th:first-child {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+.visa-doc-master-table td:nth-child(2),
+.visa-doc-master-table th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.visa-doc-master-table td:last-child,
+.visa-doc-master-table th:last-child {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+
+/* Call Details Table */
+
+.call-details-table td,
+.call-details-table th {
+    word-wrap: break-word;
+}
+
+.call-details-table td:first-child,
+.call-details-table th:first-child {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.call-details-table td:nth-child(2),
+.call-details-table th:nth-child(2) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.call-details-table td:nth-child(3),
+.call-details-table th:nth-child(3) {
+    min-width: 65px;
+    max-width: 65px;
+}
+
+.call-details-table td:nth-child(4),
+.call-details-table th:nth-child(4),
+.call-details-table td:nth-child(5),
+.call-details-table th:nth-child(5),
+.call-details-table td:nth-child(7),
+.call-details-table th:nth-child(7) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.call-details-table td:nth-child(6),
+.call-details-table th:nth-child(6) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.call-details-table td:nth-child(8),
+.call-details-table th:nth-child(8) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.call-details-table td:nth-child(9),
+.call-details-table th:nth-child(9) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+
+/* Tour Stastics Table */
+
+.tour-statistics-table td:first-child,
+.tour-statistics-table th:first-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.tour-statistics-table td:nth-child(2),
+.tour-statistics-table th:nth-child(2) {
+    min-width: 50px;
+    max-width: 50px;
+    text-align: right;
+}
+
+.tour-statistics-table td:nth-child(3),
+.tour-statistics-table th:nth-child(3) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.tour-statistics-table td:nth-child(4),
+.tour-statistics-table th:nth-child(4) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tour-statistics-table td:nth-child(5),
+.tour-statistics-table th:nth-child(5) {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.tour-statistics-table td:last-child,
+.tour-statistics-table th:last-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/* Web Leads Table */
+
+.web-leads-table td:first-child,
+.web-leads-table th:first-child {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.web-leads-table td:nth-child(2),
+.web-leads-table th:nth-child(2) {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.web-leads-table td:nth-child(3),
+.web-leads-table th:nth-child(3) {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+.web-leads-table td:last-child,
+.web-leads-table th:last-child {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+
+/* Add Data Entry for Guest Link Table */
+
+.add-guest-link-table td:first-child,
+.add-guest-link-table th:first-child {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.add-guest-link-table td:nth-child(2),
+.add-guest-link-table th:nth-child(2) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.add-guest-link-table td:nth-child(3),
+.add-guest-link-table th:nth-child(3),
+.add-guest-link-table td:last-child,
+.add-guest-link-table th:last-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/* Developer do table Table */
+
+.developer-do-table td:first-child,
+.developer-do-table th:first-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.developer-do-table td:nth-child(2),
+.developer-do-table th:nth-child(2) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.developer-do-table td:last-child,
+.developer-do-table th:last-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/* Airline tel table Table */
+
+.airline-tel-table td:first-child,
+.airline-tel-table th:first-child {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.airline-tel-table td:nth-child(2),
+.airline-tel-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.airline-tel-table td:nth-child(3),
+.airline-tel-table th:nth-child(3) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.airline-tel-table td:last-child,
+.airline-tel-table th:last-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/* F4 Table */
+
+.f4-twice-table td:first-child,
+.f4-twice-table th:first-child {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.f4-twice-table td:nth-child(2),
+.f4-twice-table th:nth-child(2),
+.f4-twice-table td:nth-child(10),
+.f4-twice-table th:nth-child(10),
+.f4-twice-table td:nth-child(4),
+.f4-twice-table th:nth-child(4),
+.f4-twice-table td:nth-child(9),
+.f4-twice-table th:nth-child(9),
+.f4-twice-table td:nth-child(11),
+.f4-twice-table th:nth-child(11),
+.f4-twice-table td:nth-child(12),
+.f4-twice-table th:nth-child(12),
+.f4-twice-table td:last-child,
+.f4-twice-table th:last-child {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+.f4-twice-table td:nth-child(3),
+.f4-twice-table th:nth-child(3),
+.f4-twice-table td:nth-child(5),
+.f4-twice-table th:nth-child(5),
+.f4-twice-table td:nth-child(7),
+.f4-twice-table th:nth-child(7),
+.f4-twice-table td:nth-child(8),
+.f4-twice-table th:nth-child(8),
+.f4-twice-table td:nth-child(14),
+.f4-twice-table th:nth-child(14) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.f4-twice-table td:nth-child(6),
+.f4-twice-table th:nth-child(6),
+.f4-twice-table td:nth-child(13),
+.f4-twice-table th:nth-child(13) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.f4-table td:first-child,
+.f4-table th:first-child {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.f4-table td:nth-child(2),
+.f4-table th:nth-child(2),
+.f4-table td:nth-child(10),
+.f4-table th:nth-child(10),
+.f4-table td:nth-child(4),
+.f4-table th:nth-child(4),
+.f4-table td:nth-child(9),
+.f4-table th:nth-child(9),
+.f4-table td:nth-child(11),
+.f4-table th:nth-child(11),
+.f4-table td:nth-child(12),
+.f4-table th:nth-child(12),
+.f4-table td:last-child,
+.f4-table th:last-child {
+    min-width: 350px;
+    max-width: 350px;
+}
+
+.f4-table td:nth-child(3),
+.f4-table th:nth-child(3),
+.f4-table td:nth-child(5),
+.f4-table th:nth-child(5),
+.f4-table td:nth-child(7),
+.f4-table th:nth-child(7),
+.f4-table td:nth-child(8),
+.f4-table th:nth-child(8),
+.f4-table td:nth-child(14),
+.f4-table th:nth-child(14) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.f4-table td:nth-child(6),
+.f4-table th:nth-child(6),
+.f4-table td:nth-child(13),
+.f4-table th:nth-child(13) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+
+/* Tour chart Visa SUmmary Table */
+
+.tc-visa-detail-table td:first-child,
+.tc-visa-detail-table th:first-child {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.tc-visa-detail-table td:nth-child(2),
+.tc-visa-detail-table th:nth-child(2) {
+    min-width: 100px!important;
+    max-width: 100px!important;
+    width: 100px!important
+}
+
+.tc-visa-detail-table td:nth-child(3),
+.tc-visa-detail-table th:nth-child(3) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.tc-visa-detail-table td:nth-child(4),
+.tc-visa-detail-table th:nth-child(4) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.tc-visa-detail-table td:nth-child(5),
+.tc-visa-detail-table th:nth-child(5) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.tc-visa-detail-table td:nth-child(6),
+.tc-visa-detail-table th:nth-child(6) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.tc-visa-detail-table td:nth-child(7),
+.tc-visa-detail-table th:nth-child(7) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.tc-visa-detail-table td:nth-child(8),
+.tc-visa-detail-table th:nth-child(8) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.tc-visa-detail-table td:nth-child(9),
+.tc-visa-detail-table th:nth-child(9) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.tc-visa-detail-table td:last-child,
+.tc-visa-detail-table th:last-child {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.visa_pool_table td:first-child,
+.visa_pool_table th:first-child {
+    min-width: 110px;
+    max-width: 110px;
+    width: 110px
+}
+
+.visa_pool_table td:nth-child(2),
+.visa_pool_table th:nth-child(2) {
+    min-width: 35px;
+    max-width: 35px;
+    width: 35px
+}
+
+.visa_pool_table td:nth-child(3),
+.visa_pool_table th:nth-child(3) {
+    min-width: 55px;
+    max-width: 55px;
+    width: 55px
+}
+
+.visa_pool_table td:nth-child(4),
+.visa_pool_table th:nth-child(4) {
+    min-width: 110px;
+    max-width: 110px;
+    width: 110px
+}
+
+.visa_pool_table td:nth-child(5),
+.visa_pool_table th:nth-child(5) {
+    min-width: 250px;
+    max-width: 250px;
+    width: 250px
+}
+
+.visa_pool_table td:nth-child(6),
+.visa_pool_table th:nth-child(6) {
+    min-width: 50px;
+    max-width: 50px;
+    width: 50px
+}
+
+.visa_pool_table td:nth-child(7),
+.visa_pool_table th:nth-child(7) {
+    min-width: 60px;
+    max-width: 60px;
+    width: 60px
+}
+
+.visa_pool_table td:nth-child(8),
+.visa_pool_table th:nth-child(8) {
+    min-width: 180px;
+    max-width: 180px;
+    width: 180px
+}
+
+.visa_pool_table td:nth-child(9),
+.visa_pool_table th:nth-child(9) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px
+}
+
+.visa_pool_table td:nth-child(10),
+.visa_pool_table th:nth-child(10) {
+    min-width: 85px;
+    max-width: 85px;
+    width: 85px
+}
+
+.visa_pool_table td:nth-child(11),
+.visa_pool_table th:nth-child(11) {
+    min-width: 90px;
+    max-width: 90px;
+    width: 90px
+}
+
+.visa_pool_table td:nth-child(12),
+.visa_pool_table th:nth-child(12) {
+    min-width: 70px;
+    max-width: 70px;
+    width: 70px
+}
+
+.visa_pool_table td:nth-child(13),
+.visa_pool_table th:nth-child(13) {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px
+}
+
+.corperate-table td:first-child,
+.corperate-table th:first-child {
+    min-width: 140px;
+    max-width: 140px;
+    width: 140px
+}
+
+.corperate-table td:nth-child(2),
+.corperate-table th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px
+}
+
+.corperate-table td:nth-child(3),
+.corperate-table th:nth-child(3) {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px
+}
+
+.corptour-table td:first-child,
+.corptour-table th:first-child {
+    min-width: 180px;
+    max-width: 180px;
+    width: 180px
+}
+
+.content-library-table td:first-child,
+.content-library-table th:first-child {
+    min-width: 140px;
+    max-width: 140px;
+    width: 140px
+}
+
+.content-library-table td:nth-child(2),
+.content-library-table th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px
+}
+
+.content-library-table td:nth-child(3),
+.content-library-table th:nth-child(3) {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px
+}
+
+.api-service-table td:first-child,
+.api-service-table th:first-child {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px;
+}
+
+.api-service-table td:nth-child(2),
+.api-service-table th:nth-child(2) {
+    min-width: 150px;
+    max-width: 150px;
+    width: 150px;
+}
+
+.api-service-table td:nth-child(3),
+.api-service-table th:nth-child(3) {
+    min-width: 150px;
+    max-width: 150px;
+    width: 150px;
+}
+
+.api-service-table td:nth-child(4),
+.api-service-table th:nth-child(4) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+
+.visa-detail-table td:first-child,
+.visa-detail-table th:first-child {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px;
+}
+
+.visa-detail-table td:nth-child(2),
+.visa-detail-table th:nth-child(2) {
+    min-width: 150px;
+    max-width: 150px;
+    width: 150px;
+}
+
+.visa-detail-table td:nth-child(3),
+.visa-detail-table th:nth-child(3) {
+    min-width: 150px;
+    max-width: 150px;
+    width: 150px;
+}
+
+.autosms-table td:first-child,
+.autosms-table th:first-child {
+    min-width: 80px;
+    max-width: 80px
+}
+
+.autosms-table td:nth-child(2),
+.autosms-table th:nth-child(2) {
+    min-width: 115px;
+    max-width: 115px
+}
+
+.autosms-table td:nth-child(3),
+.autosms-table th:nth-child(3) {
+    min-width: 95px;
+    max-width: 95px
+}
+
+.autosms-table td:nth-child(4),
+.autosms-table th:nth-child(4) {
+    min-width: 120px;
+    max-width: 120px
+}
+
+.autosms-table td:nth-child(5),
+.autosms-table th:nth-child(5) {
+    min-width: 120px;
+    max-width: 120px
+}
+
+.employee-table td:first-child,
+.employee-table th:first-child {
+    min-width: 100px;
+    max-width: 100px
+}
+
+.employee-table td:nth-child(2),
+.employee-table th:nth-child(2) {
+    min-width: 300px;
+    max-width: 300px
+}
+
+.bulk-reporting-table td:first-child,
+.bulk-reporting-table th:first-child {
+    min-width: 140px;
+    max-width: 140px
+}
+
+.developerfunc-table td:first-child,
+.developerfunc-table th:first-child {
+    min-width: 140px;
+    max-width: 140px
+}
+
+.developerfunc-table td:nth-child(2),
+.developerfunc-table th:nth-child(2) {
+    min-width: 140px;
+    max-width: 140px
+}
+
+.permission-table td:first-child,
+.permission-table th:first-child {
+    min-width: 160px;
+    max-width: 160px;
+    width: 160px;
+}
+
+.permission-table td:nth-child(2),
+.permission-table th:nth-child(2) {
+    min-width: 160px;
+    max-width: 160px;
+    width: 160px;
+}
+
+.complaintDOSMaster-table th:first-child,
+.complaintDOSMaster-table td:first-child {
+    min-width: 200px;
+    max-width: 200px
+}
+
+.complaintDOSMaster-table th:nth-child(2),
+.complaintDOSMaster-table td:nth-child(2) {
+    min-width: 150px;
+    max-width: 150px
+}
+
+.complaintDOSMaster-table th:nth-child(3),
+.complaintDOSMaster-table td:nth-child(3) {
+    min-width: 170px;
+    max-width: 170px
+}
+
+.complaintDOSMaster-table th:nth-child(4),
+.complaintDOSMaster-table td:nth-child(4) {
+    min-width: 205px;
+    max-width: 205px;
+}
+
+.complaintDOSMaster-table th:nth-child(5),
+.complaintDOSMaster-table td:nth-child(5) {
+    min-width: 115px;
+    max-width: 115px;
+}
+
+.complaintDOSMaster-table th:nth-child(6),
+.complaintDOSMaster-table td:nth-child(6) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.complaintDOSMaster-table th:nth-child(7),
+.complaintDOSMaster-table td:nth-child(7) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.complaintDOSMaster-table th:nth-child(8),
+.complaintDOSMaster-table td:nth-child(8) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.language-table thead tr th:first-child,
+.language-table tbody tr td:first-child {
+    min-width: 120px !important;
+    max-width: 120px;
+}
+
+.language-table thead tr th:nth-child(2),
+.language-table tbody tr td:nth-child(2) {
+    min-width: 120px !important;
+    max-width: 120px;
+}
+
+.language-table thead tr th:nth-child(3),
+.language-table tbody tr td:nth-child(3) {
+    min-width: 110px !important;
+    width: 110px !important;
+    max-width: 110px;
+}
+
+.language-table thead tr th:nth-child(4),
+.language-table tbody tr td:nth-child(4) {
+    min-width: 125px !important;
+    width: 125px !important;
+    max-width: 125px;
+}
+
+.ithelpsupport-table thead tr th:first-child,
+.ithelpsupport-table tbody tr td:first-child {
+    min-width: 120px !important;
+    max-width: 120px;
+}
+
+.ithelpsupport-table thead tr th:nth-child(2),
+.ithelpsupport-table tbody tr td:nth-child(2) {
+    min-width: 120px !important;
+    max-width: 120px;
+}
+
+.ithelpsupport-table thead tr th:nth-child(3),
+.ithelpsupport-table tbody tr td:nth-child(3) {
+    min-width: 110px !important;
+    width: 110px !important;
+    max-width: 110px;
+}
+
+.ithelpsupport-table thead tr th:nth-child(4),
+.ithelpsupport-table tbody tr td:nth-child(4) {
+    min-width: 125px !important;
+    width: 125px !important;
+    max-width: 125px
+}
+
+.ithelpsupport-table thead tr th:nth-child(5),
+.ithelpsupport-table tbody tr td:nth-child(5) {
+    min-width: 125px !important;
+    width: 125px !important;
+    max-width: 125px
+}
+
+.airportmaster-table thead tr th:first-child,
+.airportmaster-table tbody tr td:first-child {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.airportmaster-table thead tr th:nth-child(2),
+.airportmaster-table tbody tr td:nth-child(2) {
+    min-width: 120px !important;
+    max-width: 120px !important;
+}
+
+.airportmaster-table thead tr th:nth-child(3),
+.airportmaster-table tbody tr td:nth-child(3) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.airportmaster-table thead tr th:nth-child(4),
+.airportmaster-table tbody tr td:nth-child(4) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.airportmaster-table thead tr th:nth-child(5),
+.airportmaster-table tbody tr td:nth-child(5) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.airportmaster-table thead tr th:nth-child(6),
+.airportmaster-table tbody tr td:nth-child(6) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+
+/* Country Table */
+
+.country-table td:first-child,
+.country-table th:first-child {
+    min-width: 72px;
+    max-width: 72px;
+}
+
+.country-table td:nth-child(2),
+.country-table th:nth-child(2) {
+    min-width: 72px;
+    max-width: 72px;
+}
+
+.country-table td:nth-child(3),
+.country-table th:nth-child(3) {
+    min-width: 72px;
+    max-width: 72px;
+}
+
+.country-table td:nth-child(2),
+.country-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.kesarian-table td:nth-child(1),
+.kesarian-table th:nth-child(1) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.kesarian-table td:nth-child(2),
+.kesarian-table th:nth-child(2) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.kesarian-table td:nth-child(3),
+.kesarian-table th:nth-child(3) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+.kesarian-table td:nth-child(4),
+.kesarian-table th:nth-child(4) {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.kesarian-table td:nth-child(5),
+.kesarian-table th:nth-child(5) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+.kesarian-table td:nth-child(6),
+.kesarian-table th:nth-child(6) {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+.apiservice-table td:nth-child(1),
+.apiservice-table th:nth-child(1) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.apiservice-table td:nth-child(2),
+.apiservice-table th:nth-child(2) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.apiservice-table td:nth-child(3),
+.apiservice-table th:nth-child(3) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.apiservice-table td:nth-child(4),
+.apiservice-table th:nth-child(4) {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.zipmater-table td:nth-child(1),
+.zipmater-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.zipmater-table td:nth-child(2),
+.zipmater-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.zipmater-table td:nth-child(3),
+.zipmater-table th:nth-child(3) {
+    width: 100px;
+    max-width: 100px;
+}
+
+.scripting-table td:nth-child(1),
+.scripting-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.scripting-table td:nth-child(2),
+.scripting-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.scripting-table td:nth-child(3),
+.scripting-table th:nth-child(3) {
+    width: 200px;
+    max-width: 200px;
+}
+
+.transect-table td:nth-child(1),
+.transect-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.transect-table td:nth-child(2),
+.transect-table th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.transect-table td:nth-child(3),
+.transect-table th:nth-child(3) {
+    width: 150px;
+    max-width: 150px;
+}
+
+.corporate_countries-table td:nth-child(1),
+.corporate_countries-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.corporate_countries-table td:nth-child(2),
+.corporate_countries-table th:nth-child(2) {
+    min-width: 320px;
+    max-width: 320px;
+}
+
+.asterisk_sms-table td:nth-child(1),
+.asterisk_sms-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.asterisk_sms-table td:nth-child(2),
+.asterisk_sms-table th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.asterisk_sms-table td:nth-child(3),
+.asterisk_sms-table th:nth-child(3) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+#exp_pre_f4 td:nth-child(1),
+#exp_pre_f4 th:nth-child(1) {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+#exp_pre_f4 td:nth-child(2),
+#exp_pre_f4 th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+#exp_pre_f4 td:nth-child(3),
+#exp_pre_f4 th:nth-child(3) {
+    width: 100px;
+    max-width: 100px;
+}
+
+#exp_pre_f4 td:nth-child(4),
+#exp_pre_f4 th:nth-child(4) {
+    width: 100px;
+    max-width: 100px;
+}
+
+#exp_pre_f4 td:nth-child(5),
+#exp_pre_f4 th:nth-child(5) {
+    width: 100px;
+    max-width: 100px;
+}
+
+.sector-expert-table td:nth-child(1),
+.sector-expert-table th:nth-child(1) {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.sector-expert-table td:nth-child(2),
+.sector-expert-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sector-expert-table td:nth-child(3),
+.sector-expert-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sector-expert-table td:nth-child(4),
+.sector-expert-table th:nth-child(4) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.air-master-table tbody td:nth-child(1),
+.air-master-table thead th:nth-child(1) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.air-master-table tbody td:nth-child(2),
+.air-master-table thead th:nth-child(2) {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.air-master-table tbody td:nth-child(3),
+.air-master-table thead th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.air-master-table tbody td:nth-child(4),
+.air-master-table thead th:nth-child(4) {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.air-master-table tbody td:nth-child(5),
+.air-master-table thead th:nth-child(5) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.addnewwrapper-table tbody td:nth-child(1),
+.addnewwrapper-table thead th:nth-child(1) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.addnewwrapper-table tbody td:nth-child(2),
+.addnewwrapper-table thead th:nth-child(2) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.addnewwrapper-table tbody td:nth-child(3),
+.addnewwrapper-table thead th:nth-child(3) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.addnewwrapper-table tbody td:nth-child(4),
+.addnewwrapper-table thead th:nth-child(4) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.addnewwrapper-table tbody td:nth-child(5),
+.addnewwrapper-table thead th:nth-child(5) {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.addnewwrapper-table tbody td:nth-child(6),
+.addnewwrapper-table thead th:nth-child(6) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tourseries_testimonial-table tbody td:nth-child(1),
+.tourseries_testimonial-table thead th:nth-child(1) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.tourseries_testimonial-table tbody td:nth-child(2),
+.tourseries_testimonial-table thead th:nth-child(2) {
+    min-width: 140px;
+    max-width: 140px;
+}
+
+.tourseries_testimonial-table tbody td:nth-child(3),
+.tourseries_testimonial-table thead th:nth-child(3) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.active-tour-table td:nth-child(9),
+.active-tour-table th:nth-child(9) {
+    width: 200px;
+    max-width: 200px;
+}
+
+.module-table td:nth-child(1),
+.module-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.module-table td:nth-child(2),
+.module-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.relgion-table td:nth-child(1),
+.relgion-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.relgion-table td:nth-child(2),
+.relgion-table th:nth-child(2) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.usp-table td:nth-child(1),
+.usp-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.usp-table td:nth-child(2),
+.usp-table th:nth-child(2) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.language-table td:nth-child(1),
+.language-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.language-table td:nth-child(2),
+.language-table th:nth-child(2) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.history-master-table td:nth-child(1),
+.history-master-table th:nth-child(1) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.history-master-table td:nth-child(2),
+.history-master-table th:nth-child(2) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.history-master-table td:nth-child(3),
+.history-master-table th:nth-child(3) {
+    min-width: 90px;
+    max-width: 90px;
+    width: 90px;
+}
+
+.history-master-table td:nth-child(4),
+.history-master-table th:nth-child(4) {
+    min-width: 110px;
+    max-width: 110px;
+    width: 110px;
+}
+
+.history-master-table td:nth-child(5),
+.history-master-table th:nth-child(5) {
+    min-width: 70px;
+    max-width: 70px;
+    width: 70px;
+}
+
+.history-master-table td:nth-child(6),
+.history-master-table th:nth-child(6) {
+    min-width: 70px;
+    max-width: 70px;
+    width: 70px;
+}
+
+.enet-table td:nth-child(1),
+.enet-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.enet-table td:nth-child(2),
+.enet-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.enet-table td:nth-child(3),
+.enet-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.enet-table td:nth-child(4),
+.enet-table th:nth-child(4) {
+    min-width: 112px;
+    max-width: 112px;
+}
+
+.enet-table td:nth-child(5),
+.enet-table th:nth-child(5) {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.enet-table td:nth-child(6),
+.enet-table th:nth-child(6) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.enet-table td:nth-child(7),
+.enet-table th:nth-child(7) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.enet-table td:nth-child(8),
+.enet-table th:nth-child(8) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.enet-table td:nth-child(9),
+.enet-table th:nth-child(9) {
+    min-width: 220px;
+    max-width: 220px;
+}
+
+.enet-table td:nth-child(10),
+.enet-table th:nth-child(10) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.tablesorter-scroller-header input {
+    width: 100%;
+}
+
+
+/*
+.active_tour_table tbody td:nth-child(1), .active_tour_table  thead th:nth-child(1){min-width: 90px;}
+.active_tour_table tbody td:nth-child(2), .active_tour_table  thead th:nth-child(2){min-width: 90px;}
+.active_tour_table tbody td:nth-child(3), .active_tour_table  thead th:nth-child(3){min-width: 90px;}
+.active_tour_table tbody td:nth-child(4), .active_tour_table  thead th:nth-child(4){min-width: 90px;}
+.active_tour_table tbody td:nth-child(5), .active_tour_table  thead th:nth-child(5){min-width: 90px;}
+.active_tour_table tbody td:nth-child(6), .active_tour_table  thead th:nth-child(6){min-width: 90px;}
+.active_tour_table tbody td:nth-child(7), .active_tour_table  thead th:nth-child(7){min-width: 130px;}
+.active_tour_table tbody td:nth-child(8), .active_tour_table  thead th:nth-child(8){min-width: 130px;}
+.active_tour_table tbody td:nth-child(9), .active_tour_table  thead th:nth-child(9){min-width: 110px;}
+.active_tour_table tbody td:nth-child(10), .active_tour_table thead  th:nth-child(10){min-width: 70px;}
+.active_tour_table tbody td:nth-child(11), .active_tour_table thead  th:nth-child(11){min-width: 60px;}
+.active_tour_table tbody td:nth-child(12), .active_tour_table thead  th:nth-child(12){max-width: 80px!important;}
+.active_tour_table tbody td:nth-child(13), .active_tour_table thead  th:nth-child(13){min-width: 70px;}
+.active_tour_table tbody td:nth-child(14), .active_tour_table thead  th:nth-child(14){ min-width: 95px;}
+*/
+
+.airline-table td:nth-child(1),
+.airline-table th:nth-child(1) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.airline-table td:nth-child(2),
+.airline-table th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.airline-table td:nth-child(3),
+.airline-table th:nth-child(3) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.airline-table td:nth-child(4),
+.airline-table th:nth-child(4) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.airline-table td:nth-child(5),
+.airline-table th:nth-child(5) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.airline-table td:nth-child(6),
+.airline-table th:nth-child(6) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.airline-table td:nth-child(7),
+.airline-table th:nth-child(7) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.airline-table td:nth-child(8),
+.airline-table th:nth-child(8) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.airline-table td:nth-child(9),
+.airline-table th:nth-child(9) {
+    min-width: 220px;
+    max-width: 220px;
+}
+
+.airline-table td:nth-child(10),
+.airline-table th:nth-child(10) {
+    min-width: 105px;
+    max-width: 105px;
+}
+/*
+.data-screen-table td:nth-child(1),
+.data-screen-table th:nth-child(1) {
+    min-width: 240px;
+    max-width: 240px;
+}
+
+.data-screen-table td:nth-child(2),
+.data-screen-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.data-screen-table td:nth-child(3),
+.data-screen-table th:nth-child(3) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.data-screen-table td:nth-child(4),
+.data-screen-table th:nth-child(4) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.data-screen-table td:nth-child(5),
+.data-screen-table th:nth-child(5) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.data-screen-table td:nth-child(6),
+.data-screen-table th:nth-child(6) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.data-screen-table td:nth-child(7),
+.data-screen-table th:nth-child(7) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.data-screen-table td:nth-child(8),
+.data-screen-table th:nth-child(8) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.data-screen-table td:nth-child(9),
+.data-screen-table th:nth-child(9) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.data-screen-table td:nth-child(10),
+.data-screen-table th:nth-child(10) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.data-screen-table td:nth-child(11),
+.data-screen-table th:nth-child(11) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.data-screen-table td:nth-child(12),
+.data-screen-table th:nth-child(12) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.data-screen-table td:nth-child(13),
+.data-screen-table th:nth-child(13) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.data-screen-table td:nth-child(14),
+.data-screen-table th:nth-child(14) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.data-screen-table td:nth-child(15),
+.data-screen-table th:nth-child(15) {
+    min-width: 100px;
+    max-width: 100px;
+}
+*/
+
+/*asterisk config page start*/
+
+.asterisk_config_table td:nth-child(1),
+.asterisk_config_table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.asterisk_config_table td:nth-child(2),
+.asterisk_config_table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.asterisk_config_table td:nth-child(3),
+.asterisk_config_table th:nth-child(3) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.asterisk_config_table td:nth-child(4),
+.asterisk_config_table th:nth-child(4) {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+.asterisk_config_table td:nth-child(5),
+.asterisk_config_table th:nth-child(5) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.asterisk_config_table td:nth-child(6),
+.asterisk_config_table th:nth-child(6) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.asterisk_config_table td:nth-child(7),
+.asterisk_config_table th:nth-child(7) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+
+/*asterisk config page end*/
+
+.history-form-table td:nth-child(1),
+.history-form-table th:nth-child(1) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.history-form-table td:nth-child(2),
+.history-form-table th:nth-child(2) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.history-form-table td:nth-child(3),
+.history-form-table th:nth-child(3) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.history-form-table td:nth-child(4),
+.history-form-table th:nth-child(4) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.history-form-table td:nth-child(5),
+.history-form-table th:nth-child(5) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.history-form-table td:nth-child(6),
+.history-form-table th:nth-child(6) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.api_service_table td:nth-child(1),
+.api_service_table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+    word-break: break-all;
+}
+
+.api_service_table td:nth-child(2),
+.api_service_table th:nth-child(2) {
+    min-width: 150px;
+    max-width: 150px;
+    width: 150px;
+}
+
+.api_service_table td:nth-child(3),
+.api_service_table th:nth-child(3) {
+    min-width: 150px;
+    max-width: 150px;
+    width: 150px;
+}
+
+.api_service_table td:nth-child(4),
+.api_service_table th:nth-child(4) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+
+#fetch_result td:nth-child(1),
+#fetch_result th:nth-child(1) {
+    min-width: 110px;
+    width: 110px;
+    max-width: 110px;
+}
+
+#fetch_result td:nth-child(2),
+#fetch_result th:nth-child(2) {
+    min-width: 175px;
+    width: 175px;
+    max-width: 175px;
+}
+
+#fetch_result td:nth-child(3),
+#fetch_result th:nth-child(3) {
+    min-width: 85px;
+    width: 85px;
+    max-width: 85px;
+}
+
+#fetch_result td:nth-child(4),
+#fetch_result th:nth-child(4) {
+    min-width: 170px;
+    width: 170px;
+    max-width: 170px;
+}
+
+.advertisement__schedular__table td:nth-child(1),
+.advertisement__schedular__table th:nth-child(1) {
+    min-width: 40px !important;
+    max-width: 40px !important;
+}
+
+.advertisement__schedular__table td:nth-child(2),
+.advertisement__schedular__table th:nth-child(2) {
+    min-width: 90px !important;
+    max-width: 90px !important;
+}
+
+.advertisement__schedular__table td:nth-child(3),
+.advertisement__schedular__table th:nth-child(3) {
+    min-width: 150px !important;
+    max-width: 150px !important;
+}
+
+.advertisement__schedular__table td:nth-child(4),
+.advertisement__schedular__table th:nth-child(4) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.advertisement__schedular__table td:nth-child(5),
+.advertisement__schedular__table th:nth-child(5) {
+    min-width: 70px !important;
+    max-width: 70px !important;
+}
+
+.advertisement__schedular__table td:nth-child(6),
+.advertisement__schedular__table th:nth-child(6) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.advertisement__schedular__table td:nth-child(7),
+.advertisement__schedular__table th:nth-child(7) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.advertisement__schedular__table td:nth-child(8),
+.advertisement__schedular__table th:nth-child(8) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.advertisement__schedular__table td:nth-child(9),
+.advertisement__schedular__table th:nth-child(9) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.advertisement__schedular__table td:nth-child(10),
+.advertisement__schedular__table th:nth-child(10) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.advertisement__schedular__table td:nth-child(11),
+.advertisement__schedular__table th:nth-child(11) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.advertisement__schedular__table td:nth-child(12),
+.advertisement__schedular__table th:nth-child(12) {
+    min-width: 80px !important;
+    max-width: 80px !important;
+}
+
+.marathi__copy__table th:nth-child(1),
+.marathi__copy__table td:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.marathi__copy__table th:nth-child(2),
+.marathi__copy__table td:nth-child(2) {
+    min-width: 220px;
+    max-width: 220px;
+}
+
+.marathi__copy__table th:nth-child(3),
+.marathi__copy__table td:nth-child(3) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.staticpg-table td:nth-child(1),
+.staticpg-table th:nth-child(1) {
+    min-width: 125px;
+    width: 125px;
+    max-width: 125px;
+}
+
+.staticpg-table td:nth-child(2),
+.staticpg-table th:nth-child(2) {
+    min-width: 220px;
+    width: 220px;
+    max-width: 220px;
+}
+
+.psa-feedback-modal-table td:nth-child(1),
+.psa-feedback-modal-table th:nth-child(1) {
+    min-width: 400px;
+    width: 400px;
+    max-width: 400px;
+}
+
+.psa-feedback-modal-table td:nth-child(2),
+.psa-feedback-modal-table th:nth-child(2) {
+    min-width: 400px;
+    width: 400px;
+    max-width: 400px;
+}
+
+.faq-master td:nth-child(1),
+.faq-master th:nth-child(1) {
+    min-width: 125px;
+    width: 125px;
+    max-width: 125px;
+}
+
+.faq-master td:nth-child(2),
+.faq-master th:nth-child(2) {
+    min-width: 87px;
+    width: 87px;
+    max-width: 87px;
+}
+
+.faq-master td:nth-child(3),
+.faq-master th:nth-child(3) {
+    min-width: 87px;
+    width: 87px;
+    max-width: 87px;
+}
+
+.gr_feedback_table td:nth-child(1),
+.gr_feedback_table th:nth-child(1) {
+    min-width: 80px;
+    width: 80px;
+    max-width: 80px;
+}
+
+.gr_feedback_table td:nth-child(2),
+.gr_feedback_table th:nth-child(2) {
+    min-width: 125px;
+    width: 125px;
+    max-width: 125px;
+}
+
+.gr_feedback_table td:nth-child(3),
+.gr_feedback_table th:nth-child(3) {
+    min-width: 80px;
+    width: 80px;
+    max-width: 80px;
+}
+
+.gr_feedback_table td:nth-child(4),
+.gr_feedback_table th:nth-child(4) {
+    min-width: 100px;
+    width: 100px;
+    max-width: 100px;
+}
+
+.video_link td:nth-child(1),
+.video_link th:nth-child(1) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.video_link td:nth-child(2),
+.video_link th:nth-child(2) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.wanip_table td:nth-child(1),
+.wanip_table th:nth-child(1) {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.wanip_table td:nth-child(2),
+.wanip_table th:nth-child(2) {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.wanip_table td:nth-child(3),
+.wanip_table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.iptagging_table td:nth-child(1),
+.iptagging_table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.iptagging_table td:nth-child(2),
+.iptagging_table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.iptagging_table td:nth-child(3),
+.iptagging_table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.iptagging_table td:nth-child(4),
+.iptagging_table th:nth-child(4) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.iptagging_table td:nth-child(5),
+.iptagging_table th:nth-child(5) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.iptagging_table td:nth-child(6),
+.iptagging_table th:nth-child(6) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.full-guest-table td:nth-child(1),
+.full-guest-table th:nth-child(1) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.full-guest-table td:nth-child(2),
+.full-guest-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.full-guest-table td:nth-child(3),
+.full-guest-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.full-guest-table td:nth-child(4),
+.full-guest-table th:nth-child(4) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.full-guest-table td:nth-child(5),
+.full-guest-table th:nth-child(5) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.full-guest-table td:nth-child(6),
+.full-guest-table th:nth-child(6) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.full-guest-table td:nth-child(7),
+.full-guest-table th:nth-child(7) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.full-guest-table td:nth-child(8),
+.full-guest-table th:nth-child(8) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.full-guest-table td:nth-child(9),
+.full-guest-table th:nth-child(9) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.full-guest-table td:nth-child(10),
+.full-guest-table th:nth-child(10) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.full-guest-table td:nth-child(11),
+.full-guest-table th:nth-child(11) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tl-enquiries-table td:nth-child(1),
+.tl-enquiries-table th:nth-child(1) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.tl-enquiries-table td:nth-child(2),
+.tl-enquiries-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tl-enquiries-table td:nth-child(3),
+.tl-enquiries-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tl-enquiries-table td:nth-child(4),
+.tl-enquiries-table th:nth-child(4) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.tl-enquiries-table td:nth-child(5),
+.tl-enquiries-table th:nth-child(5) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tl-enquiries-table td:nth-child(6),
+.tl-enquiries-table th:nth-child(6) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tl-enquiries-table td:nth-child(7),
+.tl-enquiries-table th:nth-child(7) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tl-enquiries-table td:nth-child(8),
+.tl-enquiries-table th:nth-child(8) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.tl-enquiries-table td:nth-child(9),
+.tl-enquiries-table th:nth-child(9) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tl-enquiries-table td:nth-child(10),
+.tl-enquiries-table th:nth-child(10) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tl-enquiries-table td:nth-child(11),
+.tl-enquiries-table th:nth-child(11) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tl-enquiries-table td:nth-child(12),
+.tl-enquiries-table th:nth-child(12) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tl-enquiries-table td:nth-child(13),
+.tl-enquiries-table th:nth-child(13) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.tourname-table td:nth-child(1),
+.tourname-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tourname-table td:nth-child(2),
+.tourname-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tourname-table td:nth-child(3),
+.tourname-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tourname-master-table td:nth-child(1),
+.tourname-master-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tourname-master-table td:nth-child(2),
+.tourname-master-table th:nth-child(2) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.tourname-master-table td:nth-child(3),
+.tourname-master-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sales-report-table td:nth-child(1),
+.sales-report-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sales-report-table td:nth-child(2),
+.sales-report-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sales-report-table td:nth-child(3),
+.sales-report-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sightseeing-kk-table td:nth-child(1),
+.sightseeing-kk-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sightseeing-kk-table td:nth-child(2),
+.sightseeing-kk-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sightseeing-kk-table td:nth-child(3),
+.sightseeing-kk-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sightseeing-kk-table td:nth-child(4),
+.sightseeing-kk-table th:nth-child(4) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sugg-view-table td:nth-child(1),
+.sugg-view-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sugg-view-table td:nth-child(2),
+.sugg-view-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sugg-view-table td:nth-child(3),
+.sugg-view-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.sugg-view-table td:nth-child(4),
+.sugg-view-table th:nth-child(4) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+.marketing-indomodal-table td:nth-child(1),
+.marketing-indomodal-table th:nth-child(1) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.marketing-indomodal-table td:nth-child(2),
+.marketing-indomodal-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.marketing-indomodal-table td:nth-child(3),
+.marketing-indomodal-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.marketing-indomodal-table td:nth-child(4),
+.marketing-indomodal-table th:nth-child(4) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.marketing-indomodal-table td:nth-child(5),
+.marketing-indomodal-table th:nth-child(5) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.marketing-indomodal-table td:nth-child(6),
+.marketing-indomodal-table th:nth-child(6) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.tour-chart-table td:nth-child(1),
+.tour-chart-table th:nth-child(1) {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+.tour-chart-table td:nth-child(2),
+.tour-chart-table th:nth-child(2) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.tour-chart-table td:nth-child(3),
+.tour-chart-table th:nth-child(3) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.tour-chart-table td:nth-child(4),
+.tour-chart-table th:nth-child(4) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.tour-chart-table td:nth-child(5),
+.tour-chart-table th:nth-child(5) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.tour-chart-table td:nth-child(6),
+.tour-chart-table th:nth-child(6) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.tour-chart-table td:nth-child(7),
+.tour-chart-table th:nth-child(7) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.tour-chart-table td:nth-child(8),
+.tour-chart-table th:nth-child(8) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.tour-chart-table td:nth-child(9),
+.tour-chart-table th:nth-child(9) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.tour-chart-table td:nth-child(10),
+.tour-chart-table th:nth-child(10) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.tour-chart-table td:nth-child(11),
+.tour-chart-table th:nth-child(11) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.tour-chart-table td:nth-child(12),
+.tour-chart-table th:nth-child(12) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.tour-chart-table td:nth-child(13),
+.tour-chart-table th:nth-child(13) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.tour-chart-table td:nth-child(14),
+.tour-chart-table th:nth-child(14) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.tour-chart-table td:nth-child(15),
+.tour-chart-table th:nth-child(15) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+
+/* View Help Desk Table */
+
+.view-help-desk-table th:first-child,
+.view-help-desk-table td:first-child {
+    min-width: 165px;
+    max-width: 165px;
+}
+
+.view-help-desk-table td:nth-child(2),
+.view-help-desk-table th:nth-child(2) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.view-help-desk-table td:nth-child(3),
+.view-help-desk-table th:nth-child(3) {
+    min-width: 220px;
+    max-width: 220px;
+}
+
+.view-help-desk-table td:last-child,
+.view-help-desk-table th:last-child {
+    min-width: 125px;
+    max-width: 125px;
+}
+
+
+/* Country Master Table */
+
+.countryMaster th:first-child,
+.countryMaster td:first-child {
+    min-width: 115px;
+    max-width: 115px;
+}
+
+.countryMaster td:nth-child(2),
+.countryMaster th:nth-child(2) {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.countryMaster td:nth-child(3),
+.countryMaster th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.countryMaster td:nth-child(4),
+.countryMaster th:nth-child(4) {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+.countryMaster td:nth-child(5),
+.countryMaster th:nth-child(5),
+.countryMaster td:nth-child(6),
+.countryMaster th:nth-child(6),
+.countryMaster td:nth-child(7),
+.countryMaster th:nth-child(7),
+.countryMaster td:nth-child(8),
+.countryMaster th:nth-child(8) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.countryMaster td:nth-child(9),
+.countryMaster th:nth-child(9),
+.countryMaster td:last-child,
+.countryMaster th:last-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/* Tour Sector Evaluation Table */
+
+.tour-sector-eva-table th:first-child,
+.tour-sector-eva-table td:first-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.tour-sector-eva-table th:nth-child(2),
+.tour-sector-eva-table td:nth-child(2) {
+    min-width: 45px;
+    max-width: 45px;
+}
+
+.tour-sector-eva-table th:nth-child(3),
+.tour-sector-eva-table td:nth-child(3) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.tour-sector-eva-table th:nth-child(4),
+.tour-sector-eva-table td:nth-child(4) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.tour-sector-eva-table th:last-child,
+.tour-sector-eva-table td:last-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+
+/* Tour Sector Evaluation Table */
+
+.tour-zone-eva-table th:first-child,
+.tour-zone-eva-table td:first-child,
+.tour-zone-eva-table th:nth-child(3),
+.tour-zone-eva-table td:nth-child(3) {
+    min-width: 75px;
+    max-width: 75px;
+}
+
+.tour-zone-eva-table th:nth-child(2),
+.tour-zone-eva-table td:nth-child(2) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.tour-zone-eva-table th:nth-child(4),
+.tour-zone-eva-table td:nth-child(4) {
+    min-width: 135px;
+    max-width: 135px;
+}
+
+.tour-zone-eva-table th:last-child,
+.tour-zone-eva-table td:last-child {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+
+/* Airline Time Table */
+
+.airline-time-table th:first-child,
+.airline-time-table td:first-child {
+    min-width: 105px;
+    max-width: 105px;
+}
+
+.airline-time-table th:nth-child(2),
+.airline-time-table td:nth-child(2) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.airline-time-table th:nth-child(3),
+.airline-time-table td:nth-child(3) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.airline-time-table th:nth-child(4),
+.airline-time-table td:nth-child(4),
+.airline-time-table th:nth-child(5),
+.airline-time-table td:nth-child(5),
+.airline-time-table th:nth-child(6),
+.airline-time-table td:nth-child(6),
+.airline-time-table th:nth-child(7),
+.airline-time-table td:nth-child(7),
+.airline-time-table th:nth-child(8),
+.airline-time-table td:nth-child(8) {
+    min-width: 45px;
+    max-width: 45px;
+}
+
+.airline-time-table th:nth-child(9),
+.airline-time-table td:nth-child(9) {
+    min-width: 65px;
+    max-width: 65px;
+}
+
+.airline-time-table th:nth-child(10),
+.airline-time-table td:nth-child(10) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.airline-time-table th:nth-child(11),
+.airline-time-table td:nth-child(11) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+.airline-time-table th:last-child,
+.airline-time-table td:last-child {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+
+/* Manager Dashboard Table */
+
+#pending-table .manager-dashboard-table th:first-child,
+#pending-table .manager-dashboard-table td:first-child {
+    min-width: 40px;
+    max-width: 40px;
+}
+
+#pending-table .manager-dashboard-table th:nth-child(2),
+#pending-table .manager-dashboard-table td:nth-child(2) {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+#pending-table .manager-dashboard-table th:nth-child(3),
+#pending-table .manager-dashboard-table td:nth-child(3) {
+    min-width: 180px;
+    max-width: 180px;
+}
+
+#pending-table .manager-dashboard-table th:nth-child(4),
+#pending-table .manager-dashboard-table td:nth-child(4) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+#pending-table .manager-dashboard-table th:nth-child(5),
+#pending-table .manager-dashboard-table td:nth-child(5) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+#pending-table .manager-dashboard-table th:nth-child(6),
+#pending-table .manager-dashboard-table td:nth-child(6) {
+    min-width: 85px;
+    max-width: 85px;
+}
+
+#pending-table .manager-dashboard-table th:nth-child(7),
+#pending-table .manager-dashboard-table td:nth-child(7),
+#pending-table .manager-dashboard-table th:nth-child(8),
+#pending-table .manager-dashboard-table td:nth-child(8) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+#pending-table .manager-dashboard-table th:nth-child(9),
+#pending-table .manager-dashboard-table td:nth-child(9) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+#pending-table .manager-dashboard-table th:last-child,
+#pending-table .manager-dashboard-table td:last-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+#approval-table .manager-dashboard-table th:first-child,
+#approval-table .manager-dashboard-table td:first-child,
+#rejected-table .manager-dashboard-table th:first-child,
+#rejected-table .manager-dashboard-table td:first-child {
+    min-width: 10px;
+    max-width: 10px;
+}
+
+#approval-table .manager-dashboard-table th:nth-child(2),
+#approval-table .manager-dashboard-table td:nth-child(2),
+#rejected-table .manager-dashboard-table th:nth-child(2),
+#rejected-table .manager-dashboard-table td:nth-child(2) {
+    min-width: 125px;
+    max-width: 125px;
+}
+
+#approval-table .manager-dashboard-table th:nth-child(3),
+#approval-table .manager-dashboard-table td:nth-child(3),
+#rejected-table .manager-dashboard-table th:nth-child(3),
+#rejected-table .manager-dashboard-table td:nth-child(3) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+#approval-table .manager-dashboard-table th:nth-child(4),
+#approval-table .manager-dashboard-table td:nth-child(4),
+#rejected-table .manager-dashboard-table th:nth-child(4),
+#rejected-table .manager-dashboard-table td:nth-child(4) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+#approval-table .manager-dashboard-table th:nth-child(5),
+#approval-table .manager-dashboard-table td:nth-child(5),
+#rejected-table .manager-dashboard-table th:nth-child(5),
+#rejected-table .manager-dashboard-table td:nth-child(5) {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+#approval-table .manager-dashboard-table th:nth-child(6),
+#approval-table .manager-dashboard-table td:nth-child(6),
+#rejected-table .manager-dashboard-table th:nth-child(6),
+#rejected-table .manager-dashboard-table td:nth-child(6) {
+    min-width: 85px;
+    max-width: 85px;
+}
+
+#approval-table .manager-dashboard-table th:nth-child(7),
+#approval-table .manager-dashboard-table td:nth-child(7),
+#rejected-table .manager-dashboard-table th:nth-child(7),
+#rejected-table .manager-dashboard-table td:nth-child(7) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+#approval-table .manager-dashboard-table th:nth-child(8),
+#approval-table .manager-dashboard-table td:nth-child(8),
+#rejected-table .manager-dashboard-table th:nth-child(8),
+#rejected-table .manager-dashboard-table td:nth-child(8) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+#approval-table .manager-dashboard-table th:nth-child(9),
+#approval-table .manager-dashboard-table td:nth-child(9),
+#rejected-table .manager-dashboard-table th:nth-child(9),
+#rejected-table .manager-dashboard-table td:nth-child(9) {
+    min-width: 95px;
+    max-width: 95px;
+}
+
+#approval-table .manager-dashboard-table th:last-child,
+#approval-table .manager-dashboard-table td:last-child,
+#rejected-table .manager-dashboard-table th:last-child,
+#rejected-table .manager-dashboard-table td:last-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+
+/* IT Dashboard Table */
+
+.it-dashboard-table th:first-child,
+.it-dashboard-table td:first-child {
+    min-width: 160px;
+    max-width: 160px;
+}
+
+.it-dashboard-table th:nth-child(2),
+.it-dashboard-table td:nth-child(2) {
+    min-width: 130px;
+    max-width: 130px;
+}
+
+.it-dashboard-table th:nth-child(3),
+.it-dashboard-table td:nth-child(3) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.it-dashboard-table th:nth-child(4),
+.it-dashboard-table td:nth-child(4) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.it-dashboard-table th:nth-child(5),
+.it-dashboard-table td:nth-child(5) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.it-dashboard-table th:nth-child(6),
+.it-dashboard-table td:nth-child(6) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.it-dashboard-table th:nth-child(7),
+.it-dashboard-table td:nth-child(7) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.it-dashboard-table th:nth-child(8),
+.it-dashboard-table td:nth-child(8) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.it-dashboard-table th:nth-child(9),
+.it-dashboard-table td:nth-child(9) {
+    min-width: 85px;
+    max-width: 85px;
+}
+
+.it-dashboard-table th:nth-child(10),
+.it-dashboard-table td:nth-child(10) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.it-dashboard-table th:last-child,
+.it-dashboard-table td:last-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+
+/* IT Dashboard Table */
+
+.mice-testi-table th:first-child,
+.mice-testi-table td:first-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.mice-testi-table th:nth-child(2),
+.mice-testi-table td:nth-child(2) {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+.mice-testi-table th:nth-child(3),
+.mice-testi-table td:nth-child(3) {
+    min-width: 125px;
+    max-width: 125px;
+}
+
+.mice-testi-table th:last-child,
+.mice-testi-table td:last-child {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+
+/* Stateroom Master Table */
+
+.stateroom-master-table th:first-child,
+.stateroom-master-table td:first-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.stateroom-master-table th:nth-child(2),
+.stateroom-master-table td:nth-child(2) {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.stateroom-master-table th:last-child,
+.stateroom-master-table td:last-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/* Tour Analysis Report Table */
+
+.tour-analysis-report-table td:first-child,
+.tour-analysis-report-table th:first-child {
+    min-width: 65px;
+    max-width: 65px;
+}
+
+.tour-analysis-report-table td:nth-child(2),
+.tour-analysis-report-table th:nth-child(2) {
+    min-width: 85px;
+    max-width: 85px;
+}
+
+.tour-analysis-report-table td:nth-child(3),
+.tour-analysis-report-table th:nth-child(3),
+.tour-analysis-report-table td:nth-child(4),
+.tour-analysis-report-table th:nth-child(4) {
+    min-width: 45px;
+    max-width: 45px;
+}
+
+.tour-analysis-report-table td:nth-child(5),
+.tour-analysis-report-table th:nth-child(5) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.tour-analysis-report-table td:nth-child(6),
+.tour-analysis-report-table th:nth-child(6) {
+    min-width: 55px;
+    max-width: 55px;
+}
+
+.tour-analysis-report-table td:nth-child(7),
+.tour-analysis-report-table th:nth-child(7) {
+    min-width: 65px;
+    max-width: 65px;
+}
+
+.tour-analysis-report-table td:nth-child(8),
+.tour-analysis-report-table th:nth-child(8) {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.tour-analysis-report-table td:nth-child(9),
+.tour-analysis-report-table th:nth-child(9) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.tour-analysis-report-table td:nth-child(10),
+.tour-analysis-report-table th:nth-child(10) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.tour-analysis-report-table td:nth-child(11),
+.tour-analysis-report-table th:nth-child(11) {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.tour-analysis-report-table td:nth-child(12),
+.tour-analysis-report-table th:nth-child(12) {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.tour-analysis-report-table td:last-child,
+.tour-analysis-report-table th:last-child {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+
+/* Budget & Pricing Table */
+
+.budget-pricing-table td:first-child,
+.budget-pricing-table th:first-child {
+    min-width: 50px;
+    max-width: 50px;
+}
+
+.budget-pricing-table td:nth-child(2),
+.budget-pricing-table th:nth-child(2) {
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.budget-pricing-table td:nth-child(3),
+.budget-pricing-table th:nth-child(3),
+.budget-pricing-table td:nth-child(4),
+.budget-pricing-table th:nth-child(4),
+.budget-pricing-table td:nth-child(5),
+.budget-pricing-table th:nth-child(5),
+.budget-pricing-table td:nth-child(6),
+.budget-pricing-table th:nth-child(6),
+.budget-pricing-table td:nth-child(7),
+.budget-pricing-table th:nth-child(7),
+.budget-pricing-table td:nth-child(11),
+.budget-pricing-table th:nth-child(11) {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.budget-pricing-table td:nth-child(8),
+.budget-pricing-table th:nth-child(8),
+.budget-pricing-table td:nth-child(9),
+.budget-pricing-table th:nth-child(9),
+.budget-pricing-table td:nth-child(10),
+.budget-pricing-table th:nth-child(10) {
+    min-width: 110px;
+    max-width: 110px;
+}
+
+.budget-pricing-table td:nth-child(12),
+.budget-pricing-table th:nth-child(12) {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.budget-pricing-table td:nth-child(13),
+.budget-pricing-table th:nth-child(13) {
+    min-width: 70px;
+    max-width: 70px;
+}
+
+.budget-pricing-table td:last-child,
+.budget-pricing-table th:last-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+
+/* Airline Sector Table */
+
+.airline-sector-table td:first-child,
+.airline-sector-table th:first-child {
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.airline-sector-table td:nth-child(2),
+.airline-sector-table th:nth-child(2),
+.airline-sector-table td:last-child,
+.airline-sector-table th:last-child {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+
+/* Upload Training Table */
+
+.upload-training-detail-table td:first-child,
+.upload-training-detail-table th:first-child {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+
+/*table.pushsns_table{width: auto!important;}*/
+
+
+/*.pushsns_table td:nth-child(1), .pushsns_table th:nth-child(1){min-width: 200px;max-width: 200px;width: 200px;}
+.pushsns_table td:nth-child(2), .pushsns_table th:nth-child(2){min-width: 100px;max-width: 100px;width: 100px}
+.pushsns_table td:nth-child(3), .pushsns_table th:nth-child(3){min-width: 200px;max-width: 200px;width: 200px}
+.pushsns_table td:nth-child(4), .pushsns_table th:nth-child(4){min-width: 150px;max-width: 150px;width: 150px}*/
+
+.bkg_statistics_table td:nth-child(1),
+.bkg_statistics_table th:nth-child(1) {
+    min-width: 30px;
+    max-width: 30px;
+    width: 30px;
+}
+
+.bkg_statistics_table td:nth-child(2),
+.bkg_statistics_table th:nth-child(2) {
+    min-width: 200px;
+    max-width: 200px;
+    width: 200px;
+}
+
+.bkg_statistics_table td:nth-child(3),
+.bkg_statistics_table th:nth-child(3) {
+    min-width: 80px;
+    max-width: 80px;
+    width: 80px;
+}
+
+.bkg_statistics_table td:nth-child(4),
+.bkg_statistics_table th:nth-child(4) {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px;
+}
+
+.bkg_statistics_table td:nth-child(5),
+.bkg_statistics_table th:nth-child(5) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+
+.bkg_statistics_table td:nth-child(6),
+.bkg_statistics_table th:nth-child(6) {
+    min-width: 50px;
+    max-width: 50px;
+    width: 50px;
+}
+
+.bkg_statistics_table td:nth-child(7),
+.bkg_statistics_table th:nth-child(7) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+
+.bkg_statistics_table td:nth-child(8),
+.bkg_statistics_table th:nth-child(8) {
+    min-width: 50px;
+    max-width: 50px;
+    width: 50px;
+}
+
+.bkg_statistics_table td:nth-child(9),
+.bkg_statistics_table th:nth-child(9) {
+    min-width: 90px;
+    max-width: 90px;
+    width: 90px;
+}
+
+.bkg_statistics_table td:nth-child(10),
+.bkg_statistics_table th:nth-child(10) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+
+.bkg_statistics_table td:nth-child(11),
+.bkg_statistics_table th:nth-child(11) {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px;
+}
+
+.bkg_statistics_table td:nth-child(12),
+.bkg_statistics_table th:nth-child(12) {
+    min-width: 120px;
+    max-width: 120px;
+    width: 120px;
+}
+
+.bkg_statistics_table td:nth-child(13),
+.bkg_statistics_table th:nth-child(13) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+
+.bkg_statistics_table td:nth-child(14),
+.bkg_statistics_table th:nth-child(14) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+
+.kra-table td:nth-child(1),
+.kra-table th:nth-child(1) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.kra-table td:nth-child(2),
+.kra-table th:nth-child(2) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.kra-table td:nth-child(3),
+.kra-table th:nth-child(3) {
+    min-width: 100px !important;
+    max-width: 100px !important;
+}
+
+.fncompetance-table td:nth-child(1),
+.fncompetance-table th:nth-child(1) {
+    min-width: 30px;
+    max-width: 30px;
+    width: 30px;
+}
+
+.fncompetance-table td:nth-child(2),
+.fncompetance-table th:nth-child(2) {
+    min-width: 150px;
+    max-width: 150px;
+    width: 150px;
+}
+
+.fncompetance-table td:nth-child(3),
+.fncompetance-table th:nth-child(3) {
+    min-width: 400px;
+    max-width: 400px;
+    width: 400px;
+}
+
+.fncompetance-table td:nth-child(4),
+.fncompetance-table th:nth-child(4) {
+    min-width: 70px;
+    max-width: 70px;
+    width: 70px;
+}
+
+.fncompetance-table td:nth-child(5),
+.fncompetance-table th:nth-child(5) {
+    min-width: 450px;
+    max-width: 450px;
+    width: 450px;
+}
+
+.fncompetance-table td:nth-child(6),
+.fncompetance-table th:nth-child(6) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+
+.gfncompetance-table td:nth-child(1),
+.gfncompetance-table th:nth-child(1) {
+    min-width: 30px;
+    max-width: 30px;
+    width: 30px;
+}
+
+.gfncompetance-table td:nth-child(2),
+.gfncompetance-table th:nth-child(2) {
+    min-width: 400px;
+    max-width: 400px;
+    width: 400px;
+}
+
+.gfncompetance-table td:nth-child(3),
+.gfncompetance-table th:nth-child(3) {
+    min-width: 400px;
+    max-width: 400px;
+    width: 400px;
+}
+
+.hfncompetance-table td:nth-child(1),
+.hfncompetance-table th:nth-child(1) {
+    min-width: 30px;
+    max-width: 30px;
+    width: 30px;
+}
+
+.hfncompetance-table td:nth-child(2),
+.hfncompetance-table th:nth-child(2) {
+    min-width: 400px;
+    max-width: 400px;
+    width: 400px;
+}
+
+.hfncompetance-table td:nth-child(3),
+.hfncompetance-table th:nth-child(3) {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+
+.hfncompetance-table td:nth-child(4),
+.hfncompetance-table th:nth-child(4) {
+    min-width: 400px;
+    max-width: 400px;
+    width: 400px;
+}
+
+.event-table td:nth-child(1),
+.event-table th:nth-child(1) {
+    min-width: 90px;
+    max-width: 90px;
+    width: 90px;
+}
+
+.event-table td:nth-child(2),
+.event-table th:nth-child(2) {
+    min-width: 90px;
+    max-width: 90px;
+    width: 90px;
+}
+
+.event-table td:nth-child(3),
+.event-table th:nth-child(3) {
+    min-width: 150px;
+    max-width: 150px;
+    width: 150px;
+}
+
+.event-table td:nth-child(4),
+.event-table th:nth-child(4) {
+    min-width: 232px;
+    max-width: 232px;
+    width: 232px;
+}
+
+.operator_leads_browse table tr th:nth-child(1),.operator_leads_browse table tr td:nth-child(1){min-width: 100px;max-width: 100px;width: 100px;}
+.operator_leads_browse table tr th:nth-child(2),.operator_leads_browse table tr td:nth-child(2){min-width: 80px;max-width: 80px;width: 80px;}
+.operator_leads_browse table tr th:nth-child(3),.operator_leads_browse table tr td:nth-child(3){min-width: 120px;max-width: 120px;width: 120px;}
+.operator_leads_browse table tr th:nth-child(4),.operator_leads_browse table tr td:nth-child(4){min-width: 80px;max-width: 80px;width: 80px;}
+.operator_leads_browse table tr th:nth-child(5),.operator_leads_browse table tr td:nth-child(5){min-width: 80px;max-width: 80px;width: 80px;}
+.operator_leads_browse table tr th:nth-child(6),.operator_leads_browse table tr td:nth-child(6){min-width: 80px;max-width: 80px;width: 80px;}
+
+.bank--statement--table table tr th:nth-child(6),.bank--statement--table table tr td:nth-child(6){
+    min-width: 280px;max-width: 280px;width: 280px;
+}
+.guest-communication-list tr th:nth-child(1),.guest-communication-list tr td:nth-child(1){min-width: 90px;max-width: 90px;width: 90px;}
+.guest-communication-list tr th:nth-child(2),.guest-communication-list tr td:nth-child(2){min-width: 50px;max-width: 50px;width: 50px;}
+.guest-communication-list tr th:nth-child(3),.guest-communication-list tr td:nth-child(3){min-width: 50px;max-width: 50px;width: 50px;}
+.guest-communication-list tr th:nth-child(5),.guest-communication-list tr td:nth-child(5){min-width: 250px;max-width: 250px;width: 250px;}
+.guest-communication-list tr th:nth-child(7),.guest-communication-list tr td:nth-child(7){min-width: 250px;max-width: 250px;width: 250px;}
+
+.guest--form--dttable tr th:nth-child(1),.guest--form--dttable tr td:nth-child(1){min-width: 130px;max-width: 130px;width: 130px;}
+.guest--form--dttable tr th:nth-child(2),.guest--form--dttable tr td:nth-child(2){min-width: 390px;max-width: 390px;width: 390px;}
+
+.booking-req-sub-table tr th:nth-child(1),.booking-req-sub-table tr td:nth-child(1){min-width: 130px;max-width: 130px;width: 130px;}
+.booking-req-sub-table tr th:nth-child(2),.booking-req-sub-table tr td:nth-child(2){min-width: 130px;max-width: 130px;width: 130px;}
+
+
+.GuestPassportName--table tr th:nth-child(1),.GuestPassportName--table tr td:nth-child(1){min-width: 60px;max-width: 60px;width: 60px;}
+.GuestPassportName--table tr th:nth-child(2),.GuestPassportName--table tr td:nth-child(2){min-width: 60px;max-width: 60px;width: 60px;}
+.GuestPassportName--table tr th:nth-child(3),.GuestPassportName--table tr td:nth-child(3){min-width: 300px;max-width: 300px;width: 300px;}
+.GuestPassportName--table tr th:nth-child(4),.GuestPassportName--table tr td:nth-child(4){min-width: 180px;max-width: 180px;width: 180px;}
+
+.advance-wrap-table tr th:nth-child(1),.advance-wrap-table tr td:nth-child(1){min-width: 90px;max-width: 90px;width: 90px;}
+.advance-wrap-table tr th:nth-child(2),.advance-wrap-table tr td:nth-child(2){min-width: 40px;max-width: 40px;width: 40px;}
+.advance-wrap-table tr th:nth-child(3),.advance-wrap-table tr td:nth-child(3){min-width: 80px;max-width: 80px;width: 80px;}
+.advance-wrap-table tr th:nth-child(4),.advance-wrap-table tr td:nth-child(4){min-width: 120px;max-width: 120px;width: 120px;}
+.advance-wrap-table tr th:nth-child(5),.advance-wrap-table tr td:nth-child(5){min-width: 100px;max-width: 100px;width: 100px;}
+.advance-wrap-table tr th:nth-child(6),.advance-wrap-table tr td:nth-child(6){min-width: 140px;max-width: 140px;width: 140px;}

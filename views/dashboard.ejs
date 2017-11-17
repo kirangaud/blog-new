@@ -1,0 +1,539 @@
+<% include partials/head %>
+    <style type="text/css">
+    .hide-alert-box {
+        display: none;
+    }
+    
+    .image_thumbnail {
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+        border: 1px solid;
+        padding: 1px;
+    }
+    
+    .header_images_push {
+        margin: 25px 0 0 -25px;
+    }
+    
+    .header_images_thumbnail_container {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .remove {
+        position: absolute;
+        bottom: -11px;
+        left: 9px;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .cke_editable img {
+        width: 100%;
+    }
+    </style>
+    <!--<script type="text/javascript" src="/ckeditor/ckeditor.js"></script> -->
+    <script src="//cdn.ckeditor.com/4.5.11/standard/ckeditor.js"></script>
+
+    <body>
+        <header class="dashboard_header">
+            <span id="logo-letter"><strong>K</strong></span>
+            <a class="logo" href="#">
+                <svg enable-background="new 0 0 48.3 11" viewBox="0 0 48.3 11" xmlns="http://www.w3.org/2000/svg" class="an-logo">
+                    <path d="M.004 10.13L9.338.794l.85.85-9.335 9.333zm18.688.043L9.358.84l.85-.85 9.332 9.335zm.003-.063L28.03.774l.848.85-9.334 9.332zm9.33-9.268l.85-.848 9.323 9.344-.85.848zm9.33 9.26l10.11-10.11.85.847-10.11 10.11z" clip-rule="evenodd" fill="#4bea91" style="fill: rgb(255, 236, 80);" />
+                </svg>
+            </a>
+            <nav class="logout">
+                <div><span class='logout-btn'>logout</span></div>
+            </nav>
+        </header>
+        <section id="container">
+            <div class="col-md-2 left-sidebar dashboard-sidebar">
+                <aside class="categories">
+                    <h3 class="sidebar-title-h3">Dashboard</h3>
+                    <ul>
+                        <li>Posts</li>
+                        <!-- <li>ART</li>
+						<li>Photography</li> -->
+                        <li>About</li>
+                        <!-- <li>Meta tags</li>
+						<li>Meta keywords</li> -->
+                        <li><a href="/imagesBrowse">Upload image</a></li>
+                        <!-- <li>SHORT STORIES</li> -->
+                    </ul>
+                </aside>
+            </div>
+            <div class="posts-parent-container col-md-6 dashboard-sidebar">
+                <form data-submit="processForm()" id="submit_post_form" action="/route/post/" autocomplete="off">
+                    <div class="box-body">
+                        <div class="form-group col-md-3">
+                            <label for="posts_title">Post Title</label>
+                            <input type="text" class="form-control posts_title" name="posts_title" placeholder="title" />
+                        </div>
+                        <div class="form-group col-md-6 select-box">
+                            <label>Category : </label>
+                            <select name="posts_category" id="posts_category" class="form-control">
+                                <option value="fashion">FASHION</option>
+                                <option value="art">ART</option>
+                                <option value="books">BOOKS</option>
+                                <option value="travel">TRAVEL</option>
+                                <option value="work">WORK</option>
+                                <option value="photography">PHOTOGRAPHY</option>
+                                <option value="short stories">SHORT STORIES</option>
+                            </select>
+                        </div>
+                        <!-- <div class="form-group col-md-12">
+							<label for="post_description">Post Details</label>
+							<textarea rows="6" class="form-control" name="post_description" id="post_description" placeholder="this is the place where everything started ...."></textarea>
+						</div> -->
+                        <div class="form-group col-md-6">
+                            <label for="meta_tag">Meta Tags : </label>
+                            <input type="text" class="form-control" name="meta_tag" placeholder="Tags" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="meta_keywords">Meta Keywords</label>
+                            <input type="text" class="form-control meta_keywords" name="meta_keywords" placeholder="Keywords" />
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="hash_tags">Hash tags</label>
+                            <input type="text" class="form-control" name="hash_tags" placeholder="Tags" />
+                        </div>
+                        <div class="form-group col-md-9">
+                            <div class="form-group col-md-10">
+                                <label for="hash_tags">Header images</label>
+                                <input type="text" class="form-control upload_header_img" name="post_header_images">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <input type="button" class="btn btn-primary header_images_push" data-click="reset()" value="Go" />
+                            </div>
+                            <div class="header_images_container form-group col-md-10"></div>
+                        </div>
+                        <!-- <div class="form-group col-md-6  padl0"> 
+                            <label for="backgroundImage">Add Image<span id="backgroundImage1_loader"></span></label>
+                            <input type="file" id="image_file" class="form-control upload_img" name="backgroundImage1">
+                            <input type="hidden" name="backgroundImage" id="backgroundImage1_input" class="form-control" >
+                            <div class="form-group col-md-6  padl0" id="backgroundImage1_img"> 
+                            </div>
+                        </div> -->
+                        <div class="form-group col-md-12">
+                            <label for="post_header_content">Post Header Content</label>
+                            <textarea rows="6" class="form-control" id="post_header_content" name="post_header_content" placeholder="this is the place where everything started ...."></textarea>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="post_description">Post Details</label>
+                            <textarea rows="6" class="form-control" name="post_description" id="post_description" placeholder="this is the place where everything started ...."></textarea>
+                        </div>
+                        <div class="form-group form-control col-md-12">
+                            <label for="isActive">Is Active</label>
+                            <input type="radio" name="isActive" value="true">Yes
+                            <input type="radio" name="isActive" value="false">No
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer col-md-12">
+                        <button type="submit" class="btn btn-primary btn-guest button-submit-form add-off" data-click="reset()">Save Post</button>
+                    </div>
+                    <div class="alert alert-success hide-alert-box" id="success-alert">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
+                        <strong>Success! </strong> Record added successfully.
+                    </div>
+                    <div class="alert alert-success hide-alert-box" id="custom_Success">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
+                        <strong>Success! </strong> Record Update successfully.
+                    </div>
+                    <div class="alert alert-danger hide-alert-box" id="danger-alert">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
+                        <strong>Error! </strong>
+                        <span class="custom_error"></span>
+                    </div>
+                    <label class="custom_error name_error"></label>
+                </form>
+            </div>
+            <div class="col-md-4 browse-grid">
+                <table>
+                </table>
+            </div>
+        </section>
+        <div class="row margin_reset footer">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer_links">
+                <!-- <h2>@2016 KIRAN GAUD Design Studio</h2> -->
+                <h2>@2016  Design Studio</h2>
+            </div>
+        </div>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="/javascripts/serialize.min.js"></script>
+        <!--<script src="https://raw.githubusercontent.com/citnvillareal/serializeObject/master/js/jquery-1.11.3.min.js"></script> -->
+        <!--<script type="text/javascript" src="/javascripts/jquery.hoverdir.js"></script>-->
+        <!--<script src="/javascripts/toucheffects.js"></script>-->
+        <script src="/javascripts/bootstrap.min.js"></script>
+        <script type="text/javascript">
+        function dateFormat(date) {
+            var date = new Date(date);
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1;
+            var day = date.getDate();
+            date = day + "/" + month + "/" + year;
+            return date;
+        }
+
+        function init() {
+
+        }
+
+        function scrollHeader() {
+            // alert("Hey");
+            var e = $(".header_container");
+            if ($(document).scrollTop > 100) {
+                e.addClass("scrolled");
+            } else {
+                e.addClass("scrolled");
+            }
+
+        }
+
+        function onScrollCheck() {
+            var e = $(".header_container");
+            scroll = $(window).scrollTop(), scroll > 0 ? e.addClass("scrolled") : e.addClass("scrolled"), scroll === 0 ? e.removeClass("scrolled") : e.addClass("scrolled"), $(".page-end").length && (scroll > $(".page-end").offset().top || scroll >= $("body").height() - $(window).height() ? $("body").addClass("at-page-end") : $("body").removeClass("at-page-end"));
+        }
+
+        function headerImagePush(image_path) {
+            if (image_path === "") {
+                alert("Please Add Image Path");
+            } else {
+                $('.upload_header_img').val('');
+                var count = $('.header_images_thumbnail_container').length;
+                var listItems = '';
+                listItems += '<div class="header_images_thumbnail_container">';
+                listItems += '<input type="hidden" class="form-control header_images" name="post_header_images[' + count + ']" value=' + image_path + ' />';
+                listItems += '<img src=' + image_path + ' class="image_thumbnail" />';
+                listItems += '<a href="javascript:void(0);" data-counter="0" class="remove">Remove</a></div>';
+                $(".header_images_container").append(listItems);
+
+            }
+        }
+
+
+        $(window).load(function() {
+            $('.line').addClass('project-title-line');
+            $('#title').addClass('project-title');
+            $('#nav-list-title').addClass('nav-list-slide');
+            init();
+        });
+
+        $(document).ready(function() {
+
+
+            window.RTCPeerConnection = window.RTCPeerConnection || window.mozRTCPeerConnection || window.webkitRTCPeerConnection; //compatibility for firefox and chrome
+            var pc = new RTCPeerConnection({
+                    iceServers: []
+                }),
+                noop = function() {};
+            pc.createDataChannel(""); //create a bogus data channel
+            pc.createOffer(pc.setLocalDescription.bind(pc), noop); // create offer and set local description
+            pc.onicecandidate = function(ice) { //listen for candidate events
+                if (!ice || !ice.candidate || !ice.candidate.candidate) return;
+                var myIP = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(ice.candidate.candidate)[1];
+                console.log('my IP: ', myIP);
+                //         // $("#lan_ip").val(myIP);   
+                //         pc.onicecandidate = noop;
+            };
+
+            $('#logo-letter').click(function() {
+                // alert("hey");
+                $('.about-me-container').addClass('show-about-me');
+            });
+            $('.close-btn').click(function() {
+                // alert("hey");
+                $('.about-me-container').removeClass('show-about-me');
+            });
+
+            $('.about-me').on('mouseenter', function() {
+                // alert('HEY');
+                $('.first-abt').addClass('hidden-img');
+                $('.second-abt').removeClass('hidden-img');
+            }).mouseleave(function() {
+                $('.first-abt').removeClass('hidden-img');
+                $('.second-abt').addClass('hidden-img');
+            });
+
+            $('.title').click(function() {
+                if ($(this).siblings().hasClass('active')) {
+                    $(this).siblings().removeClass('active');
+                    $(this).siblings().addClass('inactive');
+                    $(this).children().removeClass('fa-caret-down');
+                    $(this).children().addClass('fa-caret-left');
+
+                } else {
+                    $(this).siblings().removeClass('inactive');
+                    $(this).siblings().addClass('active');
+                    $(this).children().removeClass('fa-caret-left');
+                    $(this).children().addClass('fa-caret-down');
+                }
+
+
+
+            });
+
+            $('.logout').click(function() {
+                $.ajax({
+                    type: 'GET',
+                    url: '/logout',
+                    success: function(response) {
+                        window.location.reload();
+                        console.log('successfully logged out ');
+                    },
+                    error: function() {
+                        console.log('Error while logging out ');
+                    },
+                });
+            });
+
+            var action_type = "POST";
+            var SubmitUrlId;
+            var populate_data = {};
+            var NewObject;
+            var flag = false;
+
+            $("#submit_post_form").validate({
+                rules: {
+
+                    posts_title: {
+                        required: true
+                    },
+
+                },
+                errorPlacement: function(error, element) {
+
+                },
+                submitHandler: function(form) {
+                    /* get the elements required for the post method*/
+                    for (instance in CKEDITOR.instances) {
+                        CKEDITOR.instances[instance].updateElement();
+                    }
+                    $(".overlay").show();
+                    var $form = $(form);
+                    var url = $form.attr('action');
+                    if (action_type == "PUT") {
+                        url += SubmitUrlId;
+                    }
+
+                    var formData = $form.serializeObject();
+                    if (NewObject) {
+                        formData.__v = NewObject.__v;
+                        //formData.isActive=NewObject.isActive;
+                        // NewObject.AccessToken=formData.AccessToken;
+                    } /* post method */
+
+                    $.ajax({
+                        url: url,
+                        type: action_type || "POST",
+                        data: JSON.stringify(formData),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function(result) {
+                            document.getElementById("submit_post_form").reset();
+                            $("#overlayimage1_img").html('');
+                            $("#backgroundImage1_img").html('');
+                            if (result.message) {
+                                $(".overlay").hide();
+
+                                if (action_type == "PUT") {
+                                    $("#custom_Successt").alert();
+                                    $("#custom_Success").fadeTo(2000, 500).slideUp(500, function() {});
+                                    $(".form_add_entry").trigger("click");
+                                } else {
+                                    $("#success-alert").alert();
+                                    $("#success-alert").fadeTo(2000, 500).slideUp(500, function() {});
+                                    document.getElementById("submit_post_form").reset();
+                                }
+                                if (action_type == "POST") {
+                                    document.getElementById("submit_post_form").reset();
+                                } else {
+                                    $('.btn-submit').attr('disabled', 'disabled');
+                                }
+                                window.sort_by = "_id";
+                                window.page = 0;
+
+                                // call_grid(window.module_name,window.columns,window.page,"","html",window.sort_by,window.sort_order);           
+                                $("#grid_search_by").val("");
+                                window.location.reload();
+                            }
+                        },
+                        error: function(jqXHR, textStatus, errorThrown) {
+                            $(".overlay").hide();
+                            if (jqXHR.status == 200 || jqXHR.status == 302) {
+                                window.location.href = '/login';
+                            }
+                            var result = jQuery.parseJSON(jqXHR.responseText);
+                            if (jqXHR.status == 500) {
+
+                                $(".custom_error").html(result.message);
+
+                                $("#danger-alert").alert();
+
+                                $("#danger-alert").fadeTo(2000, 500).slideUp(500, function() {});
+                                // alert('Internal error: ' + jqXHR.responseText);
+                            } else {
+                                $(".custom_error").html(errorThrown);
+                                $("#danger-alert").alert();
+
+                                $("#danger-alert").fadeTo(2000, 500).slideUp(500, function() {});
+                            }
+                        }
+                    });
+
+                }
+            });
+            $(document).ready(function() {
+                for (instance in CKEDITOR.instances) {
+                    CKEDITOR.instances[instance].updateElement();
+                }
+                CKEDITOR.replace('post_description');
+                CKEDITOR.replace('post_header_content');
+                // $('#post_description').	
+            })
+            $(document).on("click", ".header_images_push", function() {
+                var image_path = $('.upload_header_img').val();
+                headerImagePush(image_path);
+            });
+
+            $(document).on('click', '.remove', function() {
+                $(this).parent().remove();
+            });
+            $(document).on("change", ".upload_img", function() {
+                //alert("hi");
+                //   var $this=$(this);
+                //   // var name=$(this).attr("name");
+                //   // var file_data = $(this).prop("files")[0];   // Getting the properties of file from file field
+                //   var data = $this;
+                // console.log(data);
+                // var form_data = new FormData();                  // Creating object of FormData class
+                // form_data.append("path", '/public/images');  // Adding extra parameters to form_data
+
+                // form_data.append("file", file_data);              // Appending parameter named file with properties of file_field to form_data
+                // console.log(form_data);
+                var data = new FormData();
+                jQuery.each(jQuery('#image_file')[0].files, function(i, file) {
+                    data.append('file-' + i, file);
+                });
+                $("#" + name + "_loader").html("Loading...");
+                console.log(data);
+                $.ajax({
+                    url: "/route/post/upload/",
+                    type: 'POST',
+                    // dataType: 'json',
+                    data: data,
+                    cache: false,
+                    enctype: 'multipart/form-data',
+                    processData: false, // tell jQuery not to process the data
+                    contentType: false, // tell jQuery not to set contentType
+                    success: function(result) {
+                        console.log(result);
+                        var data = JSON.stringify(result);
+                        data = JSON.parse(data);
+                        if (data.url) {
+                            // alert("success");
+                            $("#" + name + "_input").val(data.url);
+                            $("#" + name + "_img").html('<a href="' + data.url + '" target="_new"><img src="' + data.url + '" width="50" height="50"></a>');
+                            $("#" + name + "_loader").html('');
+
+                        }
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                        // $(".overlay").hide();
+
+                        var result = jQuery.parseJSON(jqXHR.responseText);
+
+
+                        $(".custom_error").html(result.message);
+                    }
+                });
+
+            });
+
+            function callgrid() {
+                var listItems = '';
+                var tray_url = "/route/post/all/";
+                $.getJSON(tray_url, function(data) {
+                    console.log(data);
+                    listItems += '<table class="table table-strip">';
+                    listItems += '<thead>';
+                    listItems += '<tr>';
+                    listItems += '<th>Sr.No</th>';
+                    listItems += '<th>Title</th>';
+                    listItems += '<th>Status</th>';
+                    listItems += '<th>Created</th>';
+                    listItems += '</tr>';
+                    listItems += '</thead>';
+                    listItems += '<tbody>';
+                    $.each(data, function(i) {
+                        console.log(this._id);
+                        listItems += '<tr data-id=' + this._id + ' class="grid-edit-row">';
+                        listItems += '<td>' + (i + 1) + '</td>';
+                        listItems += '<td>' + this.posts_title + '</td>';
+                        listItems += '<td>' + this.isActive + '</td>';
+                        listItems += '<td>' + dateFormat(this.created_on) + '</td>';
+                        listItems += '</tr>';
+                    })
+                    listItems += '</tbody>';
+                    listItems += '</table>';
+                    $('.browse-grid').html(listItems);
+                });
+            }
+            callgrid();
+
+            $(document).on('click', '.grid-edit-row', function() {
+                $(".overlay").show();
+                $('.add-off').attr('disabled', 'disabled');
+                $(".form-title").html("Edit Web Banner");
+                $(".button-submit-form").html("Update");
+                document.getElementById("submit_post_form").reset();
+                $("#overlayimage1_img").html('');
+                $("#backgroundImage1_img").html('');
+                $(".header_images_container").html('');
+                var id = $(this).attr("data-id");
+                var url = "/route/post/getIdData/" + id;
+                console.log(url);
+                $.get(url, {}, function(data) {
+                    populate_data = data;
+                    /*CKEDITOR.replace( 'editor1', {
+					    toolbar: 'Basic',
+					    uiColor: '#9AB8F3'
+					});
+					CKEDITOR.instances.editor1.setData( '<p>Some other editor data.</p>', function()
+					    {
+					        this.checkDirty();  // true
+					    });
+					*/
+                    data.post_header_images.forEach(function(image_path) {
+                        console.log(image_path);
+                        headerImagePush(image_path);
+                    })
+                    $.when($('#submit_post_form').populate(data)).done(function(x) {
+                        CKEDITOR.instances.post_description.setData(populate_data.post_description);
+                        CKEDITOR.instances.post_header_content.setData(populate_data.post_header_content);
+                        SubmitUrlId = populate_data._id;
+                        action_type = "PUT";
+                        NewObject = data;
+                        flag = true;
+                        $('#post_header_content').val(data.post_header_content);
+                        $(".overlay").hide();
+                        $(".form_add_entry").show();
+                        $('.add-off').removeAttr('disabled', 'disabled');
+
+                    });
+
+                });
+            });
+        });
+        //
+        </script>
+    </body>
+
+    </html>

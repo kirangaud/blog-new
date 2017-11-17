@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%- title %></title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <meta property="og:{tagName}" content="{tagValue}"/> -->
+         <meta property="og:image" content= <%- image %> >
+        <meta property="og:title" content='<%- title.replace(/_/g,' ') %>' >
+        <meta property="og:url" content=<%- url %> >
+        <meta property="og:site_name" content="kirangaud" >
+        <meta property="og:type" content="website" >
+        <meta property="og:description" content='<%- disc %>' >
+        <meta property="og:image:width" content="400" />
+        <meta property="og:image:height" content="300" />
+
+        <link rel="stylesheet" type="text/css" href="/stylesheets/style.min.css">
+        <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/font-awesome.min.css">
+        <!-- <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Old+Standard+TT|Junction|Fertigo|Audimat|Josefin+Sans|Junge|Lato' rel='stylesheet' type='text/css'> -->
+        <!-- comment by Alnoor for uploading code on rhn on 06-06-2016 -->
+        <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans|Lato' rel='stylesheet' type='text/css'>
+        <script src="/javascripts/modernizr.custom.97074.js"></script>
+        <script src="/javascripts/jquery.2.1.0.min.js"></script>        
+        <script src="https://fb.me/react-15.2.1.min.js"></script>
+        <script src="https://fb.me/react-dom-15.2.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.10.3/babel.min.js"></script>
+        <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-89573583-1', 'auto');
+              ga('send', 'pageview');
+        </script>
+    </head>   
+<body>
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+    <div id="detail-page-container">
+     <header class="header_container">
+        <div class="header_background">
+                <div class="container container_title">
+                    <div id="title-container">
+                    <a href="/">
+                        <span id="title">KI<span class="R-tag">R</span>AN&nbsp;GAUD</span>
+                        </a>
+                        <span class="detail-line"></span>
+                    </div>
+                    
+                </div>
+                
+        </div>
+    </header>
+    <div class="header-bar col-md-12">
+    <nav>
+        <ul class="header-list">
+            <li><a href="/about">about</a></li>
+            <li><a href="/category/art">art</a></li>
+            <li><a href="/category/photography">photography</a></li>
+            <li><a href="/">blog</a></li>
+        </ul>
+        <ul class="socials">
+                            <li><a href="https://www.facebook.com/kiranpgaud" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://in.linkedin.com/in/kiran-goud-09890073" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com/kapeheart/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+    </nav>
+    </div>
+    <section>
+        <div id="detail-content">
+            <div class="row">
+            <div class="col-md-9 brdr-right" id='post-parent-container'>
+            </div>
+
+            <div class="col-md-3">
+           <aside class="about-me">
+                    <h3 class="sidebar-title-h3">ABOUT</h3>
+                    <div class="abt-img-container">
+                        <img src="https://drive.google.com/uc?export=view&id=0B73QldPJajvyOFBuNDZ0YTlodUk" class="first-abt">
+                    <img src="https://drive.google.com/uc?export=view&id=0B73QldPJajvyUzlCT1l5Z2lQOTQ" class="second-abt hidden-img">
+                    </div>
+                
+                    <p>
+                        Art, photography, fashion, makeup, interiors are all inter-connected. If you are fairly knowledgeable at one, you tend to be decent at the other. Often, your work will reflect one or many of your passions. Through my blogs i intend to share, learn, and connect
+                    </p>
+
+
+                    <a href="/about"><span class="read-more">More</span></a>
+                </aside>
+                <aside class="categories side-dock">
+                    <h3 class="sidebar-title-h3">INSTAGRAM</h3>
+                    <div id="instagram-slider" class="carousel slide carousel-fade" data-ride="carousel">
+                        
+                    </div>
+                </aside>
+                <aside class="search side-dock">
+                    <h3 class="sidebar-title-h3">ARCHIVE</h3>
+                    <ul class="archive-list pad-0">
+                        
+                    </ul>
+                </aside>
+               <!--  <aside class="random-post side-dock">
+                    <h3 class="sidebar-title-h3">SUBSCRIBE</h3>
+                    <p>
+                        Enter your email address to subscribe to this blog and receive notifications of new posts by email.
+                    </p>
+                    <form>
+                        <input type="text" class="form-control email-subs" name="email-subs"  placeholder="EMAIL ADDRESS"  />
+                        <input class="submit-btn" type="submit" value="SUBSCRIBE" name="email-subscription-widget">
+                    </form>
+                </aside> -->
+            </div>
+            </div>
+        </div>
+    </section>
+
+        </div>
+        <div class="row margin_reset footer">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer_links">
+                <div id="heart"></div>
+                <h2>@2016 KIRAN GAUD </h2>
+            </div>
+            
+        </div>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="/javascripts/serialize.min.js"></script>
+        <script src="/javascripts/bootstrap.min.js"></script>
+        <script src="/javascripts/global.js"></script>
+
+        <script type="text/jsx">
+        // Let's create a "real-time search" component
+
+var POSTS = React.createClass({
+
+    loadData : function(){
+   
+    },
+    componentWillMount : function(){
+        var query = document.title;
+        // query = query.replace();
+        query = query.replace(/_/g,' ');
+
+        console.log(query);
+        var settings = {
+          "async": true,
+          "crossDomain": true,
+          "url": "http://www.kirangaud.com/route/post/"+query,
+          "method": "GET",
+        }
+
+        $.ajax(settings).done(function (response) {
+            var resultData = response;
+          this.setState({
+            postResult:resultData
+        });
+        }.bind(this));
+        console.log(this.state);
+    },
+    componentDidMount : function(){
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    },
+    getInitialState: function(){
+        return { postResult: '' };
+    },
+
+    handleChange: function(e){
+        var queryType = {};
+        var val = e.target.value;
+        console.log(e.target.name);
+        console.log(val);
+        queryType["searchType"] = 'all'; 
+        if(this.state.queryState){
+            queryType["searchValue"] = e.target.name === 'searchValue' ? e.target.value : this.state.queryState.searchValue;
+            queryType["searchType"] = e.target.name === 'searchType' ? e.target.value : this.state.queryState.searchType;
+        }else{
+            console.log("INN");
+            queryType[e.target.name] = e.target.value;
+            console.log(queryType);
+        }
+        this.setState({
+                queryState : queryType,
+            },function(){
+                console.log(this.state.queryState);
+                var settings = {
+                  // "async": true,
+                  // "crossDomain": true,
+                  "url": "http://www.kirangaud.com/route/post/",
+                  "method": "GET",
+                  // "data": "{\"query\" : {\"query_string\" : {query : \""+val+"\"}}}"
+                }
+                if(val.length > 0){
+                    $.ajax(settings).done(function (response) {
+                        var resultData = response;
+                        // console.log(resultData);
+                        this.setState({
+                            // queryType : queryType,
+                            postResult:resultData
+                        });
+                    }.bind(this));
+                }
+                
+            });
+
+    },
+
+    handleClick : function(){
+        var queryType = {};
+        var val = e.target.value;
+        console.log(e.target.name);
+        console.log(val);
+    },
+    render: function() {
+        var postsLibrary = this.props.items,
+            postResult = this.state.postResult;
+        if(postResult.length > 0){
+        if(postResult[0].posts_category.length > 0){
+            var postList = postResult.map(function(l){
+                var postLink = '/posts/'+l.posts_title.replace(/_/g,' ');
+
+                var newDate = new Date(l.created_on),
+                     locale = "en-us",
+                      month = newDate.toLocaleString(locale, { month: "long" }),
+                      day = newDate.getDate(),
+                      year = newDate.getFullYear(),
+                      time = newDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}),
+                      dateFormat = month +" "+day+","+year+" at "+time;
+
+              var fbCommetLink;
+                      if(postLink === '/posts/The Glass Jigsaw Puzzle Amiss'){
+                               fbCommetLink = 'http://www.kirangaud.com';
+                                    }else{
+                                fbCommetLink = "http://www.kirangaud.com/posts/"+l.posts_title;
+                                    }
+
+                     return (
+                        <div className="posts-container col-md-12">
+                            <div className="post-header">
+                                <span>{l.posts_category}</span>
+                                <h2 className="post-title">
+                                <a href="">{l.posts_title}</a></h2>
+                            </div>
+                            <div className="post-entry">
+                                <span>{dateFormat}</span>
+                                <span className="post-comments">
+                                <a href={postLink}>{l.comments.length} COMMENTS</a></span>
+                            </div>
+
+                            <div className="post-inner ">
+                            <div className="post-content" dangerouslySetInnerHTML={{__html: l.post_description}}>
+                            </div>
+
+                            </div>
+                            <div className="entry-utils group">
+                                
+                                <ul className="detail-page socials">
+                                    <li>
+                                        <a href={"https://www.facebook.com/sharer/sharer.php?u="+ window.location.href} target="_blank" className="social-icon">
+                                            <i className="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={"http://twitter.com/share?text=Shared &url="+ window.location.href} target="_blank" className="social-icon">
+                                            <i className="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={"https://plus.google.com/share?url="+ window.location.href} target="_blank" className="social-icon">
+                                            <i className="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={"https://pinterest.com/pin/create/button/?url="+ window.location.href} target="_blank" className="social-icon">
+                                            <i className="fa fa-pinterest"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div id="comments">
+                                <div className="entry-utils group">
+                                <div className="fb-like" data-href={fbCommetLink} data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                                    <span>This Post has {l.comments.length} comments
+                                    </span>
+                                      <ul>
+                                      {l.comments.map(function(commentObject){
+                                         var newDate = new Date(commentObject.comment_date),
+                                         locale = "en-us",
+                                          month = newDate.toLocaleString(locale, { month: "long" }),
+                                          day = newDate.getDate(),
+                                          year = newDate.getFullYear(),
+                                          time = newDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}),
+                                          dateFormat = month +" "+day+","+year+" at "+time;
+                                        return <li>
+                                          <div className="comment-avatar">
+                                            <img alt="default user" src="https://drive.google.com/uc?export=view&id=0B73QldPJajvyeEp1RjU1b2tjNkU" />
+                                          </div>
+                                          <article className="comment-body">
+                                            <footer className="comment-meta">
+                                              <div className="comment-author vcard">
+                                                    <b className="fn">{commentObject.comment_by}</b> 
+                                              </div>
+                                              <div className="comment-time">
+
+                                                  <time datetime={dateFormat}>
+                                                    {dateFormat}            
+                                                  </time>
+                                              </div>
+                                            </footer>
+                                            <div className="comment-content">
+                                              <p>{commentObject.comment}</p>
+                                            </div>
+                                          </article>
+                                        </li>
+                                        }
+                                        )}
+                                    </ul>
+                                </div>
+                                <section id="respond">
+                                    <div id="form-wrapper" className="group">
+                                         <div className="fb-comments" data-href={fbCommetLink} data-numposts="10"></div>
+                                  
+                                        <div id="respond" className="comment-respond">
+                                            <h3 id="reply-title" className="comment-reply-title">Leave a Reply</h3>
+                                            <form action="/route/post/comment/" method="post" id="commentform" className="comment-form" novalidate="">
+                                                <p className="comment-notes">
+                                                    <span id="email-notes">Your email address will not be published.Required fields are marked*</span>
+                                                </p>
+                                                <p>
+                                                    <label for="comment">Comment</label>
+                                                    <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" className="form-control" required="required">
+                                                    </textarea>
+                                                </p>
+                                                <div className="col-md-6 pad-0">
+                                                    <p>
+                                                        <label for="author">Name *</label>
+                                                        <input id="author" name="author" type="text" size="30" maxlength="245" aria-required="true" required="required" className="form-control"></input>
+                                                    </p>
+                                                    <p>
+                                                        <label for="email">Email *</label>
+                                                        <input id="email" name="email" type="email" size="30" maxlength="100" aria-describedby="email-notes" aria-required="true" required="required" className="form-control"></input>
+                                                    </p>
+                                                    <p>
+                                                        <label for="url">Website</label>
+                                                        <input id="url" name="url" type="url" size="30" maxlength="200" className="form-control"></input>
+                                                    </p>
+                                                    <p className="form-submit">
+                                                        <input name="submit" type="submit" id="submit" className="submit-btn" value="Post Comment" ></input>
+                                                        <input type="hidden" name="comment_post_ID" value={l._id} id="comment_post_ID"></input>
+                                                        <input type="hidden" name="comment_parent" id="comment_parent" value="0"></input>
+                                                    </p>                                    
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </section>
+            </div>
+                        </div>
+                        )
+                    });
+return <div className="">{postList}</div>
+        }
+    }
+        else{
+            return <div></div>
+        }
+    }
+});
+
+
+var postsLibrary = [];
+
+ReactDOM.render(
+    <POSTS items={ postsLibrary } />,
+    document.getElementById('post-parent-container')
+);
+    </script>
+    <script type="text/javascript">
+
+$(document).on('click', '#submit', function() {
+    pushComment();
+});
+var action_type="PUT";
+var SubmitUrlId;
+var populate_data={};
+var NewObject ;
+var flag =false;
+
+function pushComment(){
+$( "#commentform" ).validate({
+  rules: {    
+     comment :{ required: true},
+     author :{ required: true},
+     email :{ required: true},
+  },
+  errorPlacement: function(error, element) {
+     
+  }, submitHandler: function(form) {
+/* get the elements required for the post method*/
+
+ $(".overlay").show();
+var $form = $( form );
+var url = $form.attr('action');
+
+var formData = $form.serializeObject();
+console.log(formData);
+SubmitUrlId = formData.comment_post_ID;
+if(action_type=="PUT"){
+    url+=SubmitUrlId;
+   } 
+if(NewObject)
+{
+formData.__v=NewObject.__v;
+}/* post method */
+
+$.ajax({
+          url: url,
+          type: action_type||"POST",
+          data: JSON.stringify(formData),
+          contentType: "application/json; charset=utf-8",
+          dataType   : "json",
+          success: function(result) {  
+            if(result.message){
+            location.reload();
+          }          
+          },
+          error: function (jqXHR, textStatus, errorThrown) {
+             alert("Error Posting Comment");
+    }
+});
+}
+});
+}
+    </script>
+    </body>
+
+
+
+
+
+

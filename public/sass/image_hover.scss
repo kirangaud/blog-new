@@ -1,0 +1,53 @@
+/*****************************/
+/* Copyright by CreativeDive */
+/*****************************/
+
+
+
+
+
+/****** image hover ******/
+
+.image-hover * {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+.image-hover {
+	position:relative;
+
+}
+.image-hover a {text-decoration:none}
+
+
+
+/*** effect - shadow 1 ***/
+
+
+
+.img-shadow-1:hover
+{
+transform:scale(1.1);
+z-index : 10;
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1);
+
+}
+
+.img-shadow-1
+{
+transition:all .3s ease-in-out;
+-webkit-transition:all .3s ease-in-out;
+-moz-transition:all .3s ease-in-out;
+-ms-transition:all .3s ease-in-out;
+-o-transition:all .3s ease-in-out;
+}
+
+.img-shadow-1:hover
+{
+transition:all .3s ease-in-out;
+-webkit-transition:all .3s ease-in-out;
+-moz-transition:all .3s ease-in-out;
+-ms-transition:all .3s ease-in-out;
+-o-transition:all .3s ease-in-out;
+}
+
+

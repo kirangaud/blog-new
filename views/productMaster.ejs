@@ -1,0 +1,343 @@
+<% include partials/head_dashboard %>
+<!-- page content -->
+<!-- page content -->
+<div class="right_col" role="main">
+    <div class="row">
+
+<div class="col-md-6 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Add Product : </h2>
+                    
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <br />
+                    <form class="form-horizontal form-label-left input_mask" method="post" id="erp_form" action="/route/product/" autocomplete = "off"  required>
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Product Code</label>
+                          <div class="col-md-9 col-sm-9 col-xs-12">
+                             <input type="text" placeholder="Product Code" id="productCode" name="productCode" class="form-control cleanup" required>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Product Title</label>
+                          <div class="col-md-9 col-sm-9 col-xs-12">
+                             <input type="text" placeholder="Product Title" id="productTitle" name="productTitle" class="form-control cleanup" required>
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Product Category</label>
+                          <div class="col-md-9 col-sm-9 col-xs-12">
+                            <select name="categoryCode"  class="select2 categoryCode" required>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Product Heading</label>
+                          <div class="col-md-9 col-sm-9 col-xs-12">
+                             <input type="text" placeholder="Product Heading" id="productHeading" name="productHeading" class="form-control cleanup" required>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Product Description</label>
+                          <div class="col-md-9 col-sm-9 col-xs-12">
+                             <input type="text" placeholder="Product Description" id="productDescription" name="productDescription" class="form-control cleanup" required>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Product Price</label>
+                          <div class="col-md-9 col-sm-9 col-xs-12">
+                             <input type="text" placeholder="Product Price" id="productPrice" name="productPrice" class="form-control cleanup" required>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">image</label>
+                          <div class="form-group col-md-3 ">
+                           <label for="backgroundImage">Image<span class="imageLimit">Max Size 300KB</span><span id="productImage_loader"></span></label>
+                              <input type="file" class="upload_img" name="productImage">
+                              <input type="hidden" name="productImage" id="productImage_input" class="form-control" >
+                              <div class="form-group col-md-3 " id="productImage_img">
+                              </div>
+                        </div>
+                        </div>
+                      <div class="ln_solid"></div>
+                      <div class="form-group">
+                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                          <button class="btn btn-primary" type="reset">Reset</button>
+                          <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+      </div>
+    <div class="col-md-6 col-xs-12">
+        <button class="btn btn-primary btn--refresh refresh-table"><i class="fa fa-fw fa-refresh"></i></button>
+            <table id="productTable" class="table table-bordered table-striped display nowrap order-column">
+                <tbody class="">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/javascripts/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery-serialize-object.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.populate.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/javascripts/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="/javascripts/grid.js"></script>
+<script type="text/javascript" src="/javascripts/dataTables.scroller.js"></script>
+<script type="text/javascript" src="/javascripts/colResizable-1.6.min.js"></script>
+<script type="text/javascript" src="/javascripts/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" src="/javascripts/dataTables.buttons.min.js"></script>
+<!-- <script type="text/javascript" src="/javascripts/grid.js"></script> -->
+<script type="text/javaScript">
+
+$(document).ready(function() {
+    $('.datepicker').datepicker({
+        format: 'dd/mm/yyyy'
+    });
+
+
+  (function(){
+
+    $.ajax({
+        url: '/route/category/',
+        type: "GET",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function(result) {
+            var eventHeaders = result;
+                    var categoryOptionList = '';
+                    var headerName;
+                      categoryOptionList += '<option value="-">Select Code</option>';
+                    for (var i = 0; i < eventHeaders.length; i++) {
+                    headerName = eventHeaders[i].name;
+                    if (headerName) {
+                        categoryOptionList += '<option value="' + headerName + '">' + headerName + '</option>';
+                    }
+                }
+                $('.categoryCode').html(categoryOptionList);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            argumentslert("Error in loading forms");
+        }
+    });
+})()
+
+
+var dataColumns = [
+                    {
+                      data: "_id",
+                      visible: false
+                    },
+                    {
+                      data: "productCode",
+                      sTitle: "Product Code",
+                      width: "50px",
+                    },
+                    {
+                      data: "productTitle",
+                      sTitle: "Product Title",
+                      width: "50px",
+                    },
+                    {
+                      data: "productCategory",
+                      sTitle: "Product Category",
+                      width: "50px",
+                    },
+                    {
+                      data: "productHeading",
+                      sTitle: "Product Heading",
+                      width: "50px",
+                    },
+                    {
+                      data: "productDescription",
+                      sTitle: "Product Description",
+                      width: "50px",
+                    },
+                    {
+                      data: "productPrice",
+                      sTitle: "Product Price",
+                      width: "50px",
+                    },
+                    {
+                      data: "productImage",
+                      sTitle: "Image",
+                      width: "50px",
+                    }
+
+                    ];
+
+      var DrawTableInquiry = DrawCustomDataTable("productTable", 350, "/route/product/data-grid-view", dataColumns, [
+          [0, "desc"]
+      ], "frm-grid-search",null,true,true); 
+
+
+
+
+    $('.btn-submit').attr('disabled', 'disabled');
+    var SubmitUrlId;
+    var populate_data = {};
+    var action_type;
+    var NewObject;
+    var flag = false;
+
+    $("#erp_form .form-control").change(function() {
+        $(this).closest('form').data('changed', true);
+        $('.btn-submit').removeAttr('disabled');
+    });
+
+    $(".form_add_entry").click(function() {
+        document.getElementById("erp_form").reset();
+        action_type = "POST";
+        $(".form-title").html("Add");
+        $(".form_add_entry").hide();
+    });
+
+
+    $(document).on('click', '.grid-edit-row', function() {
+        $(".overlay").show();
+        $(".form_add_entry").show();
+        $(".form-title").html("Edit bus master");
+        var id = $(this).attr("data-id");
+        var url = "/route/bus/" + id;
+        $.get(url, {}, function(data) {
+            populate_data = data;
+            JSON.stringify(populate_data);
+            $.when($('#erp_form').populate(data)).done(function(x) {
+                SubmitUrlId = "/" + populate_data._id;
+                action_type = "PUT";
+                NewObject = data;
+                flag = true;
+                $(".overlay").hide();
+                $(".form_add_entry").show();
+            });
+        });
+    });
+
+
+    $(document).on("change", ".upload_img", function() {
+        var $this = $(this);
+        var name = $(this).attr("name");
+        var file_data = $(this).prop("files")[0]; // Getting the properties of file from file field
+        var ext = $this.val().split('.').pop().toLowerCase();
+        if ($.inArray(ext, ['jpg', 'jpeg']) == -1) {
+            alert('invalid extension!');
+            return false;
+        }
+        var imgSize = file_data.size;
+        var imgsize = imgSize / 1024;
+        if (parseInt(imgsize) > 300) {
+            alert("Images must be smaller than 300KB");
+            $(this).val("");
+            return false;
+        }
+        var form_data = new FormData(); // Creating object of FormData class
+        form_data.append("path", "sukhoThaiThailand");
+        form_data.append("file[]", file_data);
+        $.ajax({
+            url: "https://login.kesari.in/route/upload/aws",
+            type: 'post',
+            data: form_data,
+            cache: false,
+            enctype: 'multipart/form-data',
+            processData: false, // tell jQuery not to process the data
+            contentType: false, // tell jQuery not to set contentType
+            success: function(result) {
+                var data = JSON.stringify(result);
+                data = JSON.parse(data);
+                if (data.url) {
+                    data.url = data.url.replace(/http/g, 'https');
+                    $("#" + name + "_input").val(data.url);
+                    $("#" + name + "_img").html('<a href="' + data.url + '" target="_new"><img src="' + data.url + '" width="50" height="50"></a>');
+                    $("#" + name + "_loader").html('');
+                }
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                var result = jQuery.parseJSON(jqXHR.responseText);
+                $(".custom_error").html(result.message);
+            }
+        });
+    });
+
+    $("#erp_form").validate({
+        rules: {
+            therapyCode: { required: true },
+            therapyName: { required: true },
+            sellingPrice: { required: true },
+            shopMoney: { required: true },
+            therapistMoney: { required: true }
+        },
+        errorPlacement: function(error, element) {
+            element.css('border', '1px solid red');
+        },
+        submitHandler: function(form) {
+            $(".overlay").show();
+            var $form = $(form);
+            var url = $form.attr('action');
+            if (SubmitUrlId != undefined && action_type == "PUT") {
+                url += SubmitUrlId;
+            }
+            var formData = $form.serializeObject();
+            if (NewObject) {
+                formData.__v = NewObject.__v;
+            }
+           
+            $.ajax({
+                url: url,
+                type: action_type || "POST",
+                data: JSON.stringify(formData),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(result) {
+                	 DrawTableInquiry.ajax.reload();
+                    $(".overlay").hide();
+                    if (action_type == "PUT") {
+                        $("#custom_Successt").alert();
+                        $("#custom_Success").fadeTo(2000, 500).slideUp(500, function() {});
+                        $('.btn-submit').attr('disabled', 'disabled');
+                    } else {
+                        document.getElementById("erp_form").reset();
+                        $("#success-alert").alert();
+                        $("#success-alert").fadeTo(2000, 500).slideUp(500, function() {});
+                    }
+                    window.sort_by = "_id";
+                    window.page = 0;
+                    // call_grid(window.module_name, window.columns, window.page, "", "html", window.sort_by, window.sort_order);
+                    DrawTableInquiry.ajax.reload();
+                    $("#grid_search_by").val("");
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    $(".overlay").hide();
+                    if (jqXHR.status == 200 || jqXHR.status == 302) {
+                        window.location.href = '/login';
+                    }
+                    var result = jQuery.parseJSON(jqXHR.responseText);
+                    if (jqXHR.status == 500) {
+                        $(".custom_error").html(result.message);
+                        $("#danger-alert").alert();
+                        $("#danger-alert").fadeTo(2000, 500).slideUp(500, function() {});
+                    } else {
+                        $(".custom_error").html(errorThrown);
+                        $("#danger-alert").alert();
+                        $("#danger-alert").fadeTo(2000, 500).slideUp(500, function() {});
+                    }
+                }
+            });
+        }
+    });
+
+
+$('.refresh-table').on('click',function(){
+        DrawTableInquiry.ajax.reload();
+})
+
+});
+
+
+</script>  
+<!-- /page content -->
+<% include partials/footer_dashboard %>

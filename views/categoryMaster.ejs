@@ -1,0 +1,205 @@
+<% include partials/head_dashboard %>
+<!-- page content -->
+<!-- page content -->
+<div class="right_col" role="main">
+    <div class="row">
+
+<div class="col-md-6 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Add Category : </h2>
+                    
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <br />
+                    <form class="form-horizontal form-label-left input_mask" method="post" id="erp_form" action="/route/category/" autocomplete = "off"  required>
+                        <div class="form-group">
+                          <label class="control-label col-md-3 col-sm-3 col-xs-12">Name</label>
+                          <div class="col-md-9 col-sm-9 col-xs-12">
+                             <input type="text" placeholder="Category Name" id="therapyCode" name="name" class="form-control cleanup" required>
+                          </div>
+                        </div>
+                      <div class="ln_solid"></div>
+                      <div class="form-group">
+                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                          <button class="btn btn-primary" type="reset">Reset</button>
+                          <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+      </div>
+    <div class="col-md-6 col-xs-12">
+        <button class="btn btn-primary btn--refresh refresh-table"><i class="fa fa-fw fa-refresh"></i></button>
+            <table id="categoryTable" class="table table-bordered table-striped display nowrap order-column">
+                <tbody class="">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/javascripts/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/javascripts/jquery-serialize-object.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.populate.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/javascripts/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript" src="/javascripts/grid.js"></script>
+<script type="text/javascript" src="/javascripts/dataTables.scroller.js"></script>
+<script type="text/javascript" src="/javascripts/colResizable-1.6.min.js"></script>
+<script type="text/javascript" src="/javascripts/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" src="/javascripts/dataTables.buttons.min.js"></script>
+<!-- <script type="text/javascript" src="/javascripts/grid.js"></script> -->
+<script type="text/javaScript">
+
+$(document).ready(function() {
+    $('.datepicker').datepicker({
+        format: 'dd/mm/yyyy'
+    });
+
+
+var dataColumns = [
+                    {
+                      data: "_id",
+                      visible: false
+                    },
+                    {
+                      data: "name",
+                      sTitle: "Category Name",
+                      width: "50px",
+                    },
+                    {
+                      data: "isActive",
+                      sTitle: "is Active",
+                      width: "50px",
+                    }
+
+                    ];
+
+      var DrawTableInquiry = DrawCustomDataTable("categoryTable", 350, "/route/category/data-grid-view", dataColumns, [
+          [0, "desc"]
+      ], "frm-grid-search",null,true,true); 
+
+
+
+
+    $('.btn-submit').attr('disabled', 'disabled');
+    var SubmitUrlId;
+    var populate_data = {};
+    var action_type;
+    var NewObject;
+    var flag = false;
+
+    $("#erp_form .form-control").change(function() {
+        $(this).closest('form').data('changed', true);
+        $('.btn-submit').removeAttr('disabled');
+    });
+
+    $(".form_add_entry").click(function() {
+        document.getElementById("erp_form").reset();
+        action_type = "POST";
+        $(".form-title").html("Add");
+        $(".form_add_entry").hide();
+    });
+
+
+    $(document).on('click', '.grid-edit-row', function() {
+        $(".overlay").show();
+        $(".form_add_entry").show();
+        $(".form-title").html("Edit bus master");
+        var id = $(this).attr("data-id");
+        var url = "/route/bus/" + id;
+        $.get(url, {}, function(data) {
+            populate_data = data;
+            JSON.stringify(populate_data);
+            $.when($('#erp_form').populate(data)).done(function(x) {
+                SubmitUrlId = "/" + populate_data._id;
+                action_type = "PUT";
+                NewObject = data;
+                flag = true;
+                $(".overlay").hide();
+                $(".form_add_entry").show();
+            });
+        });
+    });
+
+
+    $("#erp_form").validate({
+        rules: {
+            therapyCode: { required: true },
+            therapyName: { required: true },
+            sellingPrice: { required: true },
+            shopMoney: { required: true },
+            therapistMoney: { required: true }
+        },
+        errorPlacement: function(error, element) {
+            element.css('border', '1px solid red');
+        },
+        submitHandler: function(form) {
+            $(".overlay").show();
+            var $form = $(form);
+            var url = $form.attr('action');
+            if (SubmitUrlId != undefined && action_type == "PUT") {
+                url += SubmitUrlId;
+            }
+            var formData = $form.serializeObject();
+            if (NewObject) {
+                formData.__v = NewObject.__v;
+            }
+           
+            $.ajax({
+                url: url,
+                type: action_type || "POST",
+                data: JSON.stringify(formData),
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function(result) {
+                	 DrawTableInquiry.ajax.reload();
+                    $(".overlay").hide();
+                    if (action_type == "PUT") {
+                        $("#custom_Successt").alert();
+                        $("#custom_Success").fadeTo(2000, 500).slideUp(500, function() {});
+                        $('.btn-submit').attr('disabled', 'disabled');
+                    } else {
+                        document.getElementById("erp_form").reset();
+                        $("#success-alert").alert();
+                        $("#success-alert").fadeTo(2000, 500).slideUp(500, function() {});
+                    }
+                    window.sort_by = "_id";
+                    window.page = 0;
+                    // call_grid(window.module_name, window.columns, window.page, "", "html", window.sort_by, window.sort_order);
+                    DrawTableInquiry.ajax.reload();
+                    $("#grid_search_by").val("");
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    $(".overlay").hide();
+                    if (jqXHR.status == 200 || jqXHR.status == 302) {
+                        window.location.href = '/login';
+                    }
+                    var result = jQuery.parseJSON(jqXHR.responseText);
+                    if (jqXHR.status == 500) {
+                        $(".custom_error").html(result.message);
+                        $("#danger-alert").alert();
+                        $("#danger-alert").fadeTo(2000, 500).slideUp(500, function() {});
+                    } else {
+                        $(".custom_error").html(errorThrown);
+                        $("#danger-alert").alert();
+                        $("#danger-alert").fadeTo(2000, 500).slideUp(500, function() {});
+                    }
+                }
+            });
+        }
+    });
+
+
+$('.refresh-table').on('click',function(){
+        DrawTableInquiry.ajax.reload();
+})
+
+});
+
+
+</script>  
+<!-- /page content -->
+<% include partials/footer_dashboard %>

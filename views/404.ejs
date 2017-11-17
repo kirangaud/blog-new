@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%- title %></title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+        <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/font-awesome.min.css">
+        <!-- <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Old+Standard+TT|Junction|Fertigo|Audimat|Josefin+Sans|Junge|Lato' rel='stylesheet' type='text/css'> -->
+        <!-- comment by Alnoor for uploading code on rhn on 06-06-2016 -->
+        <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans|Lato' rel='stylesheet' type='text/css'>
+        <script src="/javascripts/modernizr.custom.97074.js"></script>
+        <script src="/javascripts/jquery.2.1.0.min.js"></script>        
+        <style>
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+canvas {
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.caps {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation: as 8s linear infinite;
+}
+
+.caps img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes as {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: .3;
+    }
+    20% {
+        opacity: .1;
+    }
+    30% {
+        opacity: .5;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .8;
+    }
+    55% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+}
+
+.frame {
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 19%, rgba(0, 0, 0, 0.9) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(19%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.9))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 19%, rgba(0, 0, 0, 0.9) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 19%, rgba(0, 0, 0, 0.9) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 19%, rgba(0, 0, 0, 0.9) 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 19%, rgba(0, 0, 0, 0.9) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#00000000', endColorstr = '#e6000000', GradientType = 1); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.frame div {
+    position: absolute;
+    left: 0;
+    top: -20%;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, .12);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    animation: asd 12s linear infinite;
+}
+
+.frame div:nth-child(1) {
+    animation-delay: 0;
+}
+
+.frame div:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.frame div:nth-child(3) {
+    animation-delay: 8s;
+}
+
+@keyframes asd {
+    0% {
+        top: -20%;
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+h1 {
+    z-index: 3;
+    position: absolute;
+    font: bold 200px/200px Arial, sans-serif;
+    left: 50%;
+    top: 50%;
+    margin-top: -100px;
+    width: 100%;
+    margin-left: -50%;
+    height: 200px;
+    text-align: center;
+    color: transparent;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    animation: asdd 2s linear infinite;
+}
+
+@keyframes asdd {
+    0% {
+        text-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    }
+    33% {
+        text-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    }
+    66% {
+        text-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    }
+    100% {
+        text-shadow: 0 0 40px rgba(0, 0, 0, .8);
+    }
+}
+</style>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89573583-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </head>   
+<body>
+     <header class="header_container">
+        <div class="header_background">
+                <div class="container container_title">
+                    <div id="title-container">
+                        <a href="/">
+                        <span id="title">KI<span class="R-tag">R</span>AN&nbsp;GAUD</span>
+                    </a>
+                        <span class="detail-line"></span>
+                    </div>
+                    
+                </div>
+                
+        </div>
+    </header>
+    <div class="header-bar col-md-12">
+    <nav>
+        <ul class="header-list">
+            <li><a href="/about">about</a></li>
+            <li><a href="/categories/art">art</a></li>
+            <li><a href="/categories/photography">photography</a></li>
+            <li><a href="/">blog</a></li>
+        </ul>
+        <!-- <ul class="socials">
+        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-heart"></i></a></li>
+        <li><a href="https://www.cssigniter.com/preview/olsen/feed/" target="_blank"><i class="fa fa-rss"></i></a></li>
+    </ul> -->
+    </nav>
+    </div>
+	
+	<h1>404</h1>
+
+<div class="frame">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="caps"><img src="http://ademilter.com/caps.png" alt=""></div>
+<canvas id="canvas"></canvas>
+
+
+<!--orjinal page http://ademilter.com/asdfghjkl -->
+	<script>
+	// js source http://codepen.io/moklick/pen/zKleC  
+
+var Application = ( function () {
+        var canvas;
+        var ctx;
+        var imgData;
+        var pix;
+        var WIDTH;
+        var HEIGHT;
+        var flickerInterval;
+
+        var init = function () {
+            canvas = document.getElementById('canvas');
+            ctx = canvas.getContext('2d');
+            canvas.width = WIDTH = 700;
+            canvas.height = HEIGHT = 500;
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, WIDTH, HEIGHT);
+            ctx.fill();
+            imgData = ctx.getImageData(0, 0, WIDTH, HEIGHT);
+            pix = imgData.data;
+            flickerInterval = setInterval(flickering, 30);
+        };
+
+        var flickering = function () {
+            for (var i = 0; i < pix.length; i += 4) {
+                var color = (Math.random() * 255) + 50;
+                pix[i] = color;
+                pix[i + 1] = color;
+                pix[i + 2] = color;
+            }
+            ctx.putImageData(imgData, 0, 0);
+        };
+
+        return {
+            init: init
+        };
+    }());
+
+    Application.init();</script>
+		</body>
+</html>

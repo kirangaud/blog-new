@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KIRAN GAUD</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Kiran Gaud</title>
+        
+        <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+        <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/font-awesome.min.css">
+        <!-- <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Old+Standard+TT|Junction|Fertigo|Audimat|Josefin+Sans|Junge|Lato' rel='stylesheet' type='text/css'> -->
+        <!-- comment by Alnoor for uploading code on rhn on 06-06-2016 -->
+        <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Sans|Lato' rel='stylesheet' type='text/css'>
+        <script src="/javascripts/modernizr.custom.97074.js"></script>
+        <script src="/javascripts/jquery.2.1.0.min.js"></script>
+
+<style type="text/css">
+  .invalid {
+    display: inline-block !important;
+    color: red
+  }
+    .header-container {
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 2px 1px #ccc;
+}
+nav.header {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    height: 70px;
+}
+img.kesari-round-logo {
+    height: 55%;
+    margin-top: 15px;
+}
+img.kesari-text-logo {
+    height: 55%;
+    margin-top: 15px;
+}
+.button--blue {
+    background: #161616;
+    border-color: #161616;
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), inset 0 1px 0 rgba(255, 255, 255, 0.32);
+    font-weight: 600;
+    color: #fff;
+    padding: 6px 12px !important;
+}
+.button--blue:hover:not([disabled]) {
+    /*background: #29d8cb;
+    border-color: #27cbbf;*/
+
+    color: #fff
+}
+.button--blue:active:not([disabled]) {
+    box-shadow: 0 1px 2px transparent, inset 0 2px 0 rgba(0, 0, 0, 0.08);
+    background: #161616;
+    border-color: #d43f3a
+}
+.modal-backdrop{
+    z-index: 0!important;
+}
+.container h4 {
+    text-align: center;
+    font-family: ubuntu;
+    font-size: 31px;
+    position: relative;
+    margin: 26px auto 0;
+    display: block;
+    color: #D81111;
+}
+
+.panel-heading {
+    font-family: "Josefin sans";
+    margin: 0 4em;
+}
+h3.panel-title {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    font-size: 32px;
+    color: #fff;
+}
+</style>
+</head>
+
+<body>
+
+    
+         <header class="header_container_login">
+     <span id="logo-letter"><strong>K</strong></span>
+            <a class="logo" href="#">
+         <svg enable-background="new 0 0 48.3 11" viewBox="0 0 48.3 11" xmlns="http://www.w3.org/2000/svg" class="an-logo"><path d="M.004 10.13L9.338.794l.85.85-9.335 9.333zm18.688.043L9.358.84l.85-.85 9.332 9.335zm.003-.063L28.03.774l.848.85-9.334 9.332zm9.33-9.268l.85-.848 9.323 9.344-.85.848zm9.33 9.26l10.11-10.11.85.847-10.11 10.11z" clip-rule="evenodd" fill="#4bea91" style="fill: rgb(255, 236, 80);"/></svg></a>
+         
+        <div class="header_background">
+               
+        </div>
+        <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 col-md-offset-4">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Admin Login</h3>
+                    </div>
+                <div class="login-panel panel panel-default">
+                    <div class="panel-body">
+                        <form role="form" id="login", method="POST", action="/login">
+                            <fieldset>                              
+                                <div class="form-group">
+                                    <input class="form-control lock hidden" type="text" name="wan_ip" id="wan_ip" /> 
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control lock hidden" type="text" name="lan_ip" id="lan_ip" /> 
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="username" type="text" name="username" required="required" placeholder="Username" autofocus/>
+                                </div>
+                                <div class="form-group">
+                                    <input  class="form-control" id="password" type="password" name="password" required="required" placeholder="Password" value="" />
+                                </div>
+
+                                
+
+
+
+                                 <div class="form-group">
+                                    <input  class="form-control" id="latitude" type="hidden" name="latitude" placeholder="latitude" />
+                                    <input  class="form-control" id="longitude" type="hidden" name="longitude"  placeholder="longitude" />
+                                </div>
+                               
+                                <button id="validateLogin" type="submit" value="Enter" class="button--blue btn btn-block l-btn-enter l-btn-submit"\>Login</button>
+                               
+                            <% if (message){ %>
+                             <span style="color:red;"><%- message %></span>
+                           <% } %>
+                            </fieldset>
+                        </form>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            </header>
+
+
+
+
+
+
+
+    
+    
+
+    <!-- jQuery -->
+
+
+
+   <script>
+function validateService() {
+    $.ajax({
+        url: 'https://api.ipify.org/?format=json',
+        type: "GET",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function(result) {
+            $("#wan_ip").val(result.ip);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            alert('UNABLE TO LOGIN PLEASE CONTACT IT TEAM');
+        }
+    });
+}
+</script>
+<script type="text/javaScript">
+$("#processing").hide();
+$("#success_msg").hide();
+$("#error_msg").hide();
+$(document).on("click","#change_pass", function(e){
+    $("#success_msg").hide();
+$("#error_msg").hide();
+$("#processing").hide();
+ $("#myModal222").modal('show');  
+});
+ 
+
+$(document).ready(function(){
+window.RTCPeerConnection = window.RTCPeerConnection || window.mozRTCPeerConnection || window.webkitRTCPeerConnection;   //compatibility for firefox and chrome
+    var pc = new RTCPeerConnection({iceServers:[]}), noop = function(){};      
+    
+    pc.createDataChannel("");    //create a bogus data channel
+    pc.createOffer(pc.setLocalDescription.bind(pc), noop);    // create offer and set local description
+    pc.onicecandidate = function(ice){  //listen for candidate events
+        if(!ice || !ice.candidate || !ice.candidate.candidate)  return;
+        var myIP = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/.exec(ice.candidate.candidate)[1];
+        console.log('my IP: ', myIP);
+//alert(myIP);
+        
+        $("#lan_ip").val(myIP);   
+        pc.onicecandidate = noop;
+        };
+        
+$(window).load(function(){
+validateService();
+});
+
+
+}); 
+
+            </script>
+
+ 
+     
+
+</body>
+
+</html>
