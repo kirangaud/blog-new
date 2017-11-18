@@ -1,9 +1,9 @@
 const http         = require('http'),
-      fs           = require('fs'),
-      util         = require('util'),
+      // fs           = require('fs'),
+      // util         = require('util'),
       path         = require('path'),
-      contentTypes = require('./utils/content-types'),
-      sysInfo      = require('./utils/sys-info'),
+      // contentTypes = require('./utils/content-types'),
+      // sysInfo      = require('./utils/sys-info'),
       env          = process.env,
       express      = require('express'),
       favicon      = require('serve-favicon'),
@@ -21,15 +21,17 @@ const http         = require('http'),
       busboy       = require('connect-busboy'),
       app          = express();
 
+const PORT = process.env.PORT || 8080;
 
-let url = '127.0.0.1:27017/' + process.env.OPENSHIFT_APP_NAME;
+let url = '127.0.0.1:27017/blog';
 
 // if OPENSHIFT env variables are present, use the available connection info:
-if (process.env.OPENSHIFT_MONGODB_DB_URL) {
-    url = process.env.OPENSHIFT_MONGODB_DB_URL +
-    process.env.OPENSHIFT_APP_NAME;
-}
+// if (process.env.OPENSHIFT_MONGODB_DB_URL) {
+//     url = process.env.OPENSHIFT_MONGODB_DB_URL +
+//     process.env.OPENSHIFT_APP_NAME;
+// }
 
+// console.log('###',process.env.OPENSHIFT_APP_NAME);
 // Connect to mongodb
 let connect = function () {
     mongoose.connect(url);
@@ -45,7 +47,7 @@ db.on('disconnected', connect);
 
 // view engine setup
 app.set('views', path.join(__dirname, './views'));
-app.engine('ejs', require('ejs').renderFile);
+// app.engine('ejs', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 
 
@@ -149,9 +151,11 @@ let server = http.createServer(app);
 //   }
 // });
 
-server.listen(env.NODE_PORT || 3000, env.NODE_IP || 'localhost', function () {
-  console.log(`Application worker ${process.pid} started...`);
-});
+
+server.listen(PORT, () => console.log(`Listening on ${ PORT }`))
+// server.listen(env.NODE_PORT || 3000, env.NODE_IP || 'localhost', function () {
+//   console.log(`Application worker ${process.pid} started...`);
+// });
 
 module.exports = app;
 
