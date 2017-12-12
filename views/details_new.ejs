@@ -259,7 +259,7 @@ var POSTS = React.createClass({
                             <div className="post-entry">
                                 <span>{dateFormat}</span>
                                 <span className="post-comments">
-                                <a href={postLink}>{l.comments.length} COMMENTS</a></span>
+                                <a href={postLink}>{l.comment_count} COMMENTS</a></span>
                             </div>
 
                             <div className="post-inner ">
@@ -296,7 +296,7 @@ var POSTS = React.createClass({
                             <div id="comments">
                                 <div className="entry-utils group">
                                 <div className="fb-like" data-href={fbCommetLink} data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-                                    <span>This Post has {l.comments.length} comments
+                                    <span>This Post has {l.comment_count} comments
                                     </span>
                                       <ul>
                                       {l.comments.map(function(commentObject){
