@@ -338,7 +338,7 @@ var POSTS = React.createClass({
 							</div>
 							<div className="post-media">
 									{l.post_header_images[0] && 
-										<div href="#" className={l.post_header_images[2] != undefined || year != '2017' ? "col-md-7 img-media image-hover img-shadow-1" : "col-md-6 img-media image-hover img-shadow-1"}>
+										<div href="#" className={l.post_header_images[2] != undefined || year != '2017' ? "col-md-7 img-media image-hover img-shadow-1" : l.post_header_images[1] === undefined ? "col-md-12 img-media image-hover img-shadow-1" : "col-md-6 img-media image-hover img-shadow-1"}>
 											<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcimg={l.post_header_images[0]} />
 										</div>
 									}
