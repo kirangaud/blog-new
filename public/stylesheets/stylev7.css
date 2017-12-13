@@ -712,13 +712,12 @@ small a:hover {
 
 .blog-title-container {
     background-attachment: fixed;
-    background-image: url(https://drive.google.com/uc?export=view&id=1Co_G0rxAdcf8zY-alx4OQPBiUr35WXSQ);
+    background-image: url(https://drive.google.com/uc?export=view&id=15gM1LUAWhHJs6L7Gpi0IbApV781JjhCz);
     border: none;
     margin-top: -21px;
     padding: 12em;
     background-position: center center;
     background-size: cover;
-        transform: rotate(180deg);
 }
 
 h3.blog-title {
