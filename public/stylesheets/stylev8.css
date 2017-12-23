@@ -843,10 +843,10 @@ canvas {
 }
 .christmas-hat{
     background-image: none;
-    height: 50px;
-    position: absolute;
-    left: 324px;
-    top: -103px;
+    height: 74px;
+    position: relative;
+    left: 41px;
+    top: -41px;
     z-index: 2;
     transform: rotate(-11deg);
 }
@@ -1785,11 +1785,11 @@ ul.socials {
     margin-top: 0px;
 }
 .christmas-hat{
-    background-image: none;
+	background-image: none;
     height: 30px;
-    position: absolute;
-    left: 49px;
-    top: -131px;
+    position: relative;
+    left: 22px;
+    top: -21px;
     z-index: 2;
     transform: rotate(-11deg);
 }
