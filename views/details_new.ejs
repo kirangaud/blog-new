@@ -454,6 +454,9 @@ function addFbcommentsCount(){
   var commentCount = parseInt($('.fb_comments_count').text());
   var commentCountOld = $('.post-comments').attr('data-postcomment');
   var commentCountOldLength = $('.post-comments').attr('data-postcommentlength');
+  if(isNan(commentCountOld) === true){
+    commentCountOld = 0;
+  }
   commentCountOldLength = parseInt(commentCountOldLength);
   commentCountOld = parseInt(commentCountOld);
   var postId = $('.post-comments').attr('data-postid');
