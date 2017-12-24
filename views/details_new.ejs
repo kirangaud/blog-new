@@ -48,6 +48,7 @@
 }(document, 'script', 'facebook-jssdk'));
 </script>
     <div id="detail-page-container">
+    <canvas id="canvas"></canvas>
      <header class="header_container">
         <div class="header_background">
                 <div class="container container_title">
@@ -258,7 +259,7 @@ var POSTS = React.createClass({
                             </div>
                             <div className="post-entry">
                                 <span>{dateFormat}</span>
-                                <span className="post-comments">
+                                <span className="post-comments" data-postcomment={l.comment_count} data-postid={l._id} data-postcommentlength={l.comments.length}>
                                 <a href={postLink}>{l.comment_count} COMMENTS</a></span>
                             </div>
 
@@ -334,8 +335,9 @@ var POSTS = React.createClass({
                                 </div>
                                 <section id="respond">
                                     <div id="form-wrapper" className="group">
-                                         <div className="fb-comments" data-href={fbCommetLink} data-numposts="10"></div>
-                                  
+                                         <div className="fb-comments" data-href={fbCommetLink}>
+                                         </div>
+                                         <div className="fb-comments-count hidden" data-href={fbCommetLink}></div>
                                         <div id="respond" className="comment-respond">
                                             <h3 id="reply-title" className="comment-reply-title">Leave a Reply</h3>
                                             <form action="/route/post/comment/" method="post" id="commentform" className="comment-form" novalidate="">
@@ -392,7 +394,6 @@ ReactDOM.render(
 );
     </script>
     <script type="text/javascript">
-
 $(document).on('click', '#submit', function() {
     pushComment();
 });
@@ -447,6 +448,52 @@ $.ajax({
 }
 });
 }
+
+
+function addFbcommentsCount(){
+  var commentCount = parseInt($('.fb_comments_count').text());
+  var commentCountOld = $('.post-comments').attr('data-postcomment');
+  var commentCountOldLength = $('.post-comments').attr('data-postcommentlength');
+  commentCountOldLength = parseInt(commentCountOldLength);
+  commentCountOld = parseInt(commentCountOld);
+  var postId = $('.post-comments').attr('data-postid');
+  var finalCount; 
+  if(commentCountOld === undefined){
+    finalCount = commentCount;
+    commentCountOld = 0;
+  }else{
+    if((commentCountOldLength + commentCount) > commentCountOld){
+      finalCount = commentCountOldLength + commentCount;
+    }else{
+      finalCount = commentCount;
+    }
+  }
+  if(finalCount > commentCountOld){
+      var formData = {
+        commentCount : finalCount
+      }
+        $.ajax({
+                  url: '/route/post/addFbcommentsCount/'+postId,
+                  type: "PUT",
+                  data: JSON.stringify(formData),
+                  contentType: "application/json; charset=utf-8",
+                  dataType   : "json",
+                  success: function(result) {  
+                    if(result.message){
+                    console.log("Comment count increased");
+                  }          
+                  },
+                  error: function (jqXHR, textStatus, errorThrown) {
+                     console.log("Error Posting Comment");
+            }
+        });
+  }
+}
+$(document).ready(function() {
+  window.onload = function(){
+  var postInterval = setInterval(function(){ addFbcommentsCount(); clearInterval(postInterval);}, 3000);
+  }
+});
     </script>
     </body>
 

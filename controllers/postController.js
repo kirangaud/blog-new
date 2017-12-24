@@ -265,5 +265,30 @@ module.exports = {
             }
             return res.json(post);
         });
-    }
+    },
+
+    /**
+     * postController.update()
+     */
+    addFbcommentsCount: function(req, res) {
+        var id = req.params.id;
+        var currentDate = new Date();
+        req.body.created_on_string = currentDate.toString();
+        model.findById(id, function(err, post) {
+            if(post.comment_count === undefined){
+               post.comment_count = 0; 
+            }
+            var postCommentCount = req.body.commentCount;
+            postCommentCount = parseInt(postCommentCount);
+            model.update({ _id: id }, { $set: { comment_count: postCommentCount } }, function(err, result) {
+                if (err) {
+                    console.log(err);
+                }
+                return res.json({
+                    message: 'Updated Successfully',
+                    // _id: reception._id
+                });
+            });
+        });
+    },
 };
