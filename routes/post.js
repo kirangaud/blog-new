@@ -182,14 +182,20 @@ router.post('/upload', function(req, res) {
 /*
  * PUT
  */
- router.put('/:id', function(req, res) {
+router.put('/addFbcommentsCount/:id',function(req,res){
+    controller.addFbcommentsCount(req,res);
+});
+
+router.put('/comment/:id', function(req, res) {
+    controller.pushComment(req, res);
+});
+
+router.put('/:id', function(req, res) {
     console.log(req.body);
     controller.update(req, res);
 });
  
-router.put('/comment/:id', function(req, res) {
-    controller.pushComment(req, res);
-});
+
 
 /*
  * DELETE
