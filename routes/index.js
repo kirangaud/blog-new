@@ -15,7 +15,6 @@ function strStartsWith(str, prefix) {
 }
 
 
-console.log("Index");
 
 router.use(function(req, res, next) {
     var err = req.session.error,
