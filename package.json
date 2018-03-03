@@ -11,7 +11,7 @@
   "private": true,
   "main": "start.js",
   "scripts": {
-    "start": "node --use_strict start.js"
+    "start": "nodemon --use_strict start.js"
   },
   "author": {
     "name": "OpenShift",
