@@ -127,6 +127,7 @@ router.get('/posts/:query', function(req, res) {
 
         res.render('details_new', {
             title: post.title,
+            postLink: query,
             disc: postHeader,
             image: metaImage,
             meta_keywords: post.meta_keywords,

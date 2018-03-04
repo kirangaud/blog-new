@@ -148,7 +148,7 @@ var POSTS = React.createClass({
    
     },
     componentWillMount : function(){
-        var query = document.title;
+        var query = '<%- postLink %>';
         // query = query.replace();
         query = query.replace(/_/g,' ');
 
