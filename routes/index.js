@@ -90,20 +90,20 @@ router.get('/details', function(req, res) {
 
 router.get('/posts/:query', function(req, res) {
     var query = (req.params.query);
-    queryNew = query.replace(/_/g, ' ');
-
+    var queryNew = query.replace(/_/g, ' ');
     model.findOne({ posts_title: queryNew }, function(err, post) {
         if (err) {
             res.render('details_new', {
-                title: query,
+                title: queryNew,
             });
         }
         if (!post) {
             res.render('details_new', {
-                title: query,
+                title: queryNew,
             });
         }
-        postHeader = post.post_header_content.replace(/<(?:.|\n)*?>/gm, '');
+        post = JSON.parse(JSON.stringify(post));
+        var postHeader = post.post_header_content.replace(/<(?:.|\n)*?>/gm, '');
         postHeader = postHeader.replace(/"/g, ' ');
         postHeader = postHeader.replace(/'/g, ' ');
         if(post.fb_desc){
@@ -126,10 +126,12 @@ router.get('/posts/:query', function(req, res) {
             metaImage = metaImage;
 
         res.render('details_new', {
-            title: query,
+            title: post.title,
+            postLink: query,
             disc: postHeader,
             image: metaImage,
             meta_keywords: post.meta_keywords,
+            meta_description: post.meta_description,
             meta_tag: post.meta_tag,
             url: 'http://www.kirangaud.com/posts/' + query
         });
@@ -137,7 +139,6 @@ router.get('/posts/:query', function(req, res) {
 });
 
 router.get('/category/:query', function(req, res) {
-    console.log(req.params.query);
     var query = (req.params.query);
     res.render('categories', {
         title: query,

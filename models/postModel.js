@@ -18,8 +18,12 @@ var postSchema = new Schema({
     "post_images" : Array,
     "meta_tag" : String,
     "meta_keywords" : String,
+    "meta_description" : String,
     "hash_tags" : String,
-    "isActive" : {type: Boolean, default: true}
+    "isActive" : {type: Boolean, default: true},
+    //Title key added on 3rd March 2018
+    "title" : String,
+    "name" : String
 });
 postSchema.plugin(mongooseHistory);
 module.exports = mongoose.model('post', postSchema,'post');
