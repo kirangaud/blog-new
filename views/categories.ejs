@@ -155,8 +155,9 @@ var POSTS = React.createClass({
     //     });
     },
     componentWillMount : function(){
-         var query = document.title;
+         var queryArray = window.location.href.split('category/');
         // query = query.replace();
+        var query = queryArray[1];
         query = query.replace(/_/g,' ');
 
         var settings = {
