@@ -1673,7 +1673,7 @@ article.comment-body {
   margin: 1em auto;
   width: 100%;
   display: block;
-  height: 550px;
+  /*height: 550px;*/
   overflow: hidden; }
 
 img.aboutme-first {

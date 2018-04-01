@@ -15,6 +15,31 @@ function strStartsWith(str, prefix) {
 }
 
 
+function getCategoryData(category){
+    var metaData = {};
+    switch (category) {
+        case 'photography':
+            metaData['title'] = 'Kiran Gaud | Pre-wedding,product,landscape and portrait photography.'
+            metaData['description'] = 'Kiran Gaud specializes in pre-wedding,product,landscape and portrait photography.'
+            return metaData;
+            break;
+        case 'reviews':
+            metaData['title'] = 'Reviews on books, movies, lifestyle & fashion.'
+            metaData['description'] = 'Kiran Gaud|Read reviews on books, movies, lifestyle & fashion.'
+            return metaData;
+            break;
+        case 'art':
+            metaData['title'] = 'Kiran Gaud|Paintings for sale, paintings for living room, affordable art & unframed art.'
+            metaData['description'] = 'Kiran Gaud|Buy Paintings for sale, paintings for living room, affordable art & unframed art.'
+            return metaData;
+            break;
+        default:
+            metaData['title'] = 'Kiran Gaud|Blogs on photography,art,fashion,book reviews and travel.'
+            metaData['description'] = 'Kiran Gaud|Blogs on photography,art,fashion,book reviews and travel.'
+            return metaData;
+    }
+}
+
 
 router.use(function(req, res, next) {
     var err = req.session.error,
@@ -26,12 +51,6 @@ router.use(function(req, res, next) {
     if (msg) res.locals.message = '<p class="msg success">' + msg + '</p>';
     next();
 });
-
-
-/* GET home page. */
-// router.get('/', function(req, res, next) {
-//     res.redirect('/');
-// });
 
 router.get('/login', function(req, res, next) {
     if (req.session.user) {
@@ -142,13 +161,9 @@ router.get('/category/:query', function(req, res) {
     var query = (req.params.query);
     res.render('categories', {
         title: query,
+        metaData : getCategoryData(query)
     });
 });
-// router.get('/details_new', function(req, res) {
-//      res.render('details_new', {
-//             title: 'Homepage',
-//         });
-// });
 
 router.get('/about', function(req, res) {
     res.render('about', {
