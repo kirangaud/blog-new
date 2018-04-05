@@ -177,7 +177,6 @@ module.exports = {
         });
     },
     getTags: function(req, res) {
-        console.log('WEWEWe');
         model
             .distinct('hash_tags')
             .exec(function(err,result){
