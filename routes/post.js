@@ -70,6 +70,10 @@ router.get('/all/', function(req, res) {
     controller.listAll(req, res);
 });
 
+router.get('/getTags/', function(req, res) {
+    controller.getTags(req, res);
+});
+
 router.get('/:query', function(req, res) {
     var query = (req.params.query);
     controller.show(req, res);

@@ -176,6 +176,24 @@ module.exports = {
             return res.json(post);
         });
     },
+    getTags: function(req, res) {
+        console.log('WEWEWe');
+        model
+            .distinct('hash_tags')
+            .exec(function(err,result){
+                if(err){
+                    return res.json(500, {
+                        message: 'Error getting post.'
+                    });
+                }else{
+                    result = JSON.parse(JSON.stringify(result));
+                    result = (result.toString()).split(',');
+                    result = _.uniq(_.flatten(result));
+                    result = result.map((data) =>  data.trim());
+                    return res.json(result);
+                }
+            })
+    },
     /**
      * postController.create()
      */
