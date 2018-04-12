@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title><%- metaData.title %></title>
+       <title>Kiran Gaud|Blogs on photography,art,fashion,book reviews and travel.</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- OG  -->
         <meta property="og:image" content= "https://drive.google.com/uc?export=view&id=0B73QldPJajvyUzlCT1l5Z2lQOTQ" >
-        <meta property="og:title" content="<%- metaData.title %>" >
+        <meta property="og:title" content="Kiran Gaud|Blogs on photography,art,fashion,book reviews and travel." >
         <meta property="og:url" content="http://www.kirangaud.com/" >
         <meta property="og:site_name" content="kirangaud" >
         <meta property="og:type" content="website" >
@@ -16,9 +16,8 @@
         <meta property="og:image:height" content="300" />
         <meta property="og:image:height" content="300" />
 
-        <meta name="title" content="<%- metaData.title %>">
-        <meta name="Description" content="<%- metaData.description %>">
-
+      <meta name="title" content="Kiran Gaud|Blogs on photography,art,fashion,book reviews and travel.">
+        <meta name="Description" content="Kiran Gaud is a blogger who blogs about photography,art,fashion,book reviews and travel.">
 
 
 
@@ -155,7 +154,7 @@ var POSTS = React.createClass({
     //     });
     },
     componentWillMount : function(){
-         var queryArray = window.location.href.split('category/');
+         var queryArray = window.location.href.split('tag/');
         // query = query.replace();
         var query = queryArray[1];
         query = query.replace(/_/g,' ');
@@ -163,7 +162,7 @@ var POSTS = React.createClass({
         var settings = {
           "async": true,
           "crossDomain": true,
-          "url": "/route/post/getCategory/"+query,
+          "url": "/route/post/getTagData/"+query,
           "method": "GET",
         }
 

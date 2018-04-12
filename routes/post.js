@@ -66,6 +66,10 @@ router.get('/getCategory/:query', function(req, res) {
     controller.getCategory(req, res);
 });
 
+router.get('/getTagData/:query', function(req, res) {
+    controller.getTagData(req, res);
+});
+
 router.get('/all/', function(req, res) {
     controller.listAll(req, res);
 });

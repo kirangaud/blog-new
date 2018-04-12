@@ -141,6 +141,25 @@ module.exports = {
                 return res.json(post);
             });
     },
+    getTagData: function(req, res) {
+        var query = req.params.query;
+        model
+            .find({
+                hash_tags:  {
+                    $regex: new RegExp(query, 'i')
+                },
+                isActive: true
+            })
+            .sort('-_id')
+            .exec(function(err, post) {
+                if (err) {
+                    return res.json(500, {
+                        message: 'Error getting post.'
+                    });
+                }
+                return res.json(post);
+            });
+    },
     /**
      * postController.show()
      */
