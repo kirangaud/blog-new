@@ -165,6 +165,15 @@ router.get('/category/:query', function(req, res) {
     });
 });
 
+
+router.get('/tag/:query', function(req, res) {
+    var query = (req.params.query);
+    res.render('tag', {
+        title: query,
+    });
+});
+
+
 router.get('/about', function(req, res) {
     res.render('about', {
         title: 'Homepage',
