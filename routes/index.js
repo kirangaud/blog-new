@@ -207,6 +207,7 @@ router.get('/imageList', function(req, res) {
         .find({
             // isActive : true
         })
+        .sort({_id : -1})
         .exec(function(err, post) {
             if (err) {
                 return res.json(500, {
