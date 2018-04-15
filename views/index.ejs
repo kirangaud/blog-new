@@ -217,8 +217,18 @@
 		<script src="/javascripts/globalv4.js"></script>
 		<script type="text/jsx">
         // Let's create a "real-time search" component
-$(document).ready(function(){
-$('.homepage_header_container').css('background-image','url(https://drive.google.com/uc?export=view&id=1ez9gAYwkk5S8V5PJKS1pcuzRpimv1rNr)');
+		$(document).ready(function(){
+			var width = document.documentElement.clientWidth;
+			if(width <= 480) {
+				
+			    // the width of browser is more then 700px
+				$('.homepage_header_container').css('background-image','url(https://drive.google.com/uc?export=view&id=1asR9d2z730b596tGvffkeDyeTW_SnOQZ)');
+			} else {
+				
+				
+				$('.homepage_header_container').css('background-image','url(https://drive.google.com/uc?export=view&id=1ez9gAYwkk5S8V5PJKS1pcuzRpimv1rNr)');
+			    // the width of browser is less then 700px
+			}
 });
 var POSTS = React.createClass({
 
@@ -424,5 +434,12 @@ ReactDOM.render(
     document.getElementById('post-parent-container')
 );
     </script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+		  (adsbygoogle = window.adsbygoogle || []).push({
+		    google_ad_client: "ca-pub-4136573795316210",
+		    enable_page_level_ads: true
+		  });
+		</script>
 	</body>
 </html>
