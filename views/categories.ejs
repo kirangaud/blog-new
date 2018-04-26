@@ -1,118 +1,110 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title><%- metaData.title %></title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!-- OG  -->
-        <meta property="og:image" content= "https://drive.google.com/uc?export=view&id=0B73QldPJajvyUzlCT1l5Z2lQOTQ" >
-        <meta property="og:title" content="<%- metaData.title %>" >
-        <meta property="og:url" content="http://www.kirangaud.com/" >
-        <meta property="og:site_name" content="kirangaud" >
-        <meta property="og:type" content="website" >
-        <meta property="og:image:width" content="400" />
-        <meta property="og:image:height" content="300" />
-        <meta property="og:image:height" content="300" />
 
-        <meta name="title" content="<%- metaData.title %>">
-        <meta name="Description" content="<%- metaData.description %>">
+<head>
+    <title>
+        <%- metaData.title %>
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- OG  -->
+    <meta property="og:image" content="https://drive.google.com/uc?export=view&id=0B73QldPJajvyUzlCT1l5Z2lQOTQ">
+    <meta property="og:title" content="<%- metaData.title %>">
+    <meta property="og:url" content="http://www.kirangaud.com/">
+    <meta property="og:site_name" content="kirangaud">
+    <meta property="og:type" content="website">
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta name="title" content="<%- metaData.title %>">
+    <meta name="Description" content="<%- metaData.description %>">
+    <meta name="google-site-verification" content="_IGXULL3kqwoWs2UyoPh5wYj_UggKpuzQBPSXhnlB5E">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylev25.css">
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Sacramento|Josefin+Sans:300|Lato' rel='stylesheet' type='text/css'>
+    <script src="/javascripts/modernizr.custom.97074.js"></script>
+    <script src="/javascripts/jquery.2.1.0.min.js"></script>
+    <script src="https://fb.me/react-15.2.1.min.js"></script>
+    <script src="https://fb.me/react-dom-15.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.10.3/babel.min.js"></script>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
+    ga('create', 'UA-89573583-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</head>
 
-
-
-
-
-        <meta name="google-site-verification" content="_IGXULL3kqwoWs2UyoPh5wYj_UggKpuzQBPSXhnlB5E">
-
-        <link rel="stylesheet" type="text/css" href="/stylesheets/stylev24.css">
-        <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="/stylesheets/font-awesome.min.css">
-        <!-- <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Old+Standard+TT|Junction|Fertigo|Audimat|Josefin+Sans|Junge|Lato' rel='stylesheet' type='text/css'> -->
-        <!-- comment by Alnoor for uploading code on rhn on 06-06-2016 -->
-        <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Sacramento|Josefin+Sans:300|Lato' rel='stylesheet' type='text/css'>
-        <script src="/javascripts/modernizr.custom.97074.js"></script>
-        <script src="/javascripts/jquery.2.1.0.min.js"></script>        
-        <script src="https://fb.me/react-15.2.1.min.js"></script>
-        <script src="https://fb.me/react-dom-15.2.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.10.3/babel.min.js"></script>
-        <script>
-              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-              ga('create', 'UA-89573583-1', 'auto');
-              ga('send', 'pageview');
-        </script>
-    </head>   
 <body>
     <div id="detail-page-container">
-     <header class="header_container">
-        <div class="header_background">
+        <header class="header_container">
+            <div class="header_background">
                 <div class="container container_title">
                     <div id="title-container">
-                    <a href="/">
+                        <a href="/">
                         <span id="title">KI<span class="R-tag">R</span>AN&nbsp;GAUD</span>
                         </a>
                         <span class="detail-line"></span>
                     </div>
-                    
                 </div>
-                
-        </div>
-    </header>
-    <div class="header-bar col-md-12">
-    <nav>
-        <ul class="header-list">
-            <li><a href="/category/photography">photography</a></li>
-            <li><a href="/category/thoughts">Thoughts</a></li>
-            <li><a href="/category/art">art</a></li>
-            <li><a href="/category/reviews">reviews</a></li>
-            <li><a href="/about">about</a></li>
-        </ul>
-        <ul class="socials">
-                            <li><a href="https://www.facebook.com/kiranpgaud" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://in.linkedin.com/in/kiran-goud-09890073" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/kapeheart/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
-    </nav>
-    </div>
-    <section>
-        <div id="detail-content">
-            <div class="row">
-            <div class="col-md-9 brdr-right" id='post-parent-container'>
             </div>
-
-            <div class="col-md-3">
-           <aside class="about-me">
-                    <h3 class="sidebar-title-h3">ABOUT</h3>
-                    <div class="abt-img-container">
-                        <img src="https://drive.google.com/uc?export=view&id=0B73QldPJajvyOFBuNDZ0YTlodUk" class="first-abt">
-                    <img src="https://drive.google.com/uc?export=view&id=0B73QldPJajvyUzlCT1l5Z2lQOTQ" class="second-abt hidden-img">
+        </header>
+        <div class="header-bar col-md-12">
+            <nav>
+                <ul class="header-list">
+                    <li><a href="/category/photography">photography</a></li>
+                    <li><a href="/category/thoughts">Thoughts</a></li>
+                    <li><a href="/category/art">art</a></li>
+                    <li><a href="/category/reviews">reviews</a></li>
+                    <li><a href="/about">about</a></li>
+                </ul>
+                <ul class="socials">
+                    <li><a href="https://www.facebook.com/kiranpgaud" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://in.linkedin.com/in/kiran-goud-09890073" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/kapeheart/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <section>
+            <div id="detail-content">
+                <div class="row">
+                    <div class="col-md-9 brdr-right" id='post-parent-container'>
                     </div>
-                
-                    <p>
-                        Art, photography, fashion, makeup, interiors are all inter-connected. If you are fairly knowledgeable at one, you tend to be decent at the other. Often, your work will reflect one or many of your passions. Through my blogs i intend to share, learn, and connect
-                    </p>
-
-
-                    <a href="/about"><span class="read-more">More</span></a>
-                </aside>
-                <aside class="categories side-dock">
-                    <h3 class="sidebar-title-h3">INSTAGRAM</h3>
-                    <div id="instagram-slider" class="carousel slide carousel-fade" data-ride="carousel">
-                        
-                    </div>
-                </aside>
-                <aside class="search side-dock">
-                    <h3 class="sidebar-title-h3">ARCHIVE</h3>
-                    <ul class="archive-list pad-0">
-                        
-                    </ul>
-                </aside>
-               <!--  <aside class="random-post side-dock">
+                    <div class="col-md-3">
+                        <aside class="about-me">
+                            <h3 class="sidebar-title-h3">ABOUT</h3>
+                            <div class="abt-img-container">
+                                <img src="https://drive.google.com/uc?export=view&id=0B73QldPJajvyOFBuNDZ0YTlodUk" class="first-abt">
+                                <img src="https://drive.google.com/uc?export=view&id=0B73QldPJajvyUzlCT1l5Z2lQOTQ" class="second-abt hidden-img">
+                            </div>
+                            <p>
+                                Art, photography, fashion, makeup, interiors are all inter-connected. If you are fairly knowledgeable at one, you tend to be decent at the other. Often, your work will reflect one or many of your passions. Through my blogs i intend to share, learn, and connect
+                            </p>
+                            <a href="/about"><span class="read-more">More</span></a>
+                        </aside>
+                        <aside class="categories side-dock">
+                            <h3 class="sidebar-title-h3">INSTAGRAM</h3>
+                            <div id="instagram-slider" class="carousel slide carousel-fade" data-ride="carousel">
+                            </div>
+                        </aside>
+                        <aside class="search side-dock">
+                            <h3 class="sidebar-title-h3">ARCHIVE</h3>
+                            <ul class="archive-list pad-0">
+                            </ul>
+                        </aside>
+                        <!--  <aside class="random-post side-dock">
                     <h3 class="sidebar-title-h3">SUBSCRIBE</h3>
                     <p>
                         Enter your email address to subscribe to this blog and receive notifications of new posts by email.
@@ -122,295 +114,380 @@
                         <input class="submit-btn" type="submit" value="SUBSCRIBE" name="email-subscription-widget">
                     </form>
                 </aside> -->
+                    </div>
+                </div>
             </div>
-            </div>
+        </section>
+    </div>
+    <div class="row margin_reset footer">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer_links">
+            <div id="heart"></div>
+            <h2>@2016 KIRAN GAUD </h2>
         </div>
-    </section>
-
-        </div>
-        <div class="row margin_reset footer">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer_links">
-                <div id="heart"></div>
-                <h2>@2016 KIRAN GAUD </h2>
-            </div>
-            
-        </div>
-        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
-        <script type="text/javascript" src="/javascripts/serialize.min.js"></script>
-        <script src="/javascripts/bootstrap.min.js"></script>
-        <script src="/javascripts/global.js"></script>
-
-        <script type="text/jsx">
-        // Let's create a "real-time search" component
-var POSTS = React.createClass({
-
-    loadData : function(){
-    //     var settings = {
-    //       "async": true,
-    //       "crossDomain": true,
-          // "url": "http://localhost:3000/route/post/",
-    //       "method": "GET",
-    //     }
-
-    //     $.ajax(settings).done(function (response) {
-    //     });
-    },
-    componentWillMount : function(){
-         var queryArray = window.location.href.split('category/');
-        // query = query.replace();
-        var query = queryArray[1];
-        query = query.replace(/_/g,' ');
-
-        var settings = {
-          "async": true,
-          "crossDomain": true,
-          "url": "/route/post/getCategory/"+query,
-          "method": "GET",
-        }
-
-        $.ajax(settings).done(function (response) {
-            var resultData = response;
-          this.setState({
-            postResult:resultData
-        });
-        }.bind(this));
-    },
-    componentDidMount : function(){
-        $('img').lazyPull();
-      // this.setState({
-                
-      //       },function(){
-                
-            //     var settings = {
-            //       "url": "http://localhost:3000/route/post/",
-            //       "method": "GET",
-            //     }
-            //     if(val.length > 0){
-               //      $.ajax(settings).done(function (response) {
-               //          var resultData = response;
-               //          this.setState({
-               //              postResult:resultData
-               //          });
-               //      }.bind(this));
-            //     }
-                
-      //       });
-    },
-    getInitialState: function(){
-        return { postResult: '' };
-    },
-
-    handleChange: function(e){
-        var queryType = {};
-       /* var val = e.target.value;
-        var tray_url = "/route/elastic/getElasticData/" + val;
-    $.getJSON(tray_url, function(data) {
-        var resultData = data;
-            this.setState({
-                postResult:resultData
-            });
-
-    });*/
-        var val = e.target.value;
-        queryType["searchType"] = 'all'; 
-        if(this.state.queryState){
-            queryType["searchValue"] = e.target.name === 'searchValue' ? e.target.value : this.state.queryState.searchValue;
-            queryType["searchType"] = e.target.name === 'searchType' ? e.target.value : this.state.queryState.searchType;
-        }else{
-            queryType[e.target.name] = e.target.value;
-        }
-        this.setState({
-                queryState : queryType,
-            },function(){
+    </div>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/javascripts/serialize.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="/javascripts/global.js"></script>
+    <script type="text/jsx">
+        var query;
+        var POSTS = React.createClass({
+            loadData : function(){
+            },
+            componentWillMount : function(){
+                var queryArray = window.location.href.split('category/');
+                query = queryArray[1];
+                query = query.replace(/_/g,' ');
                 var settings = {
-                  // "async": true,
-                  // "crossDomain": true,
-                  "url": "/route/post/",
+                  "async": true,
+                  "crossDomain": true,
+                  "url": "/route/post/getCategory/"+query,
                   "method": "GET",
-                  // "data": "{\"query\" : {\"query_string\" : {query : \""+val+"\"}}}"
                 }
-                if(val.length > 0){
-                    $.ajax(settings).done(function (response) {
-                        var resultData = response;
-                        this.setState({
-                            // queryType : queryType,
-                            postResult:resultData
-                        });
-                    }.bind(this));
-                }
-                
-            });
+                $.ajax(settings).done(function (response) {
+                    var resultData = response;
+                  this.setState({
+                    postResult:resultData
+                });
+                }.bind(this));
+            },
+            componentDidMount : function(){
+                $('img').lazyPull();
+            },
+            getInitialState: function(){
+                return { postResult: '' };
+            },
+            render: function() {
+                var postsLibrary = this.props.items,
+                    postResult = this.state.postResult;
+                if(postResult.length > 0){
+                if(postResult[0].posts_category.length > 0){
+                    if(query !== 'art'){
+                    var postList = postResult.map(function(l){
+                        var postLink = '/posts/'+l.posts_title.replace(/ /g,'_');
 
-    },
-
-    render: function() {
-        var postsLibrary = this.props.items,
-            postResult = this.state.postResult;
-
-        if(postResult.length > 0){
-        if(postResult[0].posts_category.length > 0){
-            var postList = postResult.map(function(l){
-                var postLink = '/posts/'+l.posts_title.replace(/ /g,'_');
-
-                 var newDate = new Date(l.created_on),
-                     locale = "en-us",
-                      month = newDate.toLocaleString(locale, { month: "long" }),
-                      day = newDate.getDate(),
-                      year = newDate.getFullYear(),
-                      time = newDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}),
-                      dateFormat = month +" "+day+","+year+" at "+time;
-                     return (
-                        <div className="posts-container col-md-12">
-                            <div className="post-header">
-                                <span>{l.posts_category}</span>
-                                <h2 className="post-title">
-                                <a href={postLink}>{l.posts_title}</a></h2>
-                            </div>
-                            <div className="post-entry">
-                                <span>{dateFormat}</span>
-                                <span className="post-comments">
-                                <a href={postLink}>{l.comment_count} COMMENTS</a></span>
-                            </div>
-                            <div className="post-media">
-                               {l.post_header_images[0] && 
-                                        <div href="#" className={l.post_header_images[2] != undefined || year != '2017' ? "col-md-7 img-media image-hover img-shadow-1" : "col-md-6 img-media image-hover img-shadow-1"}>
-                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcimg={l.post_header_images[0]} />
+                         var newDate = new Date(l.created_on),
+                             locale = "en-us",
+                              month = newDate.toLocaleString(locale, { month: "long" }),
+                              day = newDate.getDate(),
+                              year = newDate.getFullYear(),
+                              time = newDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}),
+                              dateFormat = month +" "+day+","+year+" at "+time;
+                             return (
+                                <div className="posts-container col-md-12">
+                                    <div className="post-header">
+                                        <span>{l.posts_category}</span>
+                                        <h2 className="post-title">
+                                        <a href={postLink}>{l.posts_title}</a></h2>
+                                    </div>
+                                    <div className="post-entry">
+                                        <span>{dateFormat}</span>
+                                        <span className="post-comments">
+                                        <a href={postLink}>{l.comment_count} COMMENTS</a></span>
+                                    </div>
+                                    <div className="post-media">
+                                       {l.post_header_images[0] && 
+                                                <div href="#" className={l.post_header_images[2] != undefined || year != '2017' ? "col-md-7 img-media image-hover img-shadow-1" : "col-md-6 img-media image-hover img-shadow-1"}>
+                                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcimg={l.post_header_images[0]} />
+                                                </div>
+                                            }
+                                            {l.post_header_images[1] && 
+                                                <div href="#" className={l.post_header_images[2] != undefined || year != '2017' ? "col-md-5 img-media image-hover img-shadow-1" : "col-md-6 img-media image-hover img-shadow-1"}>
+                                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcimg={l.post_header_images[1]} />
+                                                </div>
+                                            }
+                                            {
+                                                l.post_header_images[2] &&
+                                                <div href="#" className="col-md-6 img-media image-hover img-shadow-1">
+                                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcimg={l.post_header_images[2]} />
+                                                </div>
+                                            }
+                                            {
+                                                l.post_header_images[3] &&
+                                                <div href="#" className="col-md-6 img-media image-hover img-shadow-1">
+                                                    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcimg={l.post_header_images[3]} />
+                                                </div>
+                                            }
+                                    </div>
+                                    <div className="post-inner ">
+                                        <div className="post-content">
+                                            <p dangerouslySetInnerHTML={{__html: l.post_header_content}}>
+                                            </p>
                                         </div>
-                                    }
-                                    {l.post_header_images[1] && 
-                                        <div href="#" className={l.post_header_images[2] != undefined || year != '2017' ? "col-md-5 img-media image-hover img-shadow-1" : "col-md-6 img-media image-hover img-shadow-1"}>
-                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcimg={l.post_header_images[1]} />
-                                        </div>
-                                    }
-                                    {
-                                        l.post_header_images[2] &&
-                                        <div href="#" className="col-md-6 img-media image-hover img-shadow-1">
-                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcimg={l.post_header_images[2]} />
-                                        </div>
-                                    }
-                                    {
-                                        l.post_header_images[3] &&
-                                        <div href="#" className="col-md-6 img-media image-hover img-shadow-1">
-                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-srcimg={l.post_header_images[3]} />
-                                        </div>
-                                    }
-                            </div>
-                            <div className="post-inner ">
-                                <div className="post-content">
-                                    <p dangerouslySetInnerHTML={{__html: l.post_header_content}}>
-                                    </p>
+                                    </div>
+                                    <div className="entry-utils group">
+                                        <a href={postLink} className="read-more">Continue Reading</a>
+                                        <ul className="socials">
+                                            <li>
+                                                <a href={"https://www.facebook.com/sharer/sharer.php?&p[title]="+l.posts_title+"&p[summary]="+l.post_header_content+"&p[url]=http://"+document.location.hostname+postLink+"&p[images][0]="+l.post_header_images[0]+""} target="_blank" className="social-icon">
+                                                    <i className="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href={"http://twitter.com/share?text=Shared &url=http://"+document.location.hostname+postLink+"&hashtags="+l.hash_tags} target="_blank" className="social-icon">
+                                                    <i className="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href={"https://plus.google.com/share?url=http://"+document.location.hostname+postLink} target="_blank" className="social-icon">
+                                                    <i className="fa fa-google-plus"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href={"https://pinterest.com/pin/create/button/?url=http://"+document.location.hostname+postLink} target="_blank" className="social-icon">
+                                                    <i className="fa fa-pinterest"></i>
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="entry-utils group">
-                                <a href={postLink} className="read-more">Continue Reading</a>
-                                <ul className="socials">
-                                    <li>
-                                        <a href={"https://www.facebook.com/sharer/sharer.php?&p[title]="+l.posts_title+"&p[summary]="+l.post_header_content+"&p[url]=http://"+document.location.hostname+postLink+"&p[images][0]="+l.post_header_images[0]+""} target="_blank" className="social-icon">
-                                            <i className="fa fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href={"http://twitter.com/share?text=Shared &url=http://"+document.location.hostname+postLink+"&hashtags="+l.hash_tags} target="_blank" className="social-icon">
-                                            <i className="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href={"https://plus.google.com/share?url=http://"+document.location.hostname+postLink} target="_blank" className="social-icon">
-                                            <i className="fa fa-google-plus"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href={"https://pinterest.com/pin/create/button/?url=http://"+document.location.hostname+postLink} target="_blank" className="social-icon">
-                                            <i className="fa fa-pinterest"></i>
-                                        </a>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                        )
+                                )
+                            });
+                                return <div className="">{postList}</div>
+                            }else if(query === 'art'){
+
+                            if(postResult[0].posts_category.length > 0){
+                                var artList = postResult.map(function(l){
+                                    var postLink = '/posts/'+l.posts_title.replace(/ /g,'_');
+
+                                     var newDate = new Date(l.created_on),
+                                         locale = "en-us",
+                                          month = newDate.toLocaleString(locale, { month: "long" }),
+                                          day = newDate.getDate(),
+                                          year = newDate.getFullYear(),
+                                          time = newDate.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}),
+                                          dateFormat = month +" "+day+","+year+" at "+time;
+                                         return (
+                                           <div className="grid-container b-scroll posts-container col-md-12">
+                                                <ul className="browselist clearfix" id="product_collection" >
+                                                   <li className="white-panel artist-data" >
+                                                        <div className="browse-box">
+                                                            <div className="browseimg" >
+                                                                <a href="/artworks/john-tun-sein/untitled-207804" site_product_id="207804" target="_blank"><img alt="Untitled by John Tun Sein, Illustration Drawing, Ink on Paper, Gray color" height="243" src="https://drive.google.com/uc?export=view&id=0B73QldPJajvyRFNocGEyR2Z0c3pUODFEQTY1SFBuaWw2aFBF" title="Untitled Artwork" /></a>
+                                                                <div className="browse-box-hover">
+                                                                    <ul className="browse-actions">
+                                                                        <li className="favourite">
+                                                                            <a data-method="post" data-remote="true" data-tooltip="Add to favorites" href="/v2/wishlists?product_id=207804&amp;product_type=artworks" id="add_to_wishlist_artworks_207804" rel="nofollow" target="_blank"></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div className="browseinner">
+                                                                <div className="product-details">
+                                                                    <p className="productTitle">
+                                                                        <a className="mname" href="/artworks/john-tun-sein/untitled-207804" target="_blank">Untitled</a>
+                                                                    </p>
+                                                                    <p className="sname">
+                                                                        By
+                                                                        <a className="productTitle" href="/artists/john-tun-sein" target="_blank"> John Tun Sein</a>
+                                                                    </p>
+                                                                    <p className="size">
+                                                                        Drawing, 6 X 4 In
+                                                                    </p>
+                                                                    <p className="size">
+                                                                        Ink on Paper
+                                                                    </p>
+                                                                </div>
+                                                                <div className="product-price">
+                                                                    <p className="cutting-price"></p>
+                                                                    <p className="price">
+                                                                        <i className="fa fa-inr"></i> 18,000
+                                                                    </p>                                                                   
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                   <li className="white-panel artist-data" >
+                                                        <div className="browse-box">
+                                                            <div className="browseimg" >
+                                                                <a href="/artworks/john-tun-sein/untitled-207804" site_product_id="207804" target="_blank"><img alt="Untitled by John Tun Sein, Illustration Drawing, Ink on Paper, Gray color" height="243" src="https://drive.google.com/uc?export=view&id=0B73QldPJajvyTzdKQ1U0QUJWb3M" title="Untitled Artwork" /></a>
+                                                                <div className="browse-box-hover">
+                                                                    <ul className="browse-actions">
+                                                                        <li className="favourite">
+                                                                            <a data-method="post" data-remote="true" data-tooltip="Add to favorites" href="/v2/wishlists?product_id=207804&amp;product_type=artworks" id="add_to_wishlist_artworks_207804" rel="nofollow" target="_blank"></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div className="browseinner">
+                                                                <div className="product-details">
+                                                                    <p className="productTitle">
+                                                                        <a className="mname" href="/artworks/john-tun-sein/untitled-207804" target="_blank">Untitled</a>
+                                                                    </p>
+                                                                    <p className="sname">
+                                                                        By
+                                                                        <a className="productTitle" href="/artists/john-tun-sein" target="_blank"> John Tun Sein</a>
+                                                                    </p>
+                                                                    <p className="size">
+                                                                        Drawing, 6 X 4 In
+                                                                    </p>
+                                                                    <p className="size">
+                                                                        Ink on Paper
+                                                                    </p>
+                                                                </div>
+                                                                <div className="product-price">
+                                                                    <p className="cutting-price"></p>
+                                                                    <p className="price">
+                                                                        <i className="fa fa-inr"></i> 18,000
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li className="white-panel artist-data" >
+                                                        <div className="browse-box">
+                                                            <div className="browseimg" >
+                                                                <a href="/artworks/john-tun-sein/untitled-207804" site_product_id="207804" target="_blank"><img alt="Untitled by John Tun Sein, Illustration Drawing, Ink on Paper, Gray color" height="243" src="https://drive.google.com/uc?export=view&id=0B73QldPJajvyTzdKQ1U0QUJWb3M" title="Untitled Artwork" /></a>
+                                                                <div className="browse-box-hover">
+                                                                    <ul className="browse-actions">
+                                                                        <li className="favourite">
+                                                                            <a data-method="post" data-remote="true" data-tooltip="Add to favorites" href="/v2/wishlists?product_id=207804&amp;product_type=artworks" id="add_to_wishlist_artworks_207804" rel="nofollow" target="_blank"></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div className="browseinner">
+                                                                <div className="product-details">
+                                                                    <p className="productTitle">
+                                                                        <a className="mname" href="/artworks/john-tun-sein/untitled-207804" target="_blank">Untitled</a>
+                                                                    </p>
+                                                                    <p className="sname">
+                                                                        By
+                                                                        <a className="productTitle" href="/artists/john-tun-sein" target="_blank"> John Tun Sein</a>
+                                                                    </p>
+                                                                    <p className="size">
+                                                                        Drawing, 6 X 4 In
+                                                                    </p>
+                                                                    <p className="size">
+                                                                        Ink on Paper
+                                                                    </p>
+                                                                </div>
+                                                                <div className="product-price">
+                                                                    <p className="cutting-price"></p>
+                                                                    <p className="price">
+                                                                        <i className="fa fa-inr"></i> 18,000
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li className="white-panel artist-data" >
+                                                        <div className="browse-box">
+                                                            <div className="browseimg" >
+                                                                <a href="/artworks/john-tun-sein/untitled-207804" site_product_id="207804" target="_blank"><img alt="Untitled by John Tun Sein, Illustration Drawing, Ink on Paper, Gray color" height="243" src="https://drive.google.com/uc?export=view&id=0B73QldPJajvyTzdKQ1U0QUJWb3M" title="Untitled Artwork" /></a>
+                                                                <div className="browse-box-hover">
+                                                                    <ul className="browse-actions">
+                                                                        <li className="favourite">
+                                                                            <a data-method="post" data-remote="true" data-tooltip="Add to favorites" href="/v2/wishlists?product_id=207804&amp;product_type=artworks" id="add_to_wishlist_artworks_207804" rel="nofollow" target="_blank"></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div className="browseinner">
+                                                                <div className="product-details">
+                                                                    <p className="productTitle">
+                                                                        <a className="mname" href="/artworks/john-tun-sein/untitled-207804" target="_blank">Untitled</a>
+                                                                    </p>
+                                                                    <p className="sname">
+                                                                        By
+                                                                        <a className="productTitle" href="/artists/john-tun-sein" target="_blank"> John Tun Sein</a>
+                                                                    </p>
+                                                                    <p className="size">
+                                                                        Drawing, 6 X 4 In
+                                                                    </p>
+                                                                    <p className="size">
+                                                                        Ink on Paper
+                                                                    </p>
+                                                                </div>
+                                                                <div className="product-price">
+                                                                    <p className="cutting-price"></p>
+                                                                    <p className="price">
+                                                                        <i className="fa fa-inr"></i> 18,000
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            )
+                                        });
+                                return <div className="">{artList}</div>
+                            }
+                        }
+                        }
+                        }else {
+                                return <div></div>
+                            }
+                        }
                     });
-return <div className="">{postList}</div>
-        }
-    }
-        else{
-            return <div></div>
-        }
-    }
-});
-
-
-var postsLibrary = [];
-
-ReactDOM.render(
-    <POSTS items={ postsLibrary } />,
-    document.getElementById('post-parent-container')
-);
+                var postsLibrary = [];
+                ReactDOM.render(
+                    <POSTS items={ postsLibrary } />,
+                    document.getElementById('post-parent-container')
+                );
     </script>
     <script type="text/javascript">
+            $(document).on('click', '#submit', function() {
+                 pushComment();
+             });
+             var action_type = "PUT";
+             var SubmitUrlId;
+             var populate_data = {};
+             var NewObject;
+             var flag = false;
 
-$(document).on('click', '#submit', function() {
-    pushComment();
-});
-var action_type="PUT";
-var SubmitUrlId;
-var populate_data={};
-var NewObject ;
-var flag =false;
+             function pushComment() {
+                 $("#commentform").validate({
+                     rules: {
+                         comment: { required: true },
+                         author: { required: true },
+                         email: { required: true },
+                     },
+                     errorPlacement: function(error, element) {
 
-function pushComment(){
-$( "#commentform" ).validate({
-  rules: {    
-     comment :{ required: true},
-     author :{ required: true},
-     email :{ required: true},
-  },
-  errorPlacement: function(error, element) {
-     
-  }, submitHandler: function(form) {
-/* get the elements required for the post method*/
+                     },
+                     submitHandler: function(form) {
+                         $(".overlay").show();
+                         var $form = $(form);
+                         var url = $form.attr('action');
+                         var formData = $form.serializeObject();
+                         SubmitUrlId = formData.comment_post_ID;
+                         if (action_type == "PUT") {
+                             url += SubmitUrlId;
+                         }
+                         if (NewObject) {
+                             formData.__v = NewObject.__v;
+                         }
 
- $(".overlay").show();
-var $form = $( form );
-var url = $form.attr('action');
-
-var formData = $form.serializeObject();
-SubmitUrlId = formData.comment_post_ID;
-if(action_type=="PUT"){
-    url+=SubmitUrlId;
-   } 
-if(NewObject)
-{
-formData.__v=NewObject.__v;
-}/* post method */
-
-$.ajax({
-          url: url,
-          type: action_type||"POST",
-          data: JSON.stringify(formData),
-          contentType: "application/json; charset=utf-8",
-          dataType   : "json",
-          success: function(result) {  
-            if(result.message){
-            location.reload();
-          }          
-          },
-          error: function (jqXHR, textStatus, errorThrown) {
-             alert("Error Posting Comment");
-    }
-});
-}
-});
-}
+                         $.ajax({
+                             url: url,
+                             type: action_type || "POST",
+                             data: JSON.stringify(formData),
+                             contentType: "application/json; charset=utf-8",
+                             dataType: "json",
+                             success: function(result) {
+                                 if (result.message) {
+                                     location.reload();
+                                 }
+                             },
+                             error: function(jqXHR, textStatus, errorThrown) {
+                                 alert("Error Posting Comment");
+                             }
+                         });
+                     }
+                 });
+             }
     </script>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-4136573795316210",
-            enable_page_level_ads: true
-          });
-        </script>
-    </body>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4136573795316210",
+        enable_page_level_ads: true
+      });
+    </script>
+</body>
 
 
 

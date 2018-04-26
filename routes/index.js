@@ -2,11 +2,13 @@
         router                 = express.Router(),
         request                = require('request'),
         session                = require('express-session'), //Express Session
-
         model                  = require('../models/postModel.js'),
         usersModel             = require('../models/usersModel.js'),
         imageModel             = require('../models/imageModel.js'),
-        googleDriveImagesModel = require('../models/googleDriveImagesModel.js');
+        mediaModel             = require('../models/mediaModel.js'),
+        webBannerModel         = require('../models/webBannerModel.js');
+        
+
 
 
 
@@ -88,8 +90,23 @@ router.post('/login', function(req, res, next) {
 });
 
 router.get('/', function(req, res) {
-    res.render('index', {
-        title: 'Homepage',
+    model
+        .findOne({})
+        .sort({_id : -1})
+        .exec(function(err, webBannerResult) {
+        if (err) {
+            res.render('index', {
+                title: 'Homepage',
+                webBannerImage : 'https://drive.google.com/uc?export=view&id=1ez9gAYwkk5S8V5PJKS1pcuzRpimv1rNr',
+                mobBannerImage : 'https://drive.google.com/uc?export=view&id=1asR9d2z730b596tGvffkeDyeTW_SnOQZ',
+            });
+        }else{
+            res.render('index', {
+                title: 'Homepage',
+                webBannerImage : 'https://drive.google.com/uc?export=view&id=1ez9gAYwkk5S8V5PJKS1pcuzRpimv1rNr',
+                mobBannerImage : 'https://drive.google.com/uc?export=view&id=1asR9d2z730b596tGvffkeDyeTW_SnOQZ',
+            });
+        }
     });
 });
 
@@ -203,7 +220,7 @@ router.get('/imagesBrowse', function(req, res) {
 
 
 router.get('/imageList', function(req, res) {
-    googleDriveImagesModel
+    mediaModel
         .find({
             // isActive : true
         })

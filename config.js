@@ -1,4 +1,8 @@
 module.exports = {
-   'api_url' : 'http://localhost:3000/',
-   'api_url_alnoor' : 'http://192.168.1.191:3000/',  //Alnoor Local Binding  
+   'api_url' : 'http://www.kirangaud.com',
+   'aws': {
+        'key': 'AKIAJVGI3T5CGLZOHTCQ',
+        'secret': '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',
+        'region': 'ap-south-1'
+    }
 };

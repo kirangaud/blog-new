@@ -1,218 +1,174 @@
+<% include partials/head %>
+    <style type="text/css">
+    .dashboard-sidebar {
+        height: 1000px;
+        overflow: hidden;
+    }
+    .hide-alert-box {
+        display: none;
+    }
 
- <% include partials/head %>
- <style type="text/css">
-.hide-alert-box{
-  display: none;
-}
-.image-header img {
-   height: 150px;
-    width: 200px;
-}
-div#image-parent-container {
-    background: #eae7e7;
-}
-.image-container {
-    margin-top: 7em;
-}
-.image-header {
-    margin: 2em 0em 0em 0em;
-    border: 3px solid #fff;
-    overflow: hidden;
-}
-span.image-caption {
-    position: absolute;
-    top: 11px;
-    font-family: "josefin sans";
-    /*text-transform: uppercase;*/
-}
-button.copy-to-clipboard {
-    position: absolute;
-    right: 24px;
-    top: 35px;
-}
- </style>
-  <body>
-  <header class="dashboard_header">
-<span id="logo-letter"><strong>K</strong></span>
-      <a class="logo" href="#">
-     <svg enable-background="new 0 0 48.3 11" viewBox="0 0 48.3 11" xmlns="http://www.w3.org/2000/svg" class="an-logo"><path d="M.004 10.13L9.338.794l.85.85-9.335 9.333zm18.688.043L9.358.84l.85-.85 9.332 9.335zm.003-.063L28.03.774l.848.85-9.334 9.332zm9.33-9.268l.85-.848 9.323 9.344-.85.848zm9.33 9.26l10.11-10.11.85.847-10.11 10.11z" clip-rule="evenodd" fill="#4bea91" style="fill: rgb(255, 236, 80);"/></svg></a>
-    <nav class="logout">
-      <div><span class='logout-btn'>logout</span></div>
-    </nav>
-  </header>
-    
-    
-    <section id="container">
-      
-      <div class="col-md-2 left-sidebar dashboard-sidebar">
-        
-        <aside class="categories">
-          <h3 class="sidebar-title-h3">Dashboard</h3>
-          <ul>
-            <li>Posts</li>
-            <li>ART</li>
-            <li>Photograpgy</li>
-            <li>About</li>
-            <li>Meta tags</li>
-            <li>Meta keywords</li>
-            <li>Upload image</li>
-            <!-- <li>SHORT STORIES</li> -->
-          </ul>
-        </aside>
-        
+    .image-header img {
+        height: auto;
+        width: 100%;
+    }
 
-      </div>
-      <div class="col-md-8">
-      <div class="form-group col-md-12  padl0"> 
-                <label for="backgroundImage">Upload Image<span id="backgroundImage1_loader"></span></label>
-                <input type="file" id="image_file" class="form-control upload_img" name="backgroundImage1">
-                <input type="hidden" name="backgroundImage" id="backgroundImage1_input" class="form-control" >
-                <div class="form-group col-md-6  padl0" id="backgroundImage1_img"> 
+    div#image-parent-container {
+        background: #eae7e7;
+    }
+
+    .image-container {
+        /*margin-top: 7em;*/
+    }
+
+    .image-header {
+        margin: 2em 0em 0em 0em;
+        border: 3px solid #fff;
+        overflow: hidden;
+    }
+
+    span.image-caption {
+        position: absolute;
+        top: 11px;
+        font-family: Lato;
+        font-weight: bold;
+    }
+
+    button.copy-to-clipboard {
+        position: absolute;
+        right: 24px;
+        top: 35px;
+    }
+    </style>
+
+    <body>
+        <header class="dashboard_header">
+            <span id="logo-letter"><strong>K</strong></span>
+            <a class="logo" href="#">
+                <svg enable-background="new 0 0 48.3 11" viewBox="0 0 48.3 11" xmlns="http://www.w3.org/2000/svg" class="an-logo">
+                    <path d="M.004 10.13L9.338.794l.85.85-9.335 9.333zm18.688.043L9.358.84l.85-.85 9.332 9.335zm.003-.063L28.03.774l.848.85-9.334 9.332zm9.33-9.268l.85-.848 9.323 9.344-.85.848zm9.33 9.26l10.11-10.11.85.847-10.11 10.11z" clip-rule="evenodd" fill="#4bea91" style="fill: rgb(255, 236, 80);" />
+                </svg>
+            </a>
+            <nav class="logout">
+                <div><span class='logout-btn'>logout</span></div>
+            </nav>
+        </header>
+        <section id="container">
+            <div class="col-md-3 left-sidebar dashboard-sidebar">
+                <aside class="categories-dashboard">
+                    <h3 class="sidebar-title-h3">Dashboard</h3>
+                    <ul>
+                       <li><a href="/dashboard">Dashboard</a></li>
+                        <li><a href="/webBanner">Web & Mob Banner</a></li>
+                        <li><a href="/aboutEdit">About Edit</a></li>
+                        <!-- <li><a href="/imagesBrowse">Upload image</a></li> -->
+                    </ul>
+                    <div class="form-group col-md-12  padl0">
+                    <button class="button-upload buttonBlock uploadsFolderContentUploadButton">Upload your own images</button>
+                    <!-- <label for="backgroundImage">Upload Image<span id="backgroundImage1_loader"></span></label> -->
+                    <input type="file" id="image_file" class="form-control upload_img hidden" name="backgroundImage1">
+                    <input type="hidden" name="backgroundImage" id="backgroundImage1_input" class="form-control">
+                    <div class="form-group col-md-6  padl0" id="backgroundImage1_img">
+                    </div>
+                </div>
+                </aside>
+            </div>
+            <div class="col-md-8">
+                
+                <div id="image-parent-container">
                 </div>
             </div>
-            <div id="image-parent-container">
+        </section>
+        <div class="row margin_reset footer">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer_links">
+                <h2>@2016 KIRAN GAUD </h2>
             </div>
-      </div>
-      
-    </section>
-    <div class="row margin_reset footer">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer_links">
-      
+        </div>
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="/javascripts/bootstrap.min.js"></script>
+        <script type="text/jsx">
+        var POSTS = React.createClass({
+            loadData : function(){
+            },
+            componentWillMount: function() {
+                var settings = {
+                    "async": true,
+                    "crossDomain": true,
+                    "url": "/imageList/",
+                    "method": "GET",
+                }
+                $.ajax(settings).done(function(response) {
+                    var resultData = response;
+                    this.setState({
+                        imageResult: resultData
+                    });
+                }.bind(this));
+            },
+            componentDidMount : function(){
+             
+            },
+            getInitialState: function(){
+                return { imageResult: '' };
+            },
 
-        <h2>@2016 KIRAN GAUD </h2>
-      </div>
-      
-    </div>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    
-    <script src="/javascripts/bootstrap.min.js"></script>
-    
-    <script type="text/jsx">
-        // Let's create a "real-time search" component
-
-var POSTS = React.createClass({
-
-    loadData : function(){
-    //  console.log("!@£!@£!@£!@£@!£");
-    //     var settings = {
-    //       "async": true,
-    //       "crossDomain": true,
-      // "url": "http://www.kirangaud.com/route/post/",
-    //       "method": "GET",
-    //     }
-
-    //     $.ajax(settings).done(function (response) {
-    //       console.log(response);
-    //     });
-    },
-    componentWillMount : function(){
-        var settings = {
-          "async": true,
-          "crossDomain": true,
-      "url": "http://www.kirangaud.com/imageList/",
-          "method": "GET",
-        }
-
-        $.ajax(settings).done(function (response) {
-            var resultData = response;
-          this.setState({
-            imageResult:resultData
-        });
-        }.bind(this));
-    },
-    componentDidMount : function(){
-      // this.setState({
-              
-      //       },function(){
-              
-        //     var settings = {
-        //       "url": "http://www.kirangaud.com/route/post/",
-        //       "method": "GET",
-        //     }
-        //     if(val.length > 0){
-         //      $.ajax(settings).done(function (response) {
-         //          var resultData = response;
-         //          this.setState({
-         //              imageResult:resultData
-         //          });
-         //      }.bind(this));
-        //     }
-              
-      //       });
-    },
-    getInitialState: function(){
-        return { imageResult: '' };
-    },
-
-    handleChange: function(e){
-    var queryType = {};
-       
-    var val = e.target.value;
-    queryType["searchType"] = 'all'; 
-    if(this.state.queryState){
-      queryType["searchValue"] = e.target.name === 'searchValue' ? e.target.value : this.state.queryState.searchValue;
-      queryType["searchType"] = e.target.name === 'searchType' ? e.target.value : this.state.queryState.searchType;
-    }else{
-      queryType[e.target.name] = e.target.value;
-    }
-    this.setState({
-              queryState : queryType,
-            },function(){
-            var settings = {
-              "url": "http://www.kirangaud.com/route/post/",
-              "method": "GET",
-            }
-            if(val.length > 0){
-              $.ajax(settings).done(function (response) {
-                  var resultData = response;
-                  this.setState({
-                      imageResult:resultData
+            handleChange: function(e) {
+                var queryType = {};
+                var val = e.target.value;
+                queryType["searchType"] = 'all';
+                if (this.state.queryState) {
+                    queryType["searchValue"] = e.target.name === 'searchValue' ? e.target.value : this.state.queryState.searchValue;
+                    queryType["searchType"] = e.target.name === 'searchType' ? e.target.value : this.state.queryState.searchType;
+                } else {
+                    queryType[e.target.name] = e.target.value;
+                }
+                this.setState({
+                    queryState: queryType,
+                }, function() {
+                    var settings = {
+                        "url": "/route/post/",
+                        "method": "GET",
+                    }
+                    if (val.length > 0) {
+                        $.ajax(settings).done(function(response) {
+                            var resultData = response;
+                            this.setState({
+                                imageResult: resultData
+                            });
+                        }.bind(this));
+                    }
+                });
+            },
+            render: function() {
+                var postsLibrary = this.props.items,
+                    imageResult = this.state.imageResult;
+                    if(imageResult.length > 0){
+                      if(imageResult[0].mediaPath.length > 0){
+                        var imageList = imageResult.map(function(l){
+                        var imgSize = new Image();
+                        imgSize.src = l.mediaPath;
+                               return (
+                                <div className="col-md-3">
+                                  <div className="image-header">
+                                    <span className="image-caption">{l.mediaName+"("+imgSize.height+"X"+imgSize.width+")"}</span>
+                                    <button className="copy-to-clipboard" data-id={l.mediaPath}><i className="fa fa-copy"></i></button>
+                                    <img src={l.mediaPath} />
+                                  </div>
+                                </div>
+                                )
+                              });
+                          return <div className="image-container">{imageList}</div>
+                        }
+                      }
+                      else{
+                        return <div></div>
+                      }
+                    }
                   });
-              }.bind(this));
-            }
-              
-            });
-
-    },
-
-    render: function() {
-        var postsLibrary = this.props.items,
-            imageResult = this.state.imageResult;
-        if(imageResult.length > 0){
-        if(imageResult[0].imagePath.length > 0){
-      var imageList = imageResult.map(function(l){
-            var imgSize = new Image();
-            imgSize.src = l.imagePath;
-            // imgHeight = imgSize.height;
-            // imgWidth = imgSize.width;
-           return (
-            <div className="col-md-3">
-              <div className="image-header">
-                <span className="image-caption">{l.imageName+"("+imgSize.height+"X"+imgSize.width+")"}</span>
-                <button className="copy-to-clipboard" data-id={l.imagePath}><i className="fa fa-copy"></i></button>
-                <img src={l.imagePath} />
-              </div>
-              
-            </div>
-            )
-          });
-return <div className="image-container">{imageList}</div>
-    }
-  }
-    else{
-      return <div></div>
-    }
-    }
-
-});
-
-
-var postsLibrary = [];
-
-ReactDOM.render(
-    <POSTS items={ postsLibrary } />,
-    document.getElementById('image-parent-container')
-);
+              var postsLibrary = [];
+              ReactDOM.render(
+                  <POSTS items={ postsLibrary } />,
+                  document.getElementById('image-parent-container')
+              );
     </script>
     <script type="text/javascript">
     function copyToClipboard(e) {
@@ -230,58 +186,54 @@ ReactDOM.render(
         var e = $(this).attr("data-id");
         console.log(e);
         copyToClipboard(e);
+    });
+    $('.uploadsFolderContentUploadButton').click(function(){
+         $('#image_file').trigger('click');
     })
    $(document).on("change", ".upload_img", function() {
-      //alert("hi");
-    //   var $this=$(this);
-    //   // var name=$(this).attr("name");
-    //   // var file_data = $(this).prop("files")[0];   // Getting the properties of file from file field
-    //   var data = $this;
-    // console.log(data);
-      // var form_data = new FormData();                  // Creating object of FormData class
-      // form_data.append("path", '/public/images');  // Adding extra parameters to form_data
-     
-      // form_data.append("file", file_data);              // Appending parameter named file with properties of file_field to form_data
-      // console.log(form_data);
-      var data = new FormData();
-      jQuery.each(jQuery('#image_file')[0].files, function(i, file) {
-          data.append('file-'+i, file);
+    var $this = $(this);
+    var name = $(this).attr("name");
+    var file_data = $(this).prop("files")[0];
+    var ext = $this.val().split('.').pop().toLowerCase();
+    if ($.inArray(ext, ['jpg', 'jpeg','png','mp4']) == -1) {
+        alert('invalid extension!');
+        return false;
+    }
+    var imgSize = file_data.size;
+    var imgsize = imgSize / 1024;
+    if (parseInt(imgsize) > 5e+6) {
+        alert("Images must be smaller than 5MB");
+        $(this).val("");
+        return false;
+    }
+    var form_data = new FormData();
+    form_data.append("path", '');
+    form_data.append("file[]", file_data);
+    $("#" + name + "_loader").html("Loading...");
+    $.ajax({
+        url: "/route/upload/aws",
+        type: 'POST',
+        data: form_data,
+        cache: false,
+        enctype: 'multipart/form-data',
+        processData: false,
+        contentType: false,
+        success: function(result) {
+            alert("success");
+            var data = JSON.stringify(result);
+            data = JSON.parse(data);
+            if (data.url) {
+                $("#" + name + "_input").val(data.url);
+                $("#" + name + "_img").html('<a href="' + data.url + '" target="_new"><img src="' + data.url + '" width="50" height="50"></a>');
+                $("#" + name + "_loader").html('');
+            }
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+            var result = jQuery.parseJSON(jqXHR.responseText);
+            $(".custom_error").html(result.message);
+        }
     });
-$("#"+name+"_loader").html("Loading...");
-console.log(data);
-         $.ajax({
-      url: "/route/post/upload/",
-      type: 'POST',
-      // dataType: 'json',
-      data: data,
-      cache: false,
-      enctype: 'multipart/form-data',
-      processData: false,  // tell jQuery not to process the data
-      contentType: false,  // tell jQuery not to set contentType
-      success: function(result) {
- alert("success");
-
-      window.location.reload();
-      var data=JSON.stringify(result);
-      data = JSON.parse(data);
-  if(data.url){
- // alert("success");
-$("#"+name+"_input").val(data.url);
-$("#"+name+"_img").html('<a href="'+data.url+'" target="_new"><img src="'+data.url+'" width="50" height="50"></a>');
-$("#"+name+"_loader").html('');
-
-}
-      },error: function (jqXHR, textStatus, errorThrown) {
-            // $(".overlay").hide();
-            
-             var result=jQuery.parseJSON(jqXHR.responseText);
-            
-                  
-                   $(".custom_error").html(result.message);
-            }   
-      });
-
-    });
-    // </script>
+});
+  </script>
   </body>
 </html>
