@@ -17,7 +17,7 @@
         <meta name="keywords" content='<%- meta_keywords %>' />
         <meta name="description" content='<%- meta_description %>' />
 
-        <link rel="stylesheet" type="text/css" href="/stylesheets/stylev24.css">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/stylev25.css">
         <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="/stylesheets/font-awesome.min.css">
         <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Sacramento|Josefin+Sans:300|Lato' rel='stylesheet' type='text/css'>
@@ -157,7 +157,7 @@ var POSTS = React.createClass({
         var settings = {
           "async": true,
           "crossDomain": true,
-          "url": "http://www.kirangaud.com/route/post/"+query,
+          "url": "/route/post/"+query,
           "method": "GET",
         }
 
@@ -261,6 +261,7 @@ var POSTS = React.createClass({
                             <div className="post-entry">
                                 <span>{dateFormat}</span>
                                 <span className="post-comments" data-postcomment={l.comment_count} data-postid={l._id} data-postcommentlength={l.comments.length}>
+
                                 <a href={postLink}>{l.comment_count} COMMENTS</a></span>
                             </div>
 
@@ -294,10 +295,14 @@ var POSTS = React.createClass({
                                     </li>
                                 </ul>
                             </div>
-
+                            <div className="clearfix"></div>
                             <div id="comments">
                                 <div className="entry-utils group">
-                                <div className="fb-like" data-href={fbCommetLink} data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                                <div className="fb-like" data-href={fbCommetLink} data-layout="button_count" data-show-faces="true" data-action="like" data-size="large" data-show-faces="true"></div>
+                                <span></span>
+                                <div className="fb-share-button" data-href={window.location.href} data-layout="button_count"  data-show-faces="true" data-size="large" ></div>
+                                <br />
+                                  <div className="comments-list">
                                     <span>This Post has {l.comment_count} comments
                                     </span>
                                       <ul>
@@ -333,6 +338,7 @@ var POSTS = React.createClass({
                                         }
                                         )}
                                     </ul>
+                                </div>
                                 </div>
                                 <section id="respond">
                                     <div id="form-wrapper" className="group">
@@ -495,7 +501,10 @@ function addFbcommentsCount(){
 }
 $(document).ready(function() {
   window.onload = function(){
-  var postInterval = setInterval(function(){ addFbcommentsCount(); clearInterval(postInterval);}, 3000);
+  var postInterval = setInterval(function(){ 
+      addFbcommentsCount(); 
+      clearInterval(postInterval);
+    }, 3000);
   }
 });
     </script>

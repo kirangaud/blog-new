@@ -27,18 +27,52 @@
         left: 9px;
     }
     
-    img {
+    /*img {
         width: 100%;
         height: auto;
-    }
+    }*/
     
     .cke_editable img {
         width: 100%;
     }
+    .image-header {
+    margin: 2em 0em 0em 1em;
+    border: 1px solid #fff;
+    overflow: hidden;
+    }
+
+    .image-header img {
+       height: auto;
+        width: 100%;
+    }
+
+    div#image-parent-container {
+        background: #9e9a9a;
+    display: block;
+    position: relative;
+    max-height: 1000px;
+    overflow: scroll;
+    padding-bottom: 17px;
+    }
+
+    .image-container {
+        /*margin-top: 7em;*/
+    }
+
+
+    span.image-caption {
+        position: absolute;
+        top: 11px;
+        font-family: Lato;
+        font-weight: bold;
+    }
+    .dashboard-sidebar {
+        padding: 0;
+    }
     </style>
     <!--<script type="text/javascript" src="/ckeditor/ckeditor.js"></script> -->
     <script src="//cdn.ckeditor.com/4.5.11/standard/ckeditor.js"></script>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
     <body>
         <header class="dashboard_header">
             <span id="logo-letter"><strong>K</strong></span>
@@ -53,21 +87,21 @@
         </header>
         <section id="container">
             <div class="col-md-2 left-sidebar dashboard-sidebar">
-                <aside class="categories">
+                <aside class="categories-dashboard">
                     <h3 class="sidebar-title-h3">Dashboard</h3>
                     <ul>
-                        <li>Posts</li>
-                        <!-- <li>ART</li>
-						<li>Photography</li> -->
-                        <li>About</li>
-                        <!-- <li>Meta tags</li>
-						<li>Meta keywords</li> -->
+                        <li><a href="/dashboard">Dashboard</a></li>
+                        <li><a href="/webBanner">Web & Mob Banner</a></li>
+                        <li><a href="/aboutEdit">About Edit</a></li>
                         <li><a href="/imagesBrowse">Upload image</a></li>
-                        <!-- <li>SHORT STORIES</li> -->
                     </ul>
+                    
+                        <h3 class="sidebar-title-h3">Browse your images</h3>
+                        <div id="image-parent-container"></div>
+                    
                 </aside>
             </div>
-            <div class="posts-parent-container col-md-6 dashboard-sidebar">
+            <div class="posts-parent-container col-md-6">
                 <form data-submit="processForm()" id="submit_post_form" action="/route/post/" autocomplete="off">
                     <div class="box-body">
                         <div class="form-group col-md-3">
@@ -177,11 +211,94 @@
         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
         <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="/javascripts/serialize.min.js"></script>
         <!--<script src="https://raw.githubusercontent.com/citnvillareal/serializeObject/master/js/jquery-1.11.3.min.js"></script> -->
         <!--<script type="text/javascript" src="/javascripts/jquery.hoverdir.js"></script>-->
         <!--<script src="/javascripts/toucheffects.js"></script>-->
         <script src="/javascripts/bootstrap.min.js"></script>
+        <script type="text/jsx">
+        var POSTS = React.createClass({
+            loadData : function(){
+            },
+            componentWillMount: function() {
+                var settings = {
+                    "async": true,
+                    "crossDomain": true,
+                    "url": "/imageList/",
+                    "method": "GET",
+                }
+                $.ajax(settings).done(function(response) {
+                    var resultData = response;
+                    this.setState({
+                        imageResult: resultData
+                    });
+                }.bind(this));
+            },
+            componentDidMount : function(){
+             
+            },
+            getInitialState: function(){
+                return { imageResult: '' };
+            },
+
+            handleChange: function(e) {
+                var queryType = {};
+                var val = e.target.value;
+                queryType["searchType"] = 'all';
+                if (this.state.queryState) {
+                    queryType["searchValue"] = e.target.name === 'searchValue' ? e.target.value : this.state.queryState.searchValue;
+                    queryType["searchType"] = e.target.name === 'searchType' ? e.target.value : this.state.queryState.searchType;
+                } else {
+                    queryType[e.target.name] = e.target.value;
+                }
+                this.setState({
+                    queryState: queryType,
+                }, function() {
+                    var settings = {
+                        "url": "/route/post/",
+                        "method": "GET",
+                    }
+                    if (val.length > 0) {
+                        $.ajax(settings).done(function(response) {
+                            var resultData = response;
+                            this.setState({
+                                imageResult: resultData
+                            });
+                        }.bind(this));
+                    }
+                });
+            },
+            render: function() {
+                var postsLibrary = this.props.items,
+                    imageResult = this.state.imageResult;
+                    if(imageResult.length > 0){
+                      if(imageResult[0].mediaPath.length > 0){
+                        var imageList = imageResult.map(function(l){
+                        var imgSize = new Image();
+                        imgSize.src = l.mediaPath;
+                               return (
+                                <div className="col-md-12">
+                                  <div className="image-header">
+                                    <img src={l.mediaPath} className="draggable"/>
+                                  </div>
+                                </div>
+                                )
+                              });
+                          return <div className="image-container">{imageList}</div>
+                        }
+                      }
+                      else{
+                        return <div></div>
+                      }
+                    }
+                  });
+              var postsLibrary = [];
+              ReactDOM.render(
+                  <POSTS items={ postsLibrary } />,
+                  document.getElementById('image-parent-container')
+              );
+    </script>
         <script type="text/javascript">
         function dateFormat(date) {
             var date = new Date(date);
@@ -415,6 +532,9 @@
 
             $(document).on('click', '.remove', function() {
                 $(this).parent().remove();
+            });
+            $(document).ready(function(){
+              $(".draggable").draggable();
             });
             $(document).on("change", ".upload_img", function() {
                 //alert("hi");

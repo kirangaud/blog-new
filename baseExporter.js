@@ -15,13 +15,6 @@ var mongoose = require('mongoose'),
     BSON = require('mongoskin').BSONPure,
     router = express.Router();
 
-
-/*********************************
-MODULE PACKAGES
-**********************************/
-// var  dbAtlas = mongoskin.db('mongodb://sukhoadmin:sukhoadmin@sukhocluster0-shard-00-00-ua91o.mongodb.net:27017,sukhocluster0-shard-00-01-ua91o.mongodb.net:27017,sukhocluster0-shard-00-02-ua91o.mongodb.net:27017/ERP?ssl=true&replicaSet=SukhoCluster0-shard-0&authSource=admin');
-
-
 /*********************************
 GLOBAL Functions
 **********************************/
