@@ -208,6 +208,7 @@ module.exports = {
                     result = (result.toString()).split(',');
                     result = _.uniq(_.flatten(result));
                     result = result.map((data) =>  data.trim());
+                    result = _.uniq(result);
                     return res.json(result);
                 }
             })
