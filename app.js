@@ -23,7 +23,8 @@ const http         = require('http'),
 
 const PORT = process.env.PORT || 8080;
 
-let url = '127.0.0.1:27017/blog';
+//let url = '127.0.0.1:27017/blog';
+let url =  'mongodb://heroku_j8rv0g8c:nvn5qrgqhg54vv251ncdjds5l0@ds139715.mlab.com:39715/heroku_j8rv0g8c';
 
 // if OPENSHIFT env variables are present, use the available connection info:
 // if (process.env.OPENSHIFT_MONGODB_DB_URL) {
